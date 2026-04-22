@@ -1,0 +1,24 @@
+source_file,team_code,round_number,side,opponent,win_loss,predicted_label,predicted_win_probability,rank,num_positions,num_offs,num_cards_total,num_cards_with_highlight,total_highlighted_words
+Michigan-BaPa-Neg-Gonzaga-Round-6.docx,Michigan BP,6,neg,Stanford LY - ONLINE,W,1,0.9095141246460761,999.0,6,6,91,91,7071
+Michigan-BaPa-Aff-Gonzaga-Round-3.docx,Michigan BP,3,aff,Emory LY - ONLINE,W,1,0.7315538034233637,999.0,7,0,76,76,6255
+Michigan-ShSh-Neg-Gonzaga-Round-4.docx,Michigan SS,4,neg,Wyoming WW,W,1,0.7041139249573564,999.0,4,4,12,12,2641
+Michigan-ChCh-Neg-3---Gonzaga-Round-3.docx,Michigan CC,3,neg,Iowa PA - ONLINE,W,1,0.7012487344667863,999.0,5,5,13,13,2299
+Michigan-BaPa-Neg-Gonzaga-Round-4.docx,Michigan BP,4,neg,Northwestern NP,W,1,0.6984970040437861,999.0,2,2,14,14,3025
+Michigan-BaPa-Aff-Gonzaga-Round-5.docx,Michigan BP,5,aff,Kansas SL,L,1,0.6957355537571887,999.0,9,0,63,63,6333
+Georgetown-AgCo-Neg-04---Gonzaga-Round-2.docx,Michigan AO,2,neg,Emory KW - ONLINE,W,1,0.6837550408768585,999.0,12,12,2,2,257
+Michigan-ChCh-Neg-3---Gonzaga-Round-6.docx,Michigan CC,6,neg,Liberty CL - ONLINE,W,1,0.6750903261941348,999.0,4,4,12,12,2053
+Michigan-OuAg-Aff-4-Gonzaga-University-Jesuit-Debates-Round-5.docx,Michigan AO,5,aff,Wake Forest LW,L,1,0.6431260041326912,999.0,1,0,23,23,3440
+Harvard-AoBo-Neg-2.-Gonzaga-Round-1.docx,Michigan AO,1,neg,CSU Long Beach OM,L,1,0.6322597789198926,999.0,3,3,10,10,1531
+Michigan-EsSh-Aff-Gonzaga-Round-8.docx,Michigan ES,8,aff,Emory GS - ONLINE,L,1,0.6172759237197719,999.0,8,0,60,60,4555
+Michigan-HwMc-Aff-2---Gonzaga-Round-6.docx,Michigan HM,6,aff,Dartmouth BC,L,1,0.6112033230008348,999.0,7,0,43,43,4406
+Michigan-ChSa-Neg-3---Gonzaga-Round-8.docx,Michigan CS,8,neg,UC Berkeley GS,L,1,0.6048250178010893,999.0,1,1,8,8,1592
+Michigan-MoAl-Neg-2---Gonzaga-Round-5.docx,Michigan AM,5,neg,Wake Forest AB,L,1,0.5922091538811612,999.0,2,2,4,4,1163
+Harvard-AoBo-Aff-2.-Gonzaga-Round-6.docx,Michigan AO,6,aff,UC Berkeley BU,W,1,0.5473790925112076,999.0,2,0,14,14,2171
+Michigan-ChCh-Aff-3---Gonzaga-Round-8.docx,Michigan CC,8,aff,Emory LY - ONLINE,L,1,0.528480966872081,999.0,12,0,58,58,4265
+Michigan-HwMc-Aff-2---Gonzaga-Round-3.docx,Michigan HM,3,aff,Wake Forest HN - ONLINE,L,1,0.5145089679767518,999.0,7,0,25,25,2989
+ArizonaState-SaSm-Neg-3---Gonzaga-Round-4.docx,Michigan SS,4,neg,Wyoming WW,W,0,0.4917251993020082,999.0,0,0,0,0,0
+Michigan-MoAl-Neg-2---Gonzaga-Round-1.docx,Michigan AM,1,neg,Northwestern NP,L,0,0.4917251993020082,999.0,0,0,0,0,0
+Michigan-MoAl-Aff-2---Gonzaga-Round-2.docx,Michigan AM,2,aff,UTD HH,W,0,0.46842250950200126,999.0,4,0,16,16,1394
+Michigan-ChSa-Aff-3---Gonzaga-Round-7.docx,Michigan CS,7,aff,Emory CR - ONLINE,W,0,0.44560404404543064,999.0,0,0,0,0,0
+Emory-CrSt-Aff-Gonzaga-Round-1.docx,Michigan CS,1,aff,CSU Long Beach SS - HYBRID,W,0,0.41017863288697015,999.0,2,0,0,0,0
+Georgetown-AgCo-Aff-04---Gonzaga-Round-4.docx,Michigan AO,4,aff,Emory RY _ ONLINE,W,0,0.3756611878890237,999.0,4,0,0,0,0
