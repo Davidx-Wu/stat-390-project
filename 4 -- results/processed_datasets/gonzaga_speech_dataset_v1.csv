@@ -1,0 +1,485 @@
+source_file,team_code,tournament_name,round_number,side,opponent,win_loss,judge,num_positions,num_adv_inh_solv,num_offs,num_cards_total,num_cards_with_highlight,total_highlighted_words,parse_confidence,warnings,dataset_split
+ArizonaState-SaSm-Neg-3---Gonzaga-Round-1.docx,Arizona State SS,Gonzaga,1,neg,UC Berkeley RM,L,"Reichel Spiers, Jared Smith Aden",0,0,0,0,0,0,medium,,train
+ArizonaState-SaSm-Neg-3---Gonzaga-Round-4.docx,Arizona State SS,Gonzaga,4,neg,Georgia CK,L,"Kaidar-Heafetz Snelling - ONLINE, Tyler Smith Aden",0,0,0,0,0,0,medium,,validation
+ArizonaState-SaSm-Neg-3---Gonzaga-Round-5.docx,Arizona State SS,Gonzaga,5,neg,Emory TS - ONLINE,W,"Tai Anderson - ONLINE, Ralph Smith Aden",1,0,1,3,3,197,high,,train
+ArizonaState-SaSm-Neg-3---Gonzaga-Round-7.docx,Arizona State SS,Gonzaga,7,neg,Georgetown LN,W,"Nanji Watson - ONLINE, Solomon Smith Aden",0,0,0,0,0,0,medium,,train
+Baylor-DaLa-Neg-Gonzaga-Round-2.docx,Baylor DL,Gonzaga,2,neg,Michigan CS,W,"Saudek Flores, Jay-Z Darwish Omar",0,0,0,0,0,0,medium,,train
+Baylor-DaLa-Neg-Gonzaga-Round-3.docx,Baylor DL,Gonzaga,3,neg,Northwestern LR,L,"Rubin McCullough, Hunter Darwish Omar",2,0,2,7,7,2317,high,,validation
+Baylor-DaLa-Neg-Gonzaga-Round-6.docx,Baylor DL,Gonzaga,6,neg,Kansas UA,L,"Ain Osei - ONLINE, Kwudjwa Darwish Omar",4,0,4,2,2,1019,high,,test
+Baylor-DaLa-Neg-Gonzaga-Round-8.docx,Baylor DL,Gonzaga,8,neg,George Mason WW - ONLINE,L,"Wright McGraw, Bennett Darwish Omar",1,0,1,3,3,1305,high,,train
+CSULongBeach-OrMe-Aff-04---Operation_-Gonzigga-(Gonzaga-University-Jesuit-Debates)-Round-4.docx,CSU Long Beach OM,Gonzaga,4,aff,Iowa BS - ONLINE,W,"Sanderson Michael, Joshua Ortega Curtis",1,1,0,0,0,0,medium,,train
+CSULongBeach-OrMe-Aff-04---Operation_-Gonzigga-(Gonzaga-University-Jesuit-Debates)-Round-6.docx,CSU Long Beach OM,Gonzaga,6,aff,Northwestern AT,W,"Tahirkheli Regnier, Jason Ortega Curtis",1,1,0,0,0,0,medium,,train
+CSULongBeach-OrMe-Aff-04---Operation_-Gonzigga-(Gonzaga-University-Jesuit-Debates)-Round-8.docx,CSU Long Beach OM,Gonzaga,8,aff,Michigan State JS - ONLINE,W,"Scully Dal Pra - ONLINE, Sophia Ortega Curtis",1,1,0,0,0,0,medium,,validation
+CSULongBeach-OrMe-Neg-04---Operation_-Gonzigga-(Gonzaga-University-Jesuit-Debates)-Round-1.docx,CSU Long Beach OM,Gonzaga,1,neg,Michigan AO,W,"Ou McCullough, Hunter Ortega Curtis",0,0,0,0,0,0,medium,,train
+CSULongBeach-OrMe-Neg-04---Operation_-Gonzigga-(Gonzaga-University-Jesuit-Debates)-Round-3.docx,CSU Long Beach OM,Gonzaga,3,neg,Iowa SK - ONLINE,W,"Kleiman Wiessner - ONLINE, Max Ortega Curtis",0,0,0,0,0,0,medium,,train
+CSULongBeach-OrMe-Neg-04---Operation_-Gonzigga-(Gonzaga-University-Jesuit-Debates)-Round-5.docx,CSU Long Beach OM,Gonzaga,5,neg,UC Berkeley RM,W,"Reichel McGraw, Bennett Ortega Curtis",0,0,0,0,0,0,medium,,validation
+CSULongBeach-OrMe-Neg-04---Operation_-Gonzigga-(Gonzaga-University-Jesuit-Debates)-Round-7.docx,CSU Long Beach OM,Gonzaga,7,neg,Emory GS - ONLINE,L,"Song Reese - ONLINE, Thomas Ortega Curtis",0,0,0,0,0,0,medium,,test
+DartmouthCollege-CaGo-Aff-4---Gonzaga-Round-2.docx,Dartmouth CG,Gonzaga,2,aff,Northwestern NP,L,"Patterson Vernon, Kc Cai Nora",0,0,0,0,0,0,medium,,test
+DartmouthCollege-CaGo-Aff-4---Gonzaga-Round-4.docx,Dartmouth CG,Gonzaga,4,aff,Northwestern AH,W,"Hines Stupek, Johnnie Cai Nora",2,2,0,3,3,1283,high,,test
+DartmouthCollege-CaGo-Aff-4---Gonzaga-Round-6.docx,Dartmouth CG,Gonzaga,6,aff,Minnesota HU,W,"Usenov Weideman, Joe Cai Nora",3,3,0,2,2,1603,high,,test
+DartmouthCollege-CaGo-Aff-4---Gonzaga-Round-8.docx,Dartmouth CG,Gonzaga,8,aff,Michigan State GS - ONLINE,W,"Shehzad Hall, Sherry Cai Nora",2,2,0,1,1,317,high,,train
+DartmouthCollege-CaGo-Neg-4---Gonzaga-Round-1.docx,Dartmouth CG,Gonzaga,1,neg,UTD HH,W,"Hoch Brovero, Adrienne Cai Nora",10,0,10,0,0,0,medium,,train
+DartmouthCollege-CaGo-Neg-4---Gonzaga-Round-3.docx,Dartmouth CG,Gonzaga,3,neg,Michigan State JS - ONLINE,L,"Scully O'Gorman - ONLINE, Danielle Cai Nora",9,0,9,1,1,449,high,,train
+DartmouthCollege-CaGo-Neg-4---Gonzaga-Round-5.docx,Dartmouth CG,Gonzaga,5,neg,UTD PR,L,"Ravi Perkins, Dallas Cai Nora",6,0,6,1,1,1801,high,,validation
+DartmouthCollege-CaGo-Neg-4---Gonzaga-Round-7.docx,Dartmouth CG,Gonzaga,7,neg,Kansas BW,W,"Walawender Karthikeyan - ONLINE, Viveth Cai Nora",7,0,7,2,2,906,high,,test
+DartmouthCollege-JoRa-Aff-2---Gonzaga-Round-1.docx,Dartmouth JR,Gonzaga,1,aff,Wake Forest HN - ONLINE,L,"Namikas Jordan - ONLINE, Tommy Rao Sebastian",1,1,0,0,0,0,medium,,test
+DartmouthCollege-JoRa-Aff-2---Gonzaga-Round-4.docx,Dartmouth JR,Gonzaga,4,aff,Michigan State GS - ONLINE,L,"Shehzad Flores, Jay-Z Rao Sebastian",1,1,0,0,0,0,medium,,train
+DartmouthCollege-JoRa-Aff-2---Gonzaga-Round-6.docx,Dartmouth JR,Gonzaga,6,aff,Michigan SS,L,"Shih Aoki, Kenji Rao Sebastian",1,1,0,5,5,697,high,,train
+DartmouthCollege-JoRa-Aff-2---Gonzaga-Round-7.docx,Dartmouth JR,Gonzaga,7,aff,Wake Forest AB,W,"Brown Zaidi, Kumail Rao Sebastian",1,1,0,0,0,0,medium,,train
+DartmouthCollege-JoRa-Neg-2---Gonzaga-Round-2.docx,Dartmouth JR,Gonzaga,2,neg,Emory TS - ONLINE,W,"Tai Meyers-Levy - ONLINE, Dustin Rao Sebastian",1,0,1,0,0,0,medium,,train
+DartmouthCollege-JoRa-Neg-2---Gonzaga-Round-3.docx,Dartmouth JR,Gonzaga,3,neg,Arizona State SS,W,"Saxena Reese - ONLINE, Thomas Rao Sebastian",1,0,1,0,0,0,medium,,train
+DartmouthCollege-JoRa-Neg-2---Gonzaga-Round-5.docx,Dartmouth JR,Gonzaga,5,neg,Wyoming WW,W,"Willson Dal Pra - ONLINE, Sophia Rao Sebastian",5,0,5,0,0,0,medium,,train
+DartmouthCollege-JoRa-Neg-2---Gonzaga-Round-8.docx,Dartmouth JR,Gonzaga,8,neg,Kansas SS,L,"Shaw Fisher, Corey Rao Sebastian",1,0,1,4,4,2510,high,,train
+Emory-ChRa-Aff-Gonzaga-Round-1.docx,Emory CR,Gonzaga,1,aff,Kansas HP - ONLINE,L,"Persinger Osei - ONLINE, Kwudjwa Ravikumar Adhitya",2,2,0,0,0,0,medium,,test
+Emory-ChRa-Aff-Gonzaga-Round-3.docx,Emory CR,Gonzaga,3,aff,Wyoming CH,L,"Hawley Channa - ONLINE, Dhruv Ravikumar Adhitya",5,5,0,0,0,0,medium,,train
+Emory-ChRa-Aff-Gonzaga-Round-5.docx,Emory CR,Gonzaga,5,aff,Harvard/Amherst SL,W,"Lourenco Green, Justin Ravikumar Adhitya",6,6,0,0,0,0,medium,,train
+Emory-ChRa-Aff-Gonzaga-Round-8.docx,Emory CR,Gonzaga,8,aff,Georgia CK,L,"Kaidar-Heafetz Rooney, David Ravikumar Adhitya",8,8,0,1,1,191,high,,test
+Emory-ChRa-Neg-Gonzaga-Round-2.docx,Emory CR,Gonzaga,2,neg,Purdue HH - ONLINE,W,"Hansen Wunderlich - ONLINE, Carly Ravikumar Adhitya",7,0,7,0,0,0,medium,,test
+Emory-ChRa-Neg-Gonzaga-Round-4.docx,Emory CR,Gonzaga,4,neg,CSU Long Beach SS - HYBRID,L,"Saenz Dal Pra - ONLINE, Sophia Ravikumar Adhitya",1,0,1,0,0,0,medium,,test
+Emory-ChRa-Neg-Gonzaga-Round-6.docx,Emory CR,Gonzaga,6,neg,Michigan State FM - ONLINE,L,"Martin Fleming, Nick Ravikumar Adhitya",5,0,5,3,3,244,high,,train
+Emory-ChRa-Neg-Gonzaga-Round-7.docx,Emory CR,Gonzaga,7,neg,Michigan CS,L,"Saudek Maag - ONLINE, Eric Ravikumar Adhitya",1,0,1,0,0,0,medium,,train
+Emory-CrSt-Aff-Gonzaga-Round-1.docx,Emory CS,Gonzaga,1,aff,Stanford LY - ONLINE,W,"Yan Wunderlich - ONLINE, Carly Cross Thaddeus",2,2,0,0,0,0,medium,,validation
+Emory-CrSt-Aff-Gonzaga-Round-3.docx,Emory CS,Gonzaga,3,aff,Northwestern NP,L,"Patterson Dal Pra - ONLINE, Sophia Cross Thaddeus",2,2,0,0,0,0,medium,,train
+Emory-CrSt-Aff-Gonzaga-Round-5.docx,Emory CS,Gonzaga,5,aff,Michigan HM - ONLINE,W,"McIlhenny Ferguson - ONLINE, Josiah Cross Thaddeus",2,2,0,1,1,358,high,,test
+Emory-CrSt-Aff-Gonzaga-Round-7.docx,Emory CS,Gonzaga,7,aff,Wake Forest DE,L,"Elliott O'Gorman - ONLINE, Danielle Cross Thaddeus",6,6,0,0,0,0,medium,,test
+Emory-CrSt-Neg-Gonzaga-Round-4.docx,Emory CS,Gonzaga,4,neg,Kansas UA,L,"Ain Repko - ONLINE, William Cross Thaddeus",4,0,4,0,0,0,medium,,test
+Emory-CrSt-Neg-Gonzaga-Round-6.docx,Emory CS,Gonzaga,6,neg,Kansas OW,L,"Willingham & Owings stidham - ONLINE,",6,0,6,0,0,0,medium,,train
+Emory-GaSo-Aff-4.-Gonzaga-Round-3.docx,Emory GS,Gonzaga,3,aff,Wyoming WW,W,"Willson Williams, DJ Gallagher Daniel",2,2,0,0,0,0,medium,,train
+Emory-GaSo-Aff-4.-Gonzaga-Round-6.docx,Emory GS,Gonzaga,6,aff,Binghamton CK,L,"King Davidson, Ari Gallagher Daniel",5,5,0,0,0,0,medium,,train
+Emory-GaSo-Aff-4.-Gonzaga-Round-7.docx,Emory GS,Gonzaga,7,aff,CSU Long Beach OM,W,"Medina Reese - ONLINE, Thomas Gallagher Daniel",3,3,0,0,0,0,medium,,train
+Emory-GaSo-Neg-4.-Gonzaga-Round-2.docx,Emory GS,Gonzaga,2,neg,Michigan State FM - ONLINE,W,"Martin Hirn, Kevin Gallagher Daniel",7,0,7,2,2,2067,high,,train
+Emory-GaSo-Neg-4.-Gonzaga-Round-4.docx,Emory GS,Gonzaga,4,neg,Wake Forest LW,W,"Wolfe Osei - ONLINE, Kwudjwa Gallagher Daniel",6,0,6,0,0,0,medium,,test
+Emory-GaSo-Neg-4.-Gonzaga-Round-5.docx,Emory GS,Gonzaga,5,neg,Michigan State GS - ONLINE,W,"Shehzad Meyers-Levy - ONLINE, Dustin Gallagher Daniel",3,0,3,0,0,0,medium,,train
+Emory-GaSo-Neg-4.-Gonzaga-Round-8.docx,Emory GS,Gonzaga,8,neg,Michigan ES,W,"Shetty O'Gorman - ONLINE, Danielle Gallagher Daniel",13,0,13,1,1,24,high,,train
+Emory-GrCh-Aff-3---Gonzaga-Round-1.docx,Emory CG,Gonzaga,1,aff,Iowa EW - ONLINE,L,"Eltyeb Watson - ONLINE, Solomon Chen Jason",3,3,0,0,0,0,medium,,train
+Emory-GrCh-Aff-3---Gonzaga-Round-4.docx,Emory CG,Gonzaga,4,aff,Wake Forest AB,L,"Brown Reese - ONLINE, Thomas Chen Jason",2,2,0,1,1,784,high,,train
+Emory-GrCh-Aff-3---Gonzaga-Round-6.docx,Emory CG,Gonzaga,6,aff,Trinity KP,L,"King Ramsey - ONLINE, Jordan Chen Jason",2,2,0,1,1,140,high,,train
+Emory-GrCh-Aff-3---Gonzaga-Round-7.docx,Emory CG,Gonzaga,7,aff,Navy CR - ONLINE,L,"Connor Ella - ONLINE, Maeve Chen Jason",8,8,0,0,0,0,medium,,train
+Emory-GrCh-Neg-3---Gonzaga-Round-2.docx,Emory CG,Gonzaga,2,neg,Southern California DT - ONLINE,L,"Turner Jensen - ONLINE, William Chen Jason",10,0,10,0,0,0,medium,,train
+Emory-GrCh-Neg-3---Gonzaga-Round-3.docx,Emory CG,Gonzaga,3,neg,Northwestern AH,L,"Hines Martin - ONLINE, Nate Chen Jason",11,0,11,0,0,0,medium,,test
+Emory-GrCh-Neg-3---Gonzaga-Round-5.docx,Emory CG,Gonzaga,5,neg,Northwestern HP,W,"Peltier Rooney, David Chen Jason",2,0,2,0,0,0,medium,,train
+Emory-GrCh-Neg-3---Gonzaga-Round-8.docx,Emory CG,Gonzaga,8,neg,Kansas BM,L,"McConnell Flores, Jay-Z Chen Jason",5,0,5,0,0,0,medium,,train
+Emory-LoYa-Aff-03---Gonzaga-Round-2.docx,Emory LY,Gonzaga,2,aff,Michigan State JS - ONLINE,W,"Scully Ferguson - ONLINE, Josiah Yang Coralynn",10,10,0,0,0,0,medium,,train
+Emory-LoYa-Aff-03---Gonzaga-Round-4.docx,Emory LY,Gonzaga,4,aff,Iowa EW - ONLINE,L,"Weimar & Eltyeb stidham - ONLINE,",0,0,0,0,0,0,medium,,train
+Emory-LoYa-Aff-03---Gonzaga-Round-6.docx,Emory LY,Gonzaga,6,aff,Texas FL,W,"Low Green, Justin Yang Coralynn",1,1,0,2,2,550,high,,train
+Emory-LoYa-Aff-03---Gonzaga-Round-7.docx,Emory LY,Gonzaga,7,aff,UTD PR,W,"Ravi Trufanov, Anthony Yang Coralynn",4,4,0,2,2,1313,high,,validation
+Emory-LoYa-Neg-03---Gonzaga-Round-1.docx,Emory LY,Gonzaga,1,neg,Wichita State GM - ONLINE,W,"Griffith Ella - ONLINE, Maeve Yang Coralynn",5,0,5,0,0,0,medium,,train
+Emory-LoYa-Neg-03---Gonzaga-Round-3.docx,Emory LY,Gonzaga,3,neg,Michigan BP,L,"Park Phillips - ONLINE, Bobby Yang Coralynn",13,0,13,0,0,0,medium,,validation
+Emory-LoYa-Neg-03---Gonzaga-Round-5.docx,Emory LY,Gonzaga,5,neg,Georgia CK,W,"Kaidar-Heafetz Taylor - ONLINE, Terrell Yang Coralynn",4,0,4,0,0,0,medium,,train
+Emory-LoYa-Neg-03---Gonzaga-Round-8.docx,Emory LY,Gonzaga,8,neg,Michigan CC,W,"Chen Spiers, Jared Yang Coralynn",13,0,13,1,1,613,high,,train
+Emory-RuYo-Aff-3.-Gonzaga-Round-1.docx,Emory RY,Gonzaga,1,aff,Dartmouth GH - ONLINE,W,"Hatton Meyers-Levy - ONLINE, Dustin Rupp Serena",3,3,0,1,1,971,high,,train
+Emory-RuYo-Aff-3.-Gonzaga-Round-3.docx,Emory RY,Gonzaga,3,aff,Minnesota HU,W,"Usenov Hirn, Kevin Rupp Serena",10,10,0,5,5,1349,high,,validation
+Emory-RuYo-Aff-3.-Gonzaga-Round-5.docx,Emory RY,Gonzaga,5,aff,Wake Forest DE,L,"Elliott Martin - ONLINE, Nate Rupp Serena",10,10,0,1,1,374,high,,train
+Emory-RuYo-Aff-3.-Gonzaga-Round-8.docx,Emory RY,Gonzaga,8,aff,Iowa PA - ONLINE,L,"Anderson McElligott Weideman, Joe Rupp Serena",1,1,0,0,0,0,medium,,validation
+Emory-RuYo-Neg-3.-Gonzaga-Round-2.docx,Emory RY,Gonzaga,2,neg,Michigan State GS - ONLINE,L,"Shehzad Ella - ONLINE, Maeve Rupp Serena",3,0,3,0,0,0,medium,,train
+Emory-RuYo-Neg-3.-Gonzaga-Round-4.docx,Emory RY,Gonzaga,4,neg,Michigan AO,L,"Ou O'Gorman - ONLINE, Danielle Rupp Serena",6,0,6,4,4,1193,high,,train
+Emory-RuYo-Neg-3.-Gonzaga-Round-7.docx,Emory RY,Gonzaga,7,neg,Harvard AB,W,"Bodet Osei - ONLINE, Kwudjwa Rupp Serena",5,0,5,0,0,0,medium,,validation
+Emory-StTa-Aff-Gonzaga-Round-2.docx,Emory TS,Gonzaga,2,aff,Dartmouth JR - ONLINE,L,"Rao Meyers-Levy - ONLINE, Dustin Stearns Maggie",0,0,0,0,0,0,medium,,train
+Emory-StTa-Aff-Gonzaga-Round-5.docx,Emory TS,Gonzaga,5,aff,Arizona State SS,L,"Saxena Anderson - ONLINE, Ralph Stearns Maggie",2,2,0,0,0,0,medium,,test
+Emory-StTa-Aff-Gonzaga-Round-8.docx,Emory TS,Gonzaga,8,aff,Georgetown LN,L,"Nanji Green, Justin Stearns Maggie",2,2,0,0,0,0,medium,,train
+Emory-StTa-Neg-Gonzaga-Round-1.docx,Emory TS,Gonzaga,1,neg,Iowa PA - ONLINE,L,"Anderson McElligott Dal Pra - ONLINE, Sophia Stearns Maggie",0,0,0,0,0,0,medium,,validation
+Emory-StTa-Neg-Gonzaga-Round-3.docx,Emory TS,Gonzaga,3,neg,Texas GS - ONLINE,L,"Gade Jensen - ONLINE, William Stearns Maggie",0,0,0,0,0,0,medium,,train
+Emory-StTa-Neg-Gonzaga-Round-6.docx,Emory TS,Gonzaga,6,neg,Northwestern AH,W,"Hines Cavanaugh - ONLINE, Ryan Stearns Maggie",1,0,1,0,0,0,medium,,train
+Emory-StTa-Neg-Gonzaga-Round-7.docx,Emory TS,Gonzaga,7,neg,UTD DD,L,"D'Antuono Rooney, David Stearns Maggie",0,0,0,0,0,0,medium,,train
+Emory-WaKi-Aff-Gonzaga-University-Jesuit-Debates-Round-2.docx,Emory KW,Gonzaga,2,aff,Michigan AO,L,"Ou Repko - ONLINE, William Wang Tinghan",4,4,0,0,0,0,medium,,train
+Emory-WaKi-Aff-Gonzaga-University-Jesuit-Debates-Round-4.docx,Emory KW,Gonzaga,4,aff,Michigan CS,L,"Saudek Cavanaugh - ONLINE, Ryan Wang Tinghan",4,4,0,0,0,0,medium,,train
+Emory-WaKi-Aff-Gonzaga-University-Jesuit-Debates-Round-6.docx,Emory KW,Gonzaga,6,aff,Georgetown LN,L,"Nanji Meyers-Levy - ONLINE, Dustin Wang Tinghan",4,4,0,0,0,0,medium,,train
+Emory-WaKi-Aff-Gonzaga-University-Jesuit-Debates-Round-8.docx,Emory KW,Gonzaga,8,aff,Michigan HM - ONLINE,L,"McIlhenny Ramsey - ONLINE, Jordan Wang Tinghan",4,4,0,0,0,0,medium,,validation
+Emory-WaKi-Neg-Gonzaga-University-Jesuit-Debates-Round-1.docx,Emory KW,Gonzaga,1,neg,Kansas SS,L,"Shaw Reese - ONLINE, Thomas Wang Tinghan",0,0,0,0,0,0,medium,,train
+Emory-WaKi-Neg-Gonzaga-University-Jesuit-Debates-Round-3.docx,Emory KW,Gonzaga,3,neg,Trinity CK - ONLINE,W,"Khalikov Ella - ONLINE, Maeve Wang Tinghan",0,0,0,0,0,0,medium,,validation
+Emory-WaKi-Neg-Gonzaga-University-Jesuit-Debates-Round-5.docx,Emory KW,Gonzaga,5,neg,Gonzaga WR,L,"Roe Osei - ONLINE, Kwudjwa Wang Tinghan",4,0,4,0,0,0,medium,,train
+Emory-WaKi-Neg-Gonzaga-University-Jesuit-Debates-Round-7.docx,Emory KW,Gonzaga,7,neg,Purdue HH - ONLINE,W,"Hansen Cooper, Deven Wang Tinghan",2,0,2,2,2,122,high,,train
+GeorgeMason-WrWi-Aff-4---Gonzaga-Round-3.docx,George Mason WW,Gonzaga,3,aff,UTD PR,W,"Ravi Morbeck - ONLINE, Gabriel Wright Ashley",3,3,0,1,1,248,high,,validation
+GeorgeMason-WrWi-Aff-4---Gonzaga-Round-5.docx,George Mason WW,Gonzaga,5,aff,UC Berkeley BU,W,"Boguslavsky Karthikeyan - ONLINE, Viveth Wright Ashley",2,2,0,14,14,3486,high,,train
+GeorgeMason-WrWi-Aff-4---Gonzaga-Round-8.docx,George Mason WW,Gonzaga,8,aff,Baylor DL,W,"Lassen McGraw, Bennett Wright Ashley",4,4,0,9,9,2592,high,,train
+GeorgeMason-WrWi-Neg-4---Gonzaga-Round-2.docx,George Mason WW,Gonzaga,2,neg,Stanford LY - ONLINE,L,"Yan Shaikh - ONLINE, Zahir Wright Ashley",9,0,9,2,2,164,high,,train
+GeorgeMason-WrWi-Neg-4---Gonzaga-Round-4.docx,George Mason WW,Gonzaga,4,neg,Wyoming CH,W,"Hawley Revare, Graham Wright Ashley",6,0,6,7,7,629,high,,train
+GeorgeMason-WrWi-Neg-4---Gonzaga-Round-6.docx,George Mason WW,Gonzaga,6,neg,Northwestern NP,L,"Patterson Taylor - ONLINE, Terrell Wright Ashley",5,0,5,2,2,908,high,,train
+GeorgeMason-WrWi-Neg-4---Gonzaga-Round-7.docx,George Mason WW,Gonzaga,7,neg,Michigan AO,L,"Ou Navarrete - ONLINE, Manny Wright Ashley",6,0,6,19,19,3530,high,,train
+Georgetown-AgCo-Aff-04---Gonzaga-Round-1.docx,Georgetown AC,Gonzaga,1,aff,Georgia CK,W,"Kaidar-Heafetz Davidson, Ari Cowan Connelly",1,1,0,0,0,0,medium,,test
+Georgetown-AgCo-Aff-04---Gonzaga-Round-4.docx,Georgetown AC,Gonzaga,4,aff,Northwestern LR,L,"Rubin Fleming, Nick Cowan Connelly",4,4,0,0,0,0,medium,,train
+Georgetown-AgCo-Aff-04---Gonzaga-Round-6.docx,Georgetown AC,Gonzaga,6,aff,Wake Forest AB,W,"Brown Michael, Joshua Cowan Connelly",1,1,0,0,0,0,medium,,validation
+Georgetown-AgCo-Aff-04---Gonzaga-Round-8.docx,Georgetown AC,Gonzaga,8,aff,Kansas SL,L,"Larson Watson - ONLINE, Solomon Cowan Connelly",4,4,0,0,0,0,medium,,train
+Georgetown-AgCo-Neg-04---Gonzaga-Round-2.docx,Georgetown AC,Gonzaga,2,neg,Southern California RB,W,"Bhadani Bricker, Brett Cowan Connelly",12,0,12,2,2,257,high,,train
+Georgetown-AgCo-Neg-04---Gonzaga-Round-3.docx,Georgetown AC,Gonzaga,3,neg,Michigan SS,W,"Shih Spiers, Jared Cowan Connelly",14,0,14,2,2,1039,high,,test
+Georgetown-AgCo-Neg-04---Gonzaga-Round-5.docx,Georgetown AC,Gonzaga,5,neg,Michigan CS,W,"Saudek Stannard, Matt Cowan Connelly",6,0,6,1,1,34,high,,validation
+Georgetown-AgCo-Neg-04---Gonzaga-Round-7.docx,Georgetown AC,Gonzaga,7,neg,Michigan BP,W,"Park Green, Justin Cowan Connelly",13,0,13,0,0,0,medium,,train
+Georgetown-LaNa-Aff-03---Gonzaga-Round-2.docx,Georgetown LN,Gonzaga,2,aff,Minnesota HU,L,"Usenov Fleming, Nick Lastelick Luke",2,2,0,0,0,0,medium,,test
+Georgetown-LaNa-Aff-03---Gonzaga-Round-4.docx,Georgetown LN,Gonzaga,4,aff,Gonzaga WR,W,"Roe Davidson, Ari Lastelick Luke",1,1,0,0,0,0,medium,,validation
+Georgetown-LaNa-Aff-03---Gonzaga-Round-5.docx,Georgetown LN,Gonzaga,5,aff,Kansas BW,L,"Walawender McCullough, Hunter Lastelick Luke",3,3,0,0,0,0,medium,,train
+Georgetown-LaNa-Aff-03---Gonzaga-Round-7.docx,Georgetown LN,Gonzaga,7,aff,Arizona State SS,L,"Saxena Watson - ONLINE, Solomon Lastelick Luke",2,2,0,1,1,152,high,,train
+Georgetown-LaNa-Neg-03---Gonzaga-Round-1.docx,Georgetown LN,Gonzaga,1,neg,Michigan CC,L,"Chen Di, Jordan Lastelick Luke",8,0,8,0,0,0,medium,,test
+Georgetown-LaNa-Neg-03---Gonzaga-Round-3.docx,Georgetown LN,Gonzaga,3,neg,Southern California BM,L,"Martin Stannard, Matt Lastelick Luke",9,0,9,3,3,513,high,,test
+Georgetown-LaNa-Neg-03---Gonzaga-Round-6.docx,Georgetown LN,Gonzaga,6,neg,Emory KW - ONLINE,W,"Kibe Meyers-Levy - ONLINE, Dustin Lastelick Luke",8,0,8,0,0,0,medium,,validation
+Georgetown-LaNa-Neg-03---Gonzaga-Round-8.docx,Georgetown LN,Gonzaga,8,neg,Emory TS - ONLINE,W,"Tai Green, Justin Lastelick Luke",10,0,10,0,0,0,medium,,train
+Georgetown-PeTa-Aff-01---Jesuit-Debates-@-Gonzaga-University-Round-1.docx,Georgetown TP,Gonzaga,1,aff,UC Berkeley BU,L,"Boguslavsky Hirn, Kevin Perez-Rubio Nora",0,0,0,0,0,0,medium,,test
+Georgetown-PeTa-Aff-01---Jesuit-Debates-@-Gonzaga-University-Round-4.docx,Georgetown TP,Gonzaga,4,aff,Southern California BM,L,"Martin Fisher, Corey Perez-Rubio Nora",0,0,0,0,0,0,medium,,validation
+Georgetown-PeTa-Aff-01---Jesuit-Debates-@-Gonzaga-University-Round-6.docx,Georgetown TP,Gonzaga,6,aff,Northwestern LL,L,"Lundberg Kuffour, Julian Perez-Rubio Nora",0,0,0,0,0,0,medium,,train
+Georgetown-PeTa-Aff-01---Jesuit-Debates-@-Gonzaga-University-Round-8.docx,Georgetown TP,Gonzaga,8,aff,Harvard AB,L,"Bodet Brough, Taylor Perez-Rubio Nora",0,0,0,0,0,0,medium,,validation
+Georgia-KaCh-Aff-3---Gonzaga-Round-2.docx,Georgia CK,Gonzaga,2,aff,Northwestern HP,W,"Peltier Phillips - ONLINE, Scott Kaidar-Heafetz Eshkar",0,0,0,0,0,0,medium,,validation
+Georgia-KaCh-Neg-3---Gonzaga-Round-1.docx,Georgia CK,Gonzaga,1,neg,Georgetown AC,L,"Cowan Davidson, Ari Kaidar-Heafetz Eshkar",2,0,2,1,1,52,high,,train
+Georgia-KaCh-Neg-3---Gonzaga-Round-3.docx,Georgia CK,Gonzaga,3,neg,Iowa BS - ONLINE,L,"Sanderson Reza Husain - ONLINE, Irshad Kaidar-Heafetz Eshkar",0,0,0,0,0,0,medium,,train
+Georgia-KaCh-Neg-3---Gonzaga-Round-6.docx,Georgia CK,Gonzaga,6,neg,Kansas BM,W,"McConnell Zaidi, Kumail Kaidar-Heafetz Eshkar",0,0,0,0,0,0,medium,,train
+Georgia-KaCh-Neg-3---Gonzaga-Round-8.docx,Georgia CK,Gonzaga,8,neg,Emory CR - ONLINE,W,"Charabuddi Rooney, David Kaidar-Heafetz Eshkar",2,0,2,1,1,61,high,,train
+Gonzaga-WeRo-Aff-Gonzaga!-Round-1.docx,Gonzaga WR,Gonzaga,1,aff,Iowa SK - ONLINE,L,"Kleiman Reza Husain - ONLINE, Irshad Wellman Kaelyn",3,3,0,0,0,0,medium,,test
+Gonzaga-WeRo-Neg-Gonzaga!-Round-2.docx,Gonzaga WR,Gonzaga,2,neg,Michigan BP,L,"Park Symonds, Adam Wellman Kaelyn",2,0,2,1,1,599,high,,validation
+Gonzaga-WeRo-Neg-Gonzaga!-Round-4.docx,Gonzaga WR,Gonzaga,4,neg,Georgetown LN,L,"Nanji Davidson, Ari Wellman Kaelyn",3,0,3,6,6,1554,high,,train
+Gonzaga-WeRo-Neg-Gonzaga!-Round-6.docx,Gonzaga WR,Gonzaga,6,neg,Iowa BS - ONLINE,W,"Sanderson Schultz - ONLINE, Jim Wellman Kaelyn",0,0,0,0,0,0,medium,,validation
+Harvard-AoBo-Aff-2.-Gonzaga-Round-2.docx,Harvard AB,Gonzaga,2,aff,UTD PR,W,"Ravi Revare, Graham Aoki Seiji",3,3,0,28,28,1985,high,,train
+Harvard-AoBo-Aff-2.-Gonzaga-Round-4.docx,Harvard AB,Gonzaga,4,aff,Kansas BW,W,"Walawender McGraw, Bennett Aoki Seiji",0,0,0,0,0,0,medium,,train
+Harvard-AoBo-Aff-2.-Gonzaga-Round-6.docx,Harvard AB,Gonzaga,6,aff,UTD DD,W,"D'Antuono Stannard, Matt Aoki Seiji",2,2,0,14,14,2171,high,,train
+Harvard-AoBo-Aff-2.-Gonzaga-Round-7.docx,Harvard AB,Gonzaga,7,aff,Emory RY _ ONLINE,L,"Young Osei - ONLINE, Kwudjwa Aoki Seiji",0,0,0,0,0,0,medium,,test
+Harvard-AoBo-Neg-2.-Gonzaga-Round-1.docx,Harvard AB,Gonzaga,1,neg,Michigan HM - ONLINE,L,"McIlhenny Michael, Joshua Aoki Seiji",3,0,3,10,10,1531,high,,train
+Harvard-AoBo-Neg-2.-Gonzaga-Round-3.docx,Harvard AB,Gonzaga,3,neg,UC Berkeley RM,L,"Reichel Kuffour, Julian Aoki Seiji",1,0,1,4,4,2032,high,,train
+Harvard-AoBo-Neg-2.-Gonzaga-Round-5.docx,Harvard AB,Gonzaga,5,neg,Michigan State JS - ONLINE,L,"Scully Symonds, Adam Aoki Seiji",1,0,1,9,9,1608,high,,train
+Harvard-AoBo-Neg-2.-Gonzaga-Round-8.docx,Harvard AB,Gonzaga,8,neg,Georgetown TP,W,"Perez-Rubio Brough, Taylor Aoki Seiji",3,0,3,10,10,1272,high,,train
+Iowa-BiSa-Aff-3--Gonzaga-University-Jesuit-Debates-Round-2.docx,Iowa BS,Gonzaga,2,aff,Texas GS - ONLINE,W,"Gade Santora - ONLINE, Jeremy Bilicki Rose",0,0,0,0,0,0,medium,,train
+Iowa-BiSa-Neg-3--Gonzaga-University-Jesuit-Debates-Round-1.docx,Iowa BS,Gonzaga,1,neg,3,L,,0,0,0,0,0,0,medium,,train
+Iowa-BiSa-Neg-3--Gonzaga-University-Jesuit-Debates-Round-4.docx,Iowa BS,Gonzaga,4,neg,CSU Long Beach OM,L,"Medina Michael, Joshua Bilicki Rose",0,0,0,0,0,0,medium,,test
+Iowa-BiSa-Neg-3--Gonzaga-University-Jesuit-Debates-Round-5.docx,Iowa BS,Gonzaga,5,neg,Southern California DT - ONLINE,L,"Turner Turner - ONLINE, John Bilicki Rose",1,0,1,0,0,0,medium,,test
+Iowa-BiSa-Neg-3--Gonzaga-University-Jesuit-Debates-Round-8.docx,Iowa BS,Gonzaga,8,neg,Dartmouth BC,W,"Carpenter Jordan - ONLINE, Tommy Bilicki Rose",1,0,1,0,0,0,medium,,train
+Iowa-KlSe-Aff-3.-Gonzaga-University-Jesuit-Debates-Round-2.docx,Iowa SK,Gonzaga,2,aff,Kansas BM,L,"McConnell Rooney, David Severson Lily",0,0,0,0,0,0,medium,,test
+Iowa-KlSe-Aff-3.-Gonzaga-University-Jesuit-Debates-Round-7.docx,Iowa SK,Gonzaga,7,aff,Southern California RB,L,"Bhadani Turner - ONLINE, John Severson Lily",0,0,0,0,0,0,medium,,train
+Iowa-KlSe-Neg-3.-Gonzaga-University-Jesuit-Debates-Round-1.docx,Iowa SK,Gonzaga,1,neg,Gonzaga WR,W,"Roe Reza Husain - ONLINE, Irshad Severson Lily",1,0,1,0,0,0,medium,,test
+Iowa-KlSe-Neg-3.-Gonzaga-University-Jesuit-Debates-Round-4.docx,Iowa SK,Gonzaga,4,neg,Navy CR - ONLINE,W,"Connor Joseph - ONLINE, Kyle Severson Lily",2,0,2,1,1,270,high,,validation
+Iowa-KlSe-Neg-3.-Gonzaga-University-Jesuit-Debates-Round-8.docx,Iowa SK,Gonzaga,8,neg,Southern California TM,W,"Mills Green, Jaysyn Severson Lily",1,0,1,0,0,0,medium,,train
+Iowa-PaAn-Neg-Gonzaga-University-Jesuit-Debates-Round-2.docx,Iowa PA,Gonzaga,2,neg,Wake Forest HN - ONLINE,W,"Namikas Reza Husain - ONLINE, Irshad Parfenoff Grey",0,0,0,0,0,0,medium,,train
+Iowa-PaAn-Neg-Gonzaga-University-Jesuit-Debates-Round-5.docx,Iowa PA,Gonzaga,5,neg,Michigan SS,W,"Shih Ramsey - ONLINE, Jordan Parfenoff Grey",2,0,2,0,0,0,medium,,train
+Iowa-PaAn-Neg-Gonzaga-University-Jesuit-Debates-Round-8.docx,Iowa PA,Gonzaga,8,neg,Emory RY _ ONLINE,W,"Young Weideman, Joe Parfenoff Grey",1,0,1,1,1,469,high,,train
+Iowa-WeEl-Aff-03-----Gonzaga-University-Jesuit-Debates-Round-2.docx,Iowa EW,Gonzaga,2,aff,Michigan State GL - ONLINE,L,"Lewis Dal Pra - ONLINE, Sophia Weimar Nathan",0,0,0,0,0,0,medium,,train
+Iowa-WeEl-Neg-03-----Gonzaga-University-Jesuit-Debates-Round-1.docx,Iowa EW,Gonzaga,1,neg,Emory CG - ONLINE,W,"Watson - ONLINE, Solomon Weimar Nathan",0,0,0,0,0,0,medium,,train
+Iowa-WeEl-Neg-03-----Gonzaga-University-Jesuit-Debates-Round-4.docx,Iowa EW,Gonzaga,4,neg,Emory LY - ONLINE,W,"Yang & Lobo stidham - ONLINE,",0,0,0,0,0,0,medium,,train
+Iowa-WeEl-Neg-03-----Gonzaga-University-Jesuit-Debates-Round-6.docx,Iowa EW,Gonzaga,6,neg,Kentucky GS,L,"Slish Cooper, Deven Weimar Nathan",0,0,0,0,0,0,medium,,train
+Iowa-WeEl-Neg-03-----Gonzaga-University-Jesuit-Debates-Round-8.docx,Iowa EW,Gonzaga,8,neg,UC Berkeley BU,W,"Boguslavsky Moore - ONLINE, Jack Weimar Nathan",0,0,0,0,0,0,medium,,train
+Kansas-AiUl-Aff-3.-Gonzaga-Round-1.docx,Kansas UA,Gonzaga,1,aff,Northwestern LO,W,"Olorunsola Vazquez Torres, Jenny Ain Claire",4,4,0,0,0,0,medium,,train
+Kansas-AiUl-Aff-3.-Gonzaga-Round-4.docx,Kansas UA,Gonzaga,4,aff,Emory CS - ONLINE,W,"Stumpff Repko - ONLINE, William Ain Claire",10,10,0,0,0,0,medium,,train
+Kansas-AiUl-Aff-3.-Gonzaga-Round-6.docx,Kansas UA,Gonzaga,6,aff,Baylor DL,W,"Lassen Osei - ONLINE, Kwudjwa Ain Claire",6,6,0,0,0,0,medium,,train
+Kansas-AiUl-Aff-3.-Gonzaga-Round-8.docx,Kansas UA,Gonzaga,8,aff,Texas FL,L,"Feinstein & Low stidham - ONLINE,",9,9,0,0,0,0,medium,,train
+Kansas-AiUl-Neg-3.-Gonzaga-Round-2.docx,Kansas UA,Gonzaga,2,neg,Michigan SS,L,"Shih Di, Jordan Ain Claire",9,0,9,0,0,0,medium,,train
+Kansas-AiUl-Neg-3.-Gonzaga-Round-3.docx,Kansas UA,Gonzaga,3,neg,Michigan CS,W,"Saudek Rao, Bryce Ain Claire",7,0,7,2,2,975,high,,validation
+Kansas-AiUl-Neg-3.-Gonzaga-Round-5.docx,Kansas UA,Gonzaga,5,neg,Michigan State GL - ONLINE,L,"Lewis O'Gorman - ONLINE, Danielle Ain Claire",8,0,8,0,0,0,medium,,train
+Kansas-AiUl-Neg-3.-Gonzaga-Round-7.docx,Kansas UA,Gonzaga,7,neg,Iowa PA - ONLINE,L,"Anderson McElligott Flores, Jay-Z Ain Claire",6,0,6,0,0,0,medium,,train
+Kansas-BaMc-Neg-3---Gonzaga-Round-2.docx,Kansas BM,Gonzaga,2,neg,Iowa SK - ONLINE,W,"Kleiman Rooney, David McConnell Sean",3,0,3,0,0,0,medium,,test
+Kansas-BaMc-Neg-3---Gonzaga-Round-4.docx,Kansas BM,Gonzaga,4,neg,Minnesota HU,W,"Usenov Murphy, Devane McConnell Sean",4,0,4,0,0,0,medium,,train
+Kansas-BaMc-Neg-3---Gonzaga-Round-5.docx,Kansas BM,Gonzaga,5,neg,Wake Forest HN - ONLINE,L,"Namikas Namakula, Subbi McConnell Sean",3,0,3,1,1,287,high,,train
+Kansas-BaMc-Neg-3---Gonzaga-Round-7.docx,Kansas BM,Gonzaga,7,neg,Trinity KP,L,"King Brough, Taylor McConnell Sean",3,0,3,1,1,337,high,,test
+Kansas-BrWa-Aff-3---Gonzaga-Round-1.docx,Kansas BW,Gonzaga,1,aff,Southern California HV - ONLINE,W,"Huerto Trufanov, Anthony Brown Connor",9,9,0,1,1,402,high,,train
+Kansas-BrWa-Aff-3---Gonzaga-Round-3.docx,Kansas BW,Gonzaga,3,aff,Michigan State FM - ONLINE,L,"Martin Ferguson - ONLINE, Josiah Brown Connor",13,13,0,1,1,139,high,,train
+Kansas-BrWa-Aff-3---Gonzaga-Round-6.docx,Kansas BW,Gonzaga,6,aff,Southern California BM,W,"Martin Vazquez Torres, Jenny Brown Connor",12,12,0,1,1,605,high,,train
+Kansas-BrWa-Aff-3---Gonzaga-Round-7.docx,Kansas BW,Gonzaga,7,aff,Dartmouth CG,L,"Goldberg Karthikeyan - ONLINE, Viveth Brown Connor",14,14,0,0,0,0,medium,,test
+Kansas-BrWa-Neg-3---Gonzaga-Round-2.docx,Kansas BW,Gonzaga,2,neg,Northwestern AT,L,"Tahirkheli McIntosh, Valerie Brown Connor",5,0,5,0,0,0,medium,,train
+Kansas-BrWa-Neg-3---Gonzaga-Round-4.docx,Kansas BW,Gonzaga,4,neg,Harvard AB,L,"Bodet McGraw, Bennett Brown Connor",4,0,4,0,0,0,medium,,train
+Kansas-BrWa-Neg-3---Gonzaga-Round-5.docx,Kansas BW,Gonzaga,5,neg,Georgetown LN,W,"Nanji McCullough, Hunter Brown Connor",8,0,8,0,0,0,medium,,validation
+Kansas-BrWa-Neg-3---Gonzaga-Round-8.docx,Kansas BW,Gonzaga,8,neg,CSU Long Beach SS - HYBRID,W,"Saenz Stannard, Matt Brown Connor",4,0,4,0,0,0,medium,,train
+Kansas-LaSc-Neg-Gonzaga-Round-1.docx,Kansas SL,Gonzaga,1,neg,UTD DD,W,"D'Antuono Namakula, Subbi Schultz Luna",1,0,1,0,0,0,medium,,train
+Kansas-LaSc-Neg-Gonzaga-Round-4.docx,Kansas SL,Gonzaga,4,neg,Michigan ES,W,"Shetty McCullough, Hunter Schultz Luna",5,0,5,5,5,825,high,,train
+Kansas-LaSc-Neg-Gonzaga-Round-5.docx,Kansas SL,Gonzaga,5,neg,Michigan BP,W,"Park Roetlin - ONLINE, Spencer Schultz Luna",3,0,3,0,0,0,medium,,train
+Kansas-LaSc-Neg-Gonzaga-Round-8.docx,Kansas SL,Gonzaga,8,neg,Georgetown AC,W,"Cowan Watson - ONLINE, Solomon Schultz Luna",5,0,5,5,5,96,high,,test
+Kansas-OwWi-Aff-3---Gonzaga-Round-2.docx,Kansas OW,Gonzaga,2,aff,Michigan CC,L,"Chen Vergho, Tyler Willingham Zach",9,9,0,2,2,697,high,,train
+Kansas-OwWi-Aff-3---Gonzaga-Round-4.docx,Kansas OW,Gonzaga,4,aff,Southern California RB,L,"Bhadani Trufanov, Anthony Willingham Zach",7,7,0,0,0,0,medium,,validation
+Kansas-OwWi-Aff-3---Gonzaga-Round-6.docx,Kansas OW,Gonzaga,6,aff,Emory CS - ONLINE,W,"Cross & Stumpff stidham - ONLINE,",9,9,0,0,0,0,medium,,train
+Kansas-OwWi-Aff-3---Gonzaga-Round-7.docx,Kansas OW,Gonzaga,7,aff,UC Berkeley RM,W,"Reichel Malsin - ONLINE, Mikaela Willingham Zach",9,9,0,0,0,0,medium,,train
+Kansas-OwWi-Neg-3---Gonzaga-Round-1.docx,Kansas OW,Gonzaga,1,neg,Minnesota HU,W,"Usenov Stupek, Johnnie Willingham Zach",6,0,6,3,3,456,high,,train
+Kansas-OwWi-Neg-3---Gonzaga-Round-3.docx,Kansas OW,Gonzaga,3,neg,Wake Forest AB,W,"Brown Flores, Jay-Z Willingham Zach",3,0,3,0,0,0,medium,,train
+Kansas-OwWi-Neg-3---Gonzaga-Round-5.docx,Kansas OW,Gonzaga,5,neg,Dartmouth BC,W,"Carpenter Fifelski, Kurt Willingham Zach",9,0,9,0,0,0,medium,,test
+Kansas-OwWi-Neg-3---Gonzaga-Round-8.docx,Kansas OW,Gonzaga,8,neg,Binghamton CK,L,"King Reddy - ONLINE, Pav Willingham Zach",1,0,1,0,0,0,medium,,train
+Kentucky-GaSl-Aff-Gonzaga-Round-1.docx,Kentucky GS,Gonzaga,1,aff,Northwestern LL,W,"Lundberg McIntosh, Valerie Gabay Ariel",7,7,0,3,3,664,high,,train
+Kentucky-GaSl-Aff-Gonzaga-Round-3.docx,Kentucky GS,Gonzaga,3,aff,UC Berkeley GS,W,"Gilrain-Lennon Buntin, Jeff Gabay Ariel",8,8,0,3,3,1758,high,,train
+Kentucky-GaSl-Aff-Gonzaga-Round-6.docx,Kentucky GS,Gonzaga,6,aff,Iowa EW - ONLINE,W,"Eltyeb Cooper, Deven Gabay Ariel",1,1,0,2,2,554,high,,train
+Kentucky-GaSl-Aff-Gonzaga-Round-7.docx,Kentucky GS,Gonzaga,7,aff,Michigan CC,L,"Chen Fleming, Nick Gabay Ariel",5,5,0,3,3,2188,high,,validation
+Kentucky-GaSl-Neg-Gonzaga-Round-2.docx,Kentucky GS,Gonzaga,2,neg,Wake Forest LW,L,"Wolfe Fisher, Corey Gabay Ariel",1,0,1,2,2,750,high,,validation
+Kentucky-GaSl-Neg-Gonzaga-Round-4.docx,Kentucky GS,Gonzaga,4,neg,Wake Forest HN - ONLINE,W,"Namikas Makuch, Flynn Gabay Ariel",2,0,2,1,1,1195,high,,validation
+Kentucky-GaSl-Neg-Gonzaga-Round-5.docx,Kentucky GS,Gonzaga,5,neg,Michigan ES,L,"Shetty Shaikh - ONLINE, Zahir Gabay Ariel",7,0,7,4,4,1433,high,,test
+Kentucky-GaSl-Neg-Gonzaga-Round-8.docx,Kentucky GS,Gonzaga,8,neg,UTD PR,L,"Ravi Turner - ONLINE, John Gabay Ariel",4,0,4,1,1,276,high,,train
+Kentucky-RiWa-Aff-Gonzaga-Round-1.docx,Kentucky RW,Gonzaga,1,aff,Northwestern AH,W,"Hines Kuffour, Julian Rimpson Jeremiah",0,0,0,0,0,0,medium,,train
+Kentucky-RiWa-Neg-Gonzaga-Round-2.docx,Kentucky RW,Gonzaga,2,neg,Dartmouth BC,W,"Carpenter Michael, Joshua Rimpson Jeremiah",0,0,0,0,0,0,medium,,train
+Kentucky-RiWa-Neg-Gonzaga-Round-3.docx,Kentucky RW,Gonzaga,3,neg,Michigan State GS - ONLINE,L,"Shehzad Cooper, Deven Rimpson Jeremiah",0,0,0,0,0,0,medium,,test
+Kentucky-RiWa-Neg-Gonzaga-Round-5.docx,Kentucky RW,Gonzaga,5,neg,Northwestern AT,L,"Tahirkheli Revare, Graham Rimpson Jeremiah",1,0,1,4,4,765,high,,test
+Kentucky-RiWa-Neg-Gonzaga-Round-7.docx,Kentucky RW,Gonzaga,7,neg,Northwestern LW,W,"Weisz Davidson, Ari Rimpson Jeremiah",0,0,0,0,0,0,medium,,train
+Michigan-BaPa-Aff-Gonzaga-Round-2.docx,Michigan BP,Gonzaga,2,aff,Gonzaga WR,W,"Roe Symonds, Adam Barrett Eleanor",3,3,0,37,37,3386,high,,train
+Michigan-BaPa-Aff-Gonzaga-Round-3.docx,Michigan BP,Gonzaga,3,aff,Emory LY - ONLINE,W,"Lobo Phillips - ONLINE, Bobby Barrett Eleanor",7,7,0,76,76,6255,high,,train
+Michigan-BaPa-Aff-Gonzaga-Round-5.docx,Michigan BP,Gonzaga,5,aff,Kansas SL,L,"Larson Roetlin - ONLINE, Spencer Barrett Eleanor",9,9,0,63,63,6333,high,,validation
+Michigan-BaPa-Aff-Gonzaga-Round-7.docx,Michigan BP,Gonzaga,7,aff,Georgetown AC,L,"Cowan Green, Justin Barrett Eleanor",9,9,0,65,65,4811,high,,train
+Michigan-BaPa-Neg-Gonzaga-Round-1.docx,Michigan BP,Gonzaga,1,neg,Kansas BM,W,"McConnell Greer, Ethan Barrett Eleanor",4,0,4,16,16,3369,high,,train
+Michigan-BaPa-Neg-Gonzaga-Round-4.docx,Michigan BP,Gonzaga,4,neg,Northwestern NP,W,"Patterson Jordan - ONLINE, Tommy Barrett Eleanor",2,0,2,14,14,3025,high,,train
+Michigan-BaPa-Neg-Gonzaga-Round-6.docx,Michigan BP,Gonzaga,6,neg,Stanford LY - ONLINE,W,"Yan Perkins, Dallas Barrett Eleanor",6,0,6,91,91,7071,high,,train
+Michigan-BaPa-Neg-Gonzaga-Round-8.docx,Michigan BP,Gonzaga,8,neg,Wake Forest DE,W,"Elliott Vazquez Torres, Jenny Barrett Eleanor",4,0,4,28,28,2343,high,,train
+Michigan-ChCh-Aff-3---Gonzaga-Round-1.docx,Michigan CC,Gonzaga,1,aff,Georgetown LN,W,"Nanji Di, Jordan Chamarthy Gautam",8,8,0,36,36,3357,high,,train
+Michigan-ChCh-Aff-3---Gonzaga-Round-4.docx,Michigan CC,Gonzaga,4,aff,Binghamton CK,L,"King Foley, Jordan Chamarthy Gautam",2,2,0,22,22,3917,high,,validation
+Michigan-ChCh-Aff-3---Gonzaga-Round-5.docx,Michigan CC,Gonzaga,5,aff,Stanford LY - ONLINE,L,"Yan Rao, Bryce Chamarthy Gautam",10,10,0,43,43,3573,high,,train
+Michigan-ChCh-Aff-3---Gonzaga-Round-8.docx,Michigan CC,Gonzaga,8,aff,Emory LY - ONLINE,L,"Lobo Spiers, Jared Chamarthy Gautam",12,12,0,58,58,4265,high,,test
+Michigan-ChCh-Neg-3---Gonzaga-Round-2.docx,Michigan CC,Gonzaga,2,neg,Kansas OW,W,"Owings Vergho, Tyler Chamarthy Gautam",4,0,4,11,11,994,high,,validation
+Michigan-ChCh-Neg-3---Gonzaga-Round-3.docx,Michigan CC,Gonzaga,3,neg,Iowa PA - ONLINE,W,"Anderson McElligott Michael, Joshua Chamarthy Gautam",5,0,5,13,13,2299,high,,train
+Michigan-ChCh-Neg-3---Gonzaga-Round-6.docx,Michigan CC,Gonzaga,6,neg,Liberty CL - ONLINE,W,"Layton Roetlin - ONLINE, Spencer Chamarthy Gautam",4,0,4,12,12,2053,high,,train
+Michigan-ChCh-Neg-3---Gonzaga-Round-7.docx,Michigan CC,Gonzaga,7,neg,Kentucky GS,W,"Slish Fleming, Nick Chamarthy Gautam",5,0,5,16,16,1404,high,,test
+Michigan-ChSa-Aff-3---Gonzaga-Round-2.docx,Michigan CS,Gonzaga,2,aff,Baylor DL,L,"Lassen Flores, Jay-Z Saudek Ben",0,0,0,0,0,0,medium,,train
+Michigan-ChSa-Aff-3---Gonzaga-Round-5.docx,Michigan CS,Gonzaga,5,aff,Georgetown AC,L,"Cowan Stannard, Matt Saudek Ben",0,0,0,0,0,0,medium,,train
+Michigan-ChSa-Aff-3---Gonzaga-Round-7.docx,Michigan CS,Gonzaga,7,aff,Emory CR - ONLINE,W,"Charabuddi Maag - ONLINE, Eric Saudek Ben",0,0,0,0,0,0,medium,,train
+Michigan-ChSa-Neg-3---Gonzaga-Round-1.docx,Michigan CS,Gonzaga,1,neg,CSU Long Beach SS - HYBRID,W,"Saenz Baez, Kristiana Saudek Ben",2,0,2,5,5,924,high,,train
+Michigan-ChSa-Neg-3---Gonzaga-Round-4.docx,Michigan CS,Gonzaga,4,neg,Emory KW - ONLINE,W,"Kibe Cavanaugh - ONLINE, Ryan Saudek Ben",1,0,1,10,10,1959,high,,train
+Michigan-ChSa-Neg-3---Gonzaga-Round-6.docx,Michigan CS,Gonzaga,6,neg,Iowa SK - ONLINE,L,"Kleiman Schatz - ONLINE, Joe Saudek Ben",1,0,1,12,12,1727,high,,validation
+Michigan-ChSa-Neg-3---Gonzaga-Round-8.docx,Michigan CS,Gonzaga,8,neg,UC Berkeley GS,L,"Gilrain-Lennon Rebrovick, Tripp Saudek Ben",1,0,1,8,8,1592,high,,train
+Michigan-EsSh-Aff-Gonzaga-Round-1.docx,Michigan ES,Gonzaga,1,aff,Northwestern LW,W,"Weisz Fleming, Nick Esmailzadeh Cyrus",5,5,0,55,55,4060,high,,validation
+Michigan-EsSh-Aff-Gonzaga-Round-4.docx,Michigan ES,Gonzaga,4,aff,Kansas SL,L,"Larson McCullough, Hunter Esmailzadeh Cyrus",12,12,0,44,44,3801,high,,validation
+Michigan-EsSh-Aff-Gonzaga-Round-5.docx,Michigan ES,Gonzaga,5,aff,Kentucky GS,W,"Slish Shaikh - ONLINE, Zahir Esmailzadeh Cyrus",11,11,0,62,62,4266,high,,train
+Michigan-EsSh-Aff-Gonzaga-Round-8.docx,Michigan ES,Gonzaga,8,aff,Emory GS - ONLINE,L,"Song O'Gorman - ONLINE, Danielle Esmailzadeh Cyrus",8,8,0,60,60,4555,high,,validation
+Michigan-EsSh-Neg-Gonzaga-Round-2.docx,Michigan ES,Gonzaga,2,neg,Texas FL,W,"Low Stupek, Johnnie Esmailzadeh Cyrus",4,0,4,13,13,1258,high,,validation
+Michigan-EsSh-Neg-Gonzaga-Round-3.docx,Michigan ES,Gonzaga,3,neg,Kansas HP - ONLINE,W,"Persinger Stamenkovic Diez, Nikola Esmailzadeh Cyrus",3,0,3,10,10,3872,high,,train
+Michigan-EsSh-Neg-Gonzaga-Round-6.docx,Michigan ES,Gonzaga,6,neg,Wake Forest LW,W,"Wolfe Jordan - ONLINE, Tommy Esmailzadeh Cyrus",5,0,5,12,12,1707,high,,train
+Michigan-EsSh-Neg-Gonzaga-Round-7.docx,Michigan ES,Gonzaga,7,neg,Northwestern LR,L,"Rubin Vergho, Tyler Esmailzadeh Cyrus",5,0,5,17,17,1115,high,,train
+Michigan-HwMc-Aff-2---Gonzaga-Round-1.docx,Michigan HM,Gonzaga,1,aff,Harvard AB,W,"Bodet Michael, Joshua Hwang Calvin",7,7,0,22,22,3005,high,,train
+Michigan-HwMc-Aff-2---Gonzaga-Round-3.docx,Michigan HM,Gonzaga,3,aff,Wake Forest HN - ONLINE,L,"Namikas Anderson - ONLINE, Ralph Hwang Calvin",7,7,0,25,25,2989,high,,train
+Michigan-HwMc-Aff-2---Gonzaga-Round-6.docx,Michigan HM,Gonzaga,6,aff,Dartmouth BC,L,"Carpenter Shaikh - ONLINE, Zahir Hwang Calvin",7,7,0,43,43,4406,high,,train
+Michigan-HwMc-Aff-2---Gonzaga-Round-7.docx,Michigan HM,Gonzaga,7,aff,UC Berkeley GS,L,"Gilrain-Lennon Spiers, Jared Hwang Calvin",6,6,0,35,35,3363,high,,train
+Michigan-HwMc-Neg-2---Gonzaga-Round-2.docx,Michigan HM,Gonzaga,2,neg,Wake Forest DE,L,"Elliott Morbeck - ONLINE, Gabriel Hwang Calvin",5,0,5,43,43,3743,high,,train
+Michigan-HwMc-Neg-2---Gonzaga-Round-4.docx,Michigan HM,Gonzaga,4,neg,Northwestern LL,W,"Lundberg Navarrete - ONLINE, Manny Hwang Calvin",13,0,13,31,31,2726,high,,train
+Michigan-HwMc-Neg-2---Gonzaga-Round-5.docx,Michigan HM,Gonzaga,5,neg,Emory CS - ONLINE,L,"Stumpff Ferguson - ONLINE, Josiah Hwang Calvin",11,0,11,36,36,2594,high,,train
+Michigan-HwMc-Neg-2---Gonzaga-Round-8.docx,Michigan HM,Gonzaga,8,neg,Emory KW - ONLINE,W,"Kibe Ramsey - ONLINE, Jordan Hwang Calvin",12,0,12,28,28,2661,high,,train
+Michigan-MoAl-Aff-2---Gonzaga-Round-2.docx,Michigan AM,Gonzaga,2,aff,UTD HH,W,"Hoch Buntin, Jeff Moon Ava",4,4,0,16,16,1394,high,,train
+Michigan-MoAl-Aff-2---Gonzaga-Round-3.docx,Michigan AM,Gonzaga,3,aff,Liberty CL - ONLINE,W,"Layton Phillips - ONLINE, Scott Moon Ava",4,4,0,16,16,1394,high,,test
+Michigan-MoAl-Aff-2---Gonzaga-Round-6.docx,Michigan AM,Gonzaga,6,aff,Texas GS - ONLINE,W,"Gade Watson - ONLINE, Solomon Moon Ava",2,2,0,19,19,2974,high,,train
+Michigan-MoAl-Aff-2---Gonzaga-Round-8.docx,Michigan AM,Gonzaga,8,aff,Gonzaga WR,L,"Roe Aoki, Kenji Moon Ava",4,4,0,27,27,2445,high,,train
+Michigan-MoAl-Neg-2---Gonzaga-Round-1.docx,Michigan AM,Gonzaga,1,neg,Northwestern NP,L,"Patterson Regnier, Jason Moon Ava",0,0,0,0,0,0,medium,,test
+Michigan-MoAl-Neg-2---Gonzaga-Round-4.docx,Michigan AM,Gonzaga,4,neg,UC Berkeley BU,L,"Boguslavsky Vergho, Tyler Moon Ava",6,0,6,32,32,2768,high,,train
+Michigan-MoAl-Neg-2---Gonzaga-Round-5.docx,Michigan AM,Gonzaga,5,neg,Wake Forest AB,L,"Brown Jordan - ONLINE, Tommy Moon Ava",2,0,2,4,4,1163,high,,train
+Michigan-MoAl-Neg-2---Gonzaga-Round-7.docx,Michigan AM,Gonzaga,7,neg,Iowa EW - ONLINE,L,"Eltyeb Ramsey - ONLINE, Jordan Moon Ava",0,0,0,0,0,0,medium,,train
+Michigan-OuAg-Aff-4-Gonzaga-University-Jesuit-Debates-Round-1.docx,Michigan AO,Gonzaga,1,aff,CSU Long Beach OM,L,"Medina McCullough, Hunter Ou Robert",1,1,0,20,20,3134,high,,train
+Michigan-OuAg-Aff-4-Gonzaga-University-Jesuit-Debates-Round-4.docx,Michigan AO,Gonzaga,4,aff,Emory RY _ ONLINE,W,"Young O'Gorman - ONLINE, Danielle Ou Robert",9,9,0,55,55,4308,high,,train
+Michigan-OuAg-Aff-4-Gonzaga-University-Jesuit-Debates-Round-5.docx,Michigan AO,Gonzaga,5,aff,Wake Forest LW,L,"Wolfe Reza Husain - ONLINE, Irshad Ou Robert",1,1,0,23,23,3440,high,,train
+Michigan-OuAg-Aff-4-Gonzaga-University-Jesuit-Debates-Round-7.docx,Michigan AO,Gonzaga,7,aff,George Mason WW - ONLINE,W,"Wright Navarrete - ONLINE, Manny Ou Robert",7,7,0,57,57,4695,high,,train
+Michigan-OuAg-Neg-4-Gonzaga-University-Jesuit-Debates-Round-2.docx,Michigan AO,Gonzaga,2,neg,Emory KW - ONLINE,W,"Kibe Repko - ONLINE, William Ou Robert",2,0,2,49,49,3722,high,,train
+Michigan-OuAg-Neg-4-Gonzaga-University-Jesuit-Debates-Round-3.docx,Michigan AO,Gonzaga,3,neg,Southern California TM,W,"Mills Foley, Jordan Ou Robert",1,0,1,15,15,2405,high,,train
+Michigan-OuAg-Neg-4-Gonzaga-University-Jesuit-Debates-Round-6.docx,Michigan AO,Gonzaga,6,neg,UC Berkeley BU,W,"Boguslavsky Spiers, Jared Ou Robert",1,0,1,31,31,1883,high,,train
+Michigan-OuAg-Neg-4-Gonzaga-University-Jesuit-Debates-Round-8.docx,Michigan AO,Gonzaga,8,neg,Northwestern AT,L,"Tahirkheli Vergho, Tyler Ou Robert",0,0,0,0,0,0,medium,,train
+Michigan-ShSh-Aff-Gonzaga-Round-2.docx,Michigan SS,Gonzaga,2,aff,Kansas UA,W,"Ain Di, Jordan Shih Conner",8,8,0,55,55,4569,high,,train
+Michigan-ShSh-Aff-Gonzaga-Round-3.docx,Michigan SS,Gonzaga,3,aff,Georgetown AC,L,"Cowan Spiers, Jared Shih Conner",10,10,0,56,56,5004,high,,train
+Michigan-ShSh-Aff-Gonzaga-Round-5.docx,Michigan SS,Gonzaga,5,aff,Iowa PA - ONLINE,L,"Anderson McElligott Ramsey - ONLINE, Jordan Shih Conner",9,9,0,18,18,3123,high,,train
+Michigan-ShSh-Aff-Gonzaga-Round-7.docx,Michigan SS,Gonzaga,7,aff,Stanford LY - ONLINE,W,"Yan Katz - ONLINE, Will Shih Conner",12,12,0,73,73,5848,high,,train
+Michigan-ShSh-Neg-Gonzaga-Round-1.docx,Michigan SS,Gonzaga,1,neg,Trinity KP,W,"King Foley, Jordan Shih Conner",6,0,6,16,16,2089,high,,train
+Michigan-ShSh-Neg-Gonzaga-Round-4.docx,Michigan SS,Gonzaga,4,neg,Wyoming WW,W,"Willson Bankey, Brendon Shih Conner",4,0,4,12,12,2641,high,,train
+Michigan-ShSh-Neg-Gonzaga-Round-6.docx,Michigan SS,Gonzaga,6,neg,Dartmouth JR - ONLINE,W,"Rao Aoki, Kenji Shih Conner",5,0,5,12,12,1247,high,,train
+Michigan-ShSh-Neg-Gonzaga-Round-8.docx,Michigan SS,Gonzaga,8,neg,Wake Forest HN - ONLINE,W,"Namikas Zaidi, Kumail Shih Conner",5,0,5,22,22,2625,high,,train
+MichiganState-FoMa-Aff-04---Gonzaga-Round-2.docx,Michigan State FM,Gonzaga,2,aff,Emory GS - ONLINE,L,"Song Hirn, Kevin Foster Isabella",6,6,0,1,1,301,high,,train
+MichiganState-FoMa-Aff-04---Gonzaga-Round-4.docx,Michigan State FM,Gonzaga,4,aff,Iowa PA - ONLINE,L,"Anderson McElligott Cooper, Deven Foster Isabella",7,7,0,2,2,341,high,,train
+MichiganState-FoMa-Aff-04---Gonzaga-Round-6.docx,Michigan State FM,Gonzaga,6,aff,Emory CR - ONLINE,W,"Charabuddi Fleming, Nick Foster Isabella",4,4,0,1,1,248,high,,train
+MichiganState-FoMa-Aff-04---Gonzaga-Round-7.docx,Michigan State FM,Gonzaga,7,aff,Wyoming CH,W,"Hawley Meyers-Levy - ONLINE, Dustin Foster Isabella",5,5,0,2,2,1450,high,,train
+MichiganState-FoMa-Neg-04---Gonzaga-Round-1.docx,Michigan State FM,Gonzaga,1,neg,Texas GS - ONLINE,W,"Gade Roetlin - ONLINE, Spencer Foster Isabella",3,0,3,0,0,0,medium,,train
+MichiganState-FoMa-Neg-04---Gonzaga-Round-3.docx,Michigan State FM,Gonzaga,3,neg,Kansas BW,W,"Walawender Ferguson - ONLINE, Josiah Foster Isabella",10,0,10,4,4,777,high,,train
+MichiganState-FoMa-Neg-04---Gonzaga-Round-5.docx,Michigan State FM,Gonzaga,5,neg,Texas FL,L,"Low Spiers, Jared Foster Isabella",12,0,12,3,3,827,high,,validation
+MichiganState-FoMa-Neg-04---Gonzaga-Round-8.docx,Michigan State FM,Gonzaga,8,neg,Kentucky RW,L,"Washington Snelling - ONLINE, Tyler Foster Isabella",3,0,3,1,1,1356,high,,test
+MichiganState-GeSh-Aff-Gonzaga-University-Jesuit-Debates-Round-2.docx,Michigan State GS,Gonzaga,2,aff,Emory RY _ ONLINE,W,"Young Ella - ONLINE, Maeve Gearring Arielle",0,0,0,0,0,0,medium,,train
+MichiganState-GeSh-Aff-Gonzaga-University-Jesuit-Debates-Round-3.docx,Michigan State GS,Gonzaga,3,aff,Kentucky RW,W,"Washington Cooper, Deven Gearring Arielle",0,0,0,0,0,0,medium,,train
+MichiganState-GeSh-Neg-Gonzaga-University-Jesuit-Debates-Round-1.docx,Michigan State GS,Gonzaga,1,neg,Navy CR - ONLINE,W,"Connor Makuch, Flynn Gearring Arielle",0,0,0,0,0,0,medium,,train
+MichiganState-GeSh-Neg-Gonzaga-University-Jesuit-Debates-Round-4.docx,Michigan State GS,Gonzaga,4,neg,Dartmouth JR - ONLINE,W,"Rao Flores, Jay-Z Gearring Arielle",0,0,0,0,0,0,medium,,train
+MichiganState-GeSh-Neg-Gonzaga-University-Jesuit-Debates-Round-6.docx,Michigan State GS,Gonzaga,6,neg,Kansas SL,L,"Larson Rooney, David Gearring Arielle",1,0,1,0,0,0,medium,,test
+MichiganState-GeSh-Neg-Gonzaga-University-Jesuit-Debates-Round-8.docx,Michigan State GS,Gonzaga,8,neg,Dartmouth CG,L,"Goldberg Hall, Sherry Gearring Arielle",0,0,0,0,0,0,medium,,train
+MichiganState-GuLe-Aff-Gonzaga-Round-1.docx,Michigan State GL,Gonzaga,1,aff,Southern California DT - ONLINE,W,"Turner Karthikeyan - ONLINE, Viveth Gusis Joanna",6,6,0,1,1,446,high,,validation
+MichiganState-GuLe-Aff-Gonzaga-Round-4.docx,Michigan State GL,Gonzaga,4,aff,Wichita State GM - ONLINE,W,"Griffith Spiers, Jared Gusis Joanna",3,3,0,0,0,0,medium,,test
+MichiganState-GuLe-Aff-Gonzaga-Round-5.docx,Michigan State GL,Gonzaga,5,aff,Kansas UA,W,"Ain O'Gorman - ONLINE, Danielle Gusis Joanna",8,8,0,0,0,0,medium,,train
+MichiganState-GuLe-Aff-Gonzaga-Round-8.docx,Michigan State GL,Gonzaga,8,aff,Northwestern LR,L,"ONLINE, Ethan Gusis Joanna",5,5,0,3,3,2452,high,,validation
+MichiganState-GuLe-Neg-Gonzaga-Round-2.docx,Michigan State GL,Gonzaga,2,neg,Iowa EW - ONLINE,W,"Eltyeb Dal Pra - ONLINE, Sophia Gusis Joanna",5,0,5,1,1,799,high,,validation
+MichiganState-GuLe-Neg-Gonzaga-Round-3.docx,Michigan State GL,Gonzaga,3,neg,Binghamton CK,L,"King Symonds, Adam Gusis Joanna",3,0,3,1,1,177,high,,test
+MichiganState-GuLe-Neg-Gonzaga-Round-6.docx,Michigan State GL,Gonzaga,6,neg,Iowa PA - ONLINE,W,"Anderson McElligott Turner - ONLINE, John Gusis Joanna",4,0,4,0,0,0,medium,,train
+MichiganState-GuLe-Neg-Gonzaga-Round-7.docx,Michigan State GL,Gonzaga,7,neg,Northwestern NP,W,"Patterson Pierce, Dawn Gusis Joanna",5,0,5,0,0,0,medium,,train
+MichiganState-JaSc-Aff-4---Gonzaga-Round-1.docx,Michigan State JS,Gonzaga,1,aff,Trinity CK - ONLINE,W,"Khalikov Stamenkovic Diez, Nikola Jarman Zaria",4,4,0,0,0,0,medium,,train
+MichiganState-JaSc-Aff-4---Gonzaga-Round-3.docx,Michigan State JS,Gonzaga,3,aff,Dartmouth CG,W,"Goldberg O'Gorman - ONLINE, Danielle Jarman Zaria",6,6,0,0,0,0,medium,,train
+MichiganState-JaSc-Aff-4---Gonzaga-Round-5.docx,Michigan State JS,Gonzaga,5,aff,Harvard AB,W,"Bodet Symonds, Adam Jarman Zaria",2,2,0,0,0,0,medium,,train
+MichiganState-JaSc-Neg-4---Gonzaga-Round-2.docx,Michigan State JS,Gonzaga,2,neg,Emory LY - ONLINE,L,"Lobo Ferguson - ONLINE, Josiah Jarman Zaria",1,0,1,6,6,3488,high,,train
+MichiganState-JaSc-Neg-4---Gonzaga-Round-4.docx,Michigan State JS,Gonzaga,4,neg,Stanford LY - ONLINE,L,"Yan Kelley, Brandon Jarman Zaria",4,0,4,5,5,1607,high,,test
+MichiganState-JaSc-Neg-4---Gonzaga-Round-6.docx,Michigan State JS,Gonzaga,6,neg,Kentucky RW,W,"Washington Malsin - ONLINE, Mikaela Jarman Zaria",1,0,1,0,0,0,medium,,test
+MichiganState-JaSc-Neg-4---Gonzaga-Round-8.docx,Michigan State JS,Gonzaga,8,neg,CSU Long Beach OM,L,"Medina Dal Pra - ONLINE, Sophia Jarman Zaria",2,0,2,0,0,0,medium,,train
+Minnesota-HaUs-Aff-3-Gonzaga-University-Jesuit-Debates-Round-1.docx,Minnesota HU,Gonzaga,1,aff,Kansas OW,L,"Owings Stupek, Johnnie Usenov Timur",14,14,0,38,38,3144,high,,train
+Minnesota-HaUs-Aff-3-Gonzaga-University-Jesuit-Debates-Round-4.docx,Minnesota HU,Gonzaga,4,aff,Kansas BM,L,"McConnell Murphy, Devane Usenov Timur",15,15,0,33,33,3299,high,,test
+Minnesota-HaUs-Aff-3-Gonzaga-University-Jesuit-Debates-Round-5.docx,Minnesota HU,Gonzaga,5,aff,Northwestern AH,W,"Hines Navarrete - ONLINE, Manny Usenov Timur",13,13,0,43,43,4237,high,,train
+Minnesota-HaUs-Neg-3-Gonzaga-University-Jesuit-Debates-Round-2.docx,Minnesota HU,Gonzaga,2,neg,Georgetown LN,W,"Nanji Fleming, Nick Usenov Timur",1,0,1,4,4,2079,high,,train
+Minnesota-HaUs-Neg-3-Gonzaga-University-Jesuit-Debates-Round-3.docx,Minnesota HU,Gonzaga,3,neg,Emory RY _ ONLINE,L,"Young Hirn, Kevin Usenov Timur",0,0,0,0,0,0,medium,,train
+Minnesota-HaUs-Neg-3-Gonzaga-University-Jesuit-Debates-Round-6.docx,Minnesota HU,Gonzaga,6,neg,Dartmouth CG,L,"Goldberg Weideman, Joe Usenov Timur",13,0,13,7,7,1048,high,,train
+Minnesota-HaUs-Neg-3-Gonzaga-University-Jesuit-Debates-Round-7.docx,Minnesota HU,Gonzaga,7,neg,Southern California BM,L,"Martin Hall, Sherry Usenov Timur",3,0,3,13,13,1726,high,,train
+Navy-CoRe-Aff-Gonzaga-Round-4.docx,Navy CR,Gonzaga,4,aff,Iowa SK - ONLINE,L,"Kleiman Joseph - ONLINE, Kyle Rea Armen",1,1,0,0,0,0,medium,,test
+Northwestern-ArHi-Aff-01---Gonzaga-Round-2.docx,Northwestern AH,Gonzaga,2,aff,Wyoming WW,L,"Willson Osei - ONLINE, Kwudjwa Hines Brock",1,1,0,0,0,0,medium,,test
+Northwestern-ArHi-Aff-01---Gonzaga-Round-3.docx,Northwestern AH,Gonzaga,3,aff,Emory CG - ONLINE,W,"Martin - ONLINE, Nate Hines Brock",1,1,0,0,0,0,medium,,train
+Northwestern-ArHi-Aff-01---Gonzaga-Round-6.docx,Northwestern AH,Gonzaga,6,aff,Emory TS - ONLINE,L,"Tai Cavanaugh - ONLINE, Ryan Hines Brock",6,6,0,0,0,0,medium,,train
+Northwestern-ArHi-Aff-01---Gonzaga-Round-8.docx,Northwestern AH,Gonzaga,8,aff,Emory CS - ONLINE,W,"Stumpff Meyers-Levy - ONLINE, Dustin Hines Brock",5,5,0,0,0,0,medium,,test
+Northwestern-ArHi-Neg-01---Gonzaga-Round-1.docx,Northwestern AH,Gonzaga,1,neg,Kentucky RW,L,"Washington Kuffour, Julian Hines Brock",2,0,2,0,0,0,medium,,validation
+Northwestern-ArHi-Neg-01---Gonzaga-Round-4.docx,Northwestern AH,Gonzaga,4,neg,Dartmouth CG,L,"Goldberg Stupek, Johnnie Hines Brock",7,0,7,0,0,0,medium,,train
+Northwestern-ArHi-Neg-01---Gonzaga-Round-5.docx,Northwestern AH,Gonzaga,5,neg,Minnesota HU,L,"Usenov Navarrete - ONLINE, Manny Hines Brock",14,0,14,0,0,0,medium,,test
+Northwestern-ArHi-Neg-01---Gonzaga-Round-7.docx,Northwestern AH,Gonzaga,7,neg,Harvard/Amherst SL,W,"Lourenco Jordan - ONLINE, Tommy Hines Brock",7,0,7,0,0,0,medium,,train
+Northwestern-ArTa-Aff-3.-Gonzaga-Round-2.docx,Northwestern AT,Gonzaga,2,aff,Kansas BW,W,"Walawender McIntosh, Valerie Arney Buck",7,7,0,0,0,0,medium,,train
+Northwestern-ArTa-Aff-3.-Gonzaga-Round-4.docx,Northwestern AT,Gonzaga,4,aff,Dartmouth GH - ONLINE,W,"Hatton Gustavson, Sam Arney Buck",4,4,0,0,0,0,medium,,train
+Northwestern-ArTa-Aff-3.-Gonzaga-Round-5.docx,Northwestern AT,Gonzaga,5,aff,Kentucky RW,W,"Washington Revare, Graham Arney Buck",4,4,0,0,0,0,medium,,train
+Northwestern-ArTa-Aff-3.-Gonzaga-Round-8.docx,Northwestern AT,Gonzaga,8,aff,Michigan AO,W,"Ou Vergho, Tyler Arney Buck",9,9,0,1,1,197,high,,train
+Northwestern-ArTa-Neg-3.-Gonzaga-Round-1.docx,Northwestern AT,Gonzaga,1,neg,Wyoming CH,W,"Hawley Bricker, Brett Arney Buck",11,0,11,0,0,0,medium,,test
+Northwestern-ArTa-Neg-3.-Gonzaga-Round-3.docx,Northwestern AT,Gonzaga,3,neg,Kansas SL,L,"Larson Zaidi, Kumail Arney Buck",3,0,3,0,0,0,medium,,train
+Northwestern-ArTa-Neg-3.-Gonzaga-Round-6.docx,Northwestern AT,Gonzaga,6,neg,CSU Long Beach OM,L,"Medina Regnier, Jason Arney Buck",3,0,3,0,0,0,medium,,train
+Northwestern-ArTa-Neg-3.-Gonzaga-Round-7.docx,Northwestern AT,Gonzaga,7,neg,Gonzaga WR,W,"Roe Bankey, Brendon Arney Buck",11,0,11,0,0,0,medium,,train
+Northwestern-HePe-Aff-02---Gonzaga-University-Jesuit-Debates-Round-1.docx,Northwestern HP,Gonzaga,1,aff,Southern California RB,L,"Bhadani Vergho, Tyler Peltier Nathan",3,3,0,0,0,0,medium,,test
+Northwestern-HePe-Aff-02---Gonzaga-University-Jesuit-Debates-Round-4.docx,Northwestern HP,Gonzaga,4,aff,Trinity CK - ONLINE,L,"Khalikov Baez, Kristiana Peltier Nathan",1,1,0,0,0,0,medium,,test
+Northwestern-HePe-Aff-02---Gonzaga-University-Jesuit-Debates-Round-5.docx,Northwestern HP,Gonzaga,5,aff,Emory CG - ONLINE,L,"Rooney, David Peltier Nathan",2,2,0,0,0,0,medium,,train
+Northwestern-HePe-Aff-02---Gonzaga-University-Jesuit-Debates-Round-8.docx,Northwestern HP,Gonzaga,8,aff,Purdue HH - ONLINE,L,"Hansen Tillman - ONLINE, Elysia Peltier Nathan",4,4,0,0,0,0,medium,,test
+Northwestern-HePe-Neg-02---Gonzaga-University-Jesuit-Debates-Round-2.docx,Northwestern HP,Gonzaga,2,neg,Georgia CK,L,"Kaidar-Heafetz Phillips - ONLINE, Scott Peltier Nathan",1,0,1,1,1,328,high,,test
+Northwestern-HePe-Neg-02---Gonzaga-University-Jesuit-Debates-Round-3.docx,Northwestern HP,Gonzaga,3,neg,Gonzaga WR,L,"Roe Vazquez Torres, Jenny Peltier Nathan",7,0,7,0,0,0,medium,,train
+Northwestern-HePe-Neg-02---Gonzaga-University-Jesuit-Debates-Round-6.docx,Northwestern HP,Gonzaga,6,neg,Harvard/Amherst SL,W,"Lourenco McGraw, Bennett Peltier Nathan",8,0,8,0,0,0,medium,,train
+Northwestern-HePe-Neg-02---Gonzaga-University-Jesuit-Debates-Round-7.docx,Northwestern HP,Gonzaga,7,neg,Texas GS - ONLINE,L,"Gade Huffman - ONLINE, Maile Peltier Nathan",2,0,2,0,0,0,medium,,test
+Northwestern-LeWe-Aff-3---Gonzaga-Round-2.docx,Northwestern LW,Gonzaga,2,aff,UC Berkeley GS,L,"Gilrain-Lennon McCaffrey - ONLINE, Kevin Lee Michael",1,1,0,3,3,1460,high,,train
+Northwestern-LeWe-Aff-3---Gonzaga-Round-3.docx,Northwestern LW,Gonzaga,3,aff,CSU Long Beach SS - HYBRID,W,"Saenz McIntosh, Valerie Lee Michael",1,1,0,0,0,0,medium,,train
+Northwestern-LeWe-Aff-3---Gonzaga-Round-6.docx,Northwestern LW,Gonzaga,6,aff,Wyoming WW,W,"Willson Gustavson, Sam Lee Michael",1,1,0,1,1,1366,high,,train
+Northwestern-LeWe-Aff-3---Gonzaga-Round-7.docx,Northwestern LW,Gonzaga,7,aff,Kentucky RW,L,"Washington Davidson, Ari Lee Michael",1,1,0,0,0,0,medium,,train
+Northwestern-LeWe-Neg-3---Gonzaga-Round-1.docx,Northwestern LW,Gonzaga,1,neg,Michigan ES,L,"Shetty Fleming, Nick Lee Michael",5,0,5,0,0,0,medium,,test
+Northwestern-LeWe-Neg-3---Gonzaga-Round-4.docx,Northwestern LW,Gonzaga,4,neg,Liberty CL - ONLINE,L,"Layton Kuffour, Julian Lee Michael",5,0,5,0,0,0,medium,,train
+Northwestern-LeWe-Neg-3---Gonzaga-Round-5.docx,Northwestern LW,Gonzaga,5,neg,Texas GS - ONLINE,W,"Gade Baez, Kristiana Lee Michael",2,0,2,0,0,0,medium,,train
+Northwestern-LeWe-Neg-3---Gonzaga-Round-8.docx,Northwestern LW,Gonzaga,8,neg,Wake Forest AB,W,"Brown Huffman - ONLINE, Maile Lee Michael",2,0,2,0,0,0,medium,,train
+Northwestern-LuLe-Aff-03---Gonzaga-Round-2.docx,Northwestern LL,Gonzaga,2,aff,Harvard/Amherst SL,W,"Lourenco Vazquez Torres, Jenny Lundberg Annabeth",4,4,0,0,0,0,medium,,validation
+Northwestern-LuLe-Aff-03---Gonzaga-Round-5.docx,Northwestern LL,Gonzaga,5,aff,Purdue HH - ONLINE,W,"Hansen McCaffrey - ONLINE, Kevin Lundberg Annabeth",9,9,0,0,0,0,medium,,train
+Northwestern-LuLe-Aff-03---Gonzaga-Round-7.docx,Northwestern LL,Gonzaga,7,aff,Kansas SS,L,"Shaw Roetlin - ONLINE, Spencer Lundberg Annabeth",1,1,0,0,0,0,medium,,train
+Northwestern-LuLe-Neg-03---Gonzaga-Round-1.docx,Northwestern LL,Gonzaga,1,neg,Kentucky GS,L,"Slish McIntosh, Valerie Lundberg Annabeth",7,0,7,0,0,0,medium,,validation
+Northwestern-LuLe-Neg-03---Gonzaga-Round-3.docx,Northwestern LL,Gonzaga,3,neg,Iowa EW - ONLINE,L,"Eltyeb Pierce, Dawn Lundberg Annabeth",2,0,2,0,0,0,medium,,test
+Northwestern-LuLe-Neg-03---Gonzaga-Round-6.docx,Northwestern LL,Gonzaga,6,neg,Georgetown TP,W,"Perez-Rubio Kuffour, Julian Lundberg Annabeth",3,0,3,0,0,0,medium,,train
+Northwestern-LuLe-Neg-03---Gonzaga-Round-8.docx,Northwestern LL,Gonzaga,8,neg,Arizona State SS,W,"Saxena Fleming, Nick Lundberg Annabeth",6,0,6,0,0,0,medium,,train
+Northwestern-NePa-Aff-2---Gonzaga-Round-1.docx,Northwestern NP,Gonzaga,1,aff,Michigan AM,W,"Moon Regnier, Jason Nestor Maryclare",0,0,0,0,0,0,medium,,train
+Northwestern-NePa-Aff-2---Gonzaga-Round-4.docx,Northwestern NP,Gonzaga,4,aff,Michigan BP,L,"Park Jordan - ONLINE, Tommy Nestor Maryclare",0,0,0,0,0,0,medium,,train
+Northwestern-NePa-Aff-2---Gonzaga-Round-6.docx,Northwestern NP,Gonzaga,6,aff,George Mason WW - ONLINE,W,"Wright Taylor - ONLINE, Terrell Nestor Maryclare",0,0,0,0,0,0,medium,,train
+Northwestern-NePa-Aff-2---Gonzaga-Round-7.docx,Northwestern NP,Gonzaga,7,aff,Michigan State GL - ONLINE,L,"Lewis Pierce, Dawn Nestor Maryclare",0,0,0,0,0,0,medium,,validation
+Northwestern-NePa-Neg-2---Gonzaga-Round-2.docx,Northwestern NP,Gonzaga,2,neg,Dartmouth CG,W,"Goldberg Vernon, Kc Nestor Maryclare",0,0,0,0,0,0,medium,,train
+Northwestern-NePa-Neg-2---Gonzaga-Round-3.docx,Northwestern NP,Gonzaga,3,neg,Emory CS - ONLINE,W,"Stumpff Dal Pra - ONLINE, Sophia Nestor Maryclare",0,0,0,0,0,0,medium,,train
+Northwestern-NePa-Neg-2---Gonzaga-Round-5.docx,Northwestern NP,Gonzaga,5,neg,Iowa EW - ONLINE,W,"Eltyeb Santora - ONLINE, Jeremy Nestor Maryclare",1,0,1,3,3,2393,high,,train
+Northwestern-NePa-Neg-2---Gonzaga-Round-8.docx,Northwestern NP,Gonzaga,8,neg,Southern California RB,W,"Bhadani Cavanaugh - ONLINE, Ryan Nestor Maryclare",3,0,3,1,1,359,high,,train
+Northwestern-RuLi-Aff-03---Gonzaga-Round-2.docx,Northwestern LR,Gonzaga,2,aff,Georgetown TP,W,"Perez-Rubio Baez, Kristiana Rubin Veronica",6,6,0,0,0,0,medium,,train
+Northwestern-RuLi-Aff-03---Gonzaga-Round-3.docx,Northwestern LR,Gonzaga,3,aff,Baylor DL,W,"Lassen McCullough, Hunter Rubin Veronica",7,7,0,0,0,0,medium,,train
+Northwestern-RuLi-Aff-03---Gonzaga-Round-6.docx,Northwestern LR,Gonzaga,6,aff,Southern California DT - ONLINE,W,"Turner Fifelski, Kurt Rubin Veronica",7,7,0,1,1,249,high,,train
+Northwestern-RuLi-Aff-03---Gonzaga-Round-7.docx,Northwestern LR,Gonzaga,7,aff,Michigan ES,W,"Shetty Vergho, Tyler Rubin Veronica",11,11,0,0,0,0,medium,,validation
+Northwestern-RuLi-Neg-03---Gonzaga-Round-1.docx,Northwestern LR,Gonzaga,1,neg,Southern California BM,W,"Martin Green, Justin Rubin Veronica",12,0,12,0,0,0,medium,,train
+Northwestern-RuLi-Neg-03---Gonzaga-Round-4.docx,Northwestern LR,Gonzaga,4,neg,Georgetown AC,W,"Cowan Fleming, Nick Rubin Veronica",9,0,9,6,6,693,high,,validation
+Northwestern-RuLi-Neg-03---Gonzaga-Round-5.docx,Northwestern LR,Gonzaga,5,neg,Binghamton CK,L,"King Michael, Joshua Rubin Veronica",6,0,6,0,0,0,medium,,train
+Northwestern-RuLi-Neg-03---Gonzaga-Round-8.docx,Northwestern LR,Gonzaga,8,neg,Michigan State GL - ONLINE,W,"ONLINE, Ethan Rubin Veronica",7,0,7,0,0,0,medium,,validation
+Purdue-HaHa-Aff-1---Gonzaga-Round-2.docx,Purdue HH,Gonzaga,2,aff,Emory CR - ONLINE,L,"Charabuddi Wunderlich - ONLINE, Carly Hawksworth Riley",3,3,0,8,8,542,high,,train
+Purdue-HaHa-Aff-1---Gonzaga-Round-4.docx,Purdue HH,Gonzaga,4,aff,Southern California DT - ONLINE,L,"Turner Bricker, Brett Hawksworth Riley",3,3,0,1,1,629,high,,train
+Purdue-HaHa-Aff-1---Gonzaga-Round-6.docx,Purdue HH,Gonzaga,6,aff,UTD HH,L,"Hoch Huffman - ONLINE, Maile Hawksworth Riley",3,3,0,1,1,141,high,,train
+Purdue-HaHa-Aff-1---Gonzaga-Round-7.docx,Purdue HH,Gonzaga,7,aff,Emory KW - ONLINE,L,"Kibe Cooper, Deven Hawksworth Riley",3,3,0,0,0,0,medium,,train
+Purdue-HaHa-Neg-1---Gonzaga-Round-1.docx,Purdue HH,Gonzaga,1,neg,Liberty CL - ONLINE,L,"Layton McGraw, Bennett Hawksworth Riley",6,0,6,0,0,0,medium,,train
+Purdue-HaHa-Neg-1---Gonzaga-Round-3.docx,Purdue HH,Gonzaga,3,neg,Harvard/Amherst SL,W,"Lourenco Makuch, Flynn Hawksworth Riley",6,0,6,5,5,997,high,,train
+Purdue-HaHa-Neg-1---Gonzaga-Round-5.docx,Purdue HH,Gonzaga,5,neg,Northwestern LL,L,"Lundberg McCaffrey - ONLINE, Kevin Hawksworth Riley",4,0,4,6,6,1059,high,,train
+Purdue-HaHa-Neg-1---Gonzaga-Round-8.docx,Purdue HH,Gonzaga,8,neg,Northwestern HP,W,"Peltier Tillman - ONLINE, Elysia Hawksworth Riley",4,0,4,8,8,1607,high,,validation
+SouthernCalifornia-BhRa-Aff-2-Gonzaga-Round-2.docx,Southern California RB,Gonzaga,2,aff,Georgetown AC,L,"Cowan Bricker, Brett Rahman Rayeed",2,2,0,0,0,0,medium,,train
+SouthernCalifornia-BhRa-Aff-2-Gonzaga-Round-5.docx,Southern California RB,Gonzaga,5,aff,Kansas HP - ONLINE,L,"Persinger Malsin - ONLINE, Mikaela Rahman Rayeed",2,2,0,0,0,0,medium,,train
+SouthernCalifornia-BhRa-Neg-2-Gonzaga-Round-1.docx,Southern California RB,Gonzaga,1,neg,Northwestern HP,W,"Peltier Vergho, Tyler Rahman Rayeed",2,0,2,0,0,0,medium,,train
+SouthernCalifornia-BhRa-Neg-2-Gonzaga-Round-4.docx,Southern California RB,Gonzaga,4,neg,Kansas OW,W,"Owings Trufanov, Anthony Rahman Rayeed",6,0,6,0,0,0,medium,,train
+SouthernCalifornia-BhRa-Neg-2-Gonzaga-Round-6.docx,Southern California RB,Gonzaga,6,neg,Wichita State GM - ONLINE,L,"Griffith Murphy, Devane Rahman Rayeed",1,0,1,0,0,0,medium,,train
+SouthernCalifornia-BrMa-Aff-Gonzaga-Round-1.docx,Southern California BM,Gonzaga,1,aff,Northwestern LR,L,"Rubin Green, Justin Bradley Clare",2,2,0,0,0,0,medium,,train
+SouthernCalifornia-BrMa-Aff-Gonzaga-Round-3.docx,Southern California BM,Gonzaga,3,aff,Georgetown LN,W,"Nanji Stannard, Matt Bradley Clare",2,2,0,0,0,0,medium,,test
+SouthernCalifornia-BrMa-Aff-Gonzaga-Round-5.docx,Southern California BM,Gonzaga,5,aff,Kansas SS,L,"Shaw Rebrovick, Tripp Bradley Clare",2,2,0,0,0,0,medium,,train
+SouthernCalifornia-BrMa-Aff-Gonzaga-Round-7.docx,Southern California BM,Gonzaga,7,aff,Minnesota HU,W,"Usenov Hall, Sherry Bradley Clare",2,2,0,0,0,0,medium,,validation
+SouthernCalifornia-BrMa-Neg-Gonzaga-Round-2.docx,Southern California BM,Gonzaga,2,neg,Wake Forest AB,L,"Brown Foley, Jordan Bradley Clare",0,0,0,0,0,0,medium,,train
+SouthernCalifornia-BrMa-Neg-Gonzaga-Round-4.docx,Southern California BM,Gonzaga,4,neg,Georgetown TP,W,"Perez-Rubio Fisher, Corey Bradley Clare",0,0,0,0,0,0,medium,,train
+SouthernCalifornia-BrMa-Neg-Gonzaga-Round-6.docx,Southern California BM,Gonzaga,6,neg,Kansas BW,L,"Walawender Vazquez Torres, Jenny Bradley Clare",0,0,0,0,0,0,medium,,train
+SouthernCalifornia-BrMa-Neg-Gonzaga-Round-8.docx,Southern California BM,Gonzaga,8,neg,Wyoming CH,W,"Hawley Joseph - ONLINE, Kyle Bradley Clare",0,0,0,0,0,0,medium,,validation
+SouthernCalifornia-TrMi-Aff-Gonzaga-Round-2.docx,Southern California TM,Gonzaga,2,aff,CSU Long Beach SS - HYBRID,W,"Saenz Makuch, Flynn Mills Jackson",0,0,0,0,0,0,medium,,train
+SouthernCalifornia-TrMi-Neg-Gonzaga-Round-1.docx,Southern California TM,Gonzaga,1,neg,Baylor DL,L,"Lassen Fisher, Corey Mills Jackson",0,0,0,0,0,0,medium,,train
+SouthernCalifornia-TrMi-Neg-Gonzaga-Round-4.docx,Southern California TM,Gonzaga,4,neg,UC Berkeley GS,W,"Gilrain-Lennon Santora - ONLINE, Jeremy Mills Jackson",0,0,0,0,0,0,medium,,train
+SouthernCalifornia-TrMi-Neg-Gonzaga-Round-6.docx,Southern California TM,Gonzaga,6,neg,Arizona State SS,W,"Saxena Namakula, Subbi Mills Jackson",0,0,0,0,0,0,medium,,train
+SouthernCalifornia-TrMi-Neg-Gonzaga-Round-7.docx,Southern California TM,Gonzaga,7,neg,Texas FL,L,"Low Murphy, Devane Mills Jackson",0,0,0,0,0,0,medium,,train
+SouthernCalifornia-VeHu-Aff-Gonzaga-University-Jesuit-Debates-Round-2.docx,Southern California HV,Gonzaga,2,aff,Wyoming CH,L,"Hawley Moore - ONLINE, Jack Vega Janet",2,2,0,0,0,0,medium,,train
+SouthernCalifornia-VeHu-Aff-Gonzaga-University-Jesuit-Debates-Round-3.docx,Southern California HV,Gonzaga,3,aff,UTD DD,L,"D'Antuono Fisher, Corey Vega Janet",2,2,0,0,0,0,medium,,train
+Stanford-LaYa-Aff-Gonzaga-University-Jesuit-Debates-Round-2.docx,Stanford LY,Gonzaga,2,aff,George Mason WW - ONLINE,W,"Wright Shaikh - ONLINE, Zahir Lai Devin",3,3,0,9,9,1263,high,,train
+Stanford-LaYa-Neg-Gonzaga-University-Jesuit-Debates-Round-1.docx,Stanford LY,Gonzaga,1,neg,Emory CS - ONLINE,L,"Stumpff Wunderlich - ONLINE, Carly Lai Devin",10,0,10,50,50,4681,high,,validation
+Stanford-LaYa-Neg-Gonzaga-University-Jesuit-Debates-Round-3.docx,Stanford LY,Gonzaga,3,neg,Wake Forest DE,W,"Elliott Repko - ONLINE, William Lai Devin",9,0,9,25,25,3898,high,,train
+Texas-FeLo-Aff-2--Gonzaga-Round-2.docx,Texas FL,Gonzaga,2,aff,Michigan ES,L,"Shetty Stupek, Johnnie Feinstein Lindsay Jade",1,1,0,9,9,603,high,,train
+Texas-FeLo-Aff-2--Gonzaga-Round-4.docx,Texas FL,Gonzaga,4,aff,Kansas HP - ONLINE,L,"Persinger Vazquez Torres, Jenny Feinstein Lindsay Jade",0,0,0,0,0,0,medium,,train
+Texas-FeLo-Aff-2--Gonzaga-Round-5.docx,Texas FL,Gonzaga,5,aff,Michigan State FM - ONLINE,W,"Martin Spiers, Jared Feinstein Lindsay Jade",4,4,0,8,8,603,high,,validation
+Texas-FeLo-Aff-2--Gonzaga-Round-7.docx,Texas FL,Gonzaga,7,aff,Southern California TM,W,"Mills Murphy, Devane Feinstein Lindsay Jade",2,2,0,0,0,0,medium,,train
+Texas-FeLo-Neg-2--Gonzaga-Round-1.docx,Texas FL,Gonzaga,1,neg,UC Berkeley GS,W,"Gilrain-Lennon Morbeck - ONLINE, Gabriel Feinstein Lindsay Jade",2,0,2,6,6,632,high,,train
+Texas-FeLo-Neg-2--Gonzaga-Round-3.docx,Texas FL,Gonzaga,3,neg,Kansas BM,W,"McConnell Fleming, Nick Feinstein Lindsay Jade",0,0,0,0,0,0,medium,,validation
+Texas-FeLo-Neg-2--Gonzaga-Round-6.docx,Texas FL,Gonzaga,6,neg,Emory LY - ONLINE,L,"Lobo Green, Justin Feinstein Lindsay Jade",0,0,0,0,0,0,medium,,train
+Texas-FeLo-Neg-2--Gonzaga-Round-8.docx,Texas FL,Gonzaga,8,neg,Kansas UA,W,"Ulven & Ain stidham - ONLINE,",0,0,0,0,0,0,medium,,validation
+Texas-GaSt-Aff-02---Gonzaga-Round-1.docx,Texas GS,Gonzaga,1,aff,Michigan State FM - ONLINE,L,"Martin Roetlin - ONLINE, Spencer Stevenson Devon",0,0,0,0,0,0,medium,,train
+Texas-GaSt-Aff-02---Gonzaga-Round-3.docx,Texas GS,Gonzaga,3,aff,Emory TS - ONLINE,W,"Tai Jensen - ONLINE, William Stevenson Devon",0,0,0,0,0,0,medium,,train
+Texas-GaSt-Aff-02---Gonzaga-Round-5.docx,Texas GS,Gonzaga,5,aff,Northwestern LW,L,"Weisz Baez, Kristiana Stevenson Devon",0,0,0,0,0,0,medium,,train
+Texas-GaSt-Aff-02---Gonzaga-Round-7.docx,Texas GS,Gonzaga,7,aff,Northwestern HP,W,"Peltier Huffman - ONLINE, Maile Stevenson Devon",0,0,0,0,0,0,medium,,train
+Texas-GaSt-Neg-02---Gonzaga-Round-2.docx,Texas GS,Gonzaga,2,neg,Iowa BS - ONLINE,L,"Sanderson Santora - ONLINE, Jeremy Stevenson Devon",1,0,1,1,1,111,high,,validation
+Texas-GaSt-Neg-02---Gonzaga-Round-4.docx,Texas GS,Gonzaga,4,neg,UTD PR,L,"Ravi Moore - ONLINE, Jack Stevenson Devon",0,0,0,0,0,0,medium,,test
+Texas-GaSt-Neg-02---Gonzaga-Round-6.docx,Texas GS,Gonzaga,6,neg,Michigan AM,L,"Moon Watson - ONLINE, Solomon Stevenson Devon",0,0,0,0,0,0,medium,,train
+Texas-GaSt-Neg-02---Gonzaga-Round-8.docx,Texas GS,Gonzaga,8,neg,Navy CR - ONLINE,L,"Connor Namakula, Subbi Stevenson Devon",0,0,0,0,0,0,medium,,test
+Trinity-CrKh-Aff-01-----Gonzaga-Round-2.docx,Trinity CK,Gonzaga,2,aff,Wichita State GM - ONLINE,L,"Griffith Schultz - ONLINE, Jim Crowley Leo",0,0,0,0,0,0,medium,,validation
+Trinity-CrKh-Aff-01-----Gonzaga-Round-3.docx,Trinity CK,Gonzaga,3,aff,Emory KW - ONLINE,L,"Kibe Ella - ONLINE, Maeve Crowley Leo",0,0,0,0,0,0,medium,,train
+Trinity-CrKh-Aff-01-----Gonzaga-Round-6.docx,Trinity CK,Gonzaga,6,aff,Wyoming CH,L,"Hawley Reza Husain - ONLINE, Irshad Crowley Leo",0,0,0,0,0,0,medium,,train
+Trinity-CrKh-Aff-01-----Gonzaga-Round-7.docx,Trinity CK,Gonzaga,7,aff,Georgetown TP,L,"Perez-Rubio Schatz - ONLINE, Joe Crowley Leo",0,0,0,0,0,0,medium,,train
+Trinity-CrKh-Neg-01-----Gonzaga-Round-1.docx,Trinity CK,Gonzaga,1,neg,Michigan State JS - ONLINE,L,"Scully Stamenkovic Diez, Nikola Crowley Leo",0,0,0,0,0,0,medium,,train
+Trinity-CrKh-Neg-01-----Gonzaga-Round-4.docx,Trinity CK,Gonzaga,4,neg,Northwestern HP,W,"Peltier Baez, Kristiana Crowley Leo",0,0,0,0,0,0,medium,,validation
+Trinity-CrKh-Neg-01-----Gonzaga-Round-5.docx,Trinity CK,Gonzaga,5,neg,Navy CR - ONLINE,W,"Connor Cooper, Deven Crowley Leo",0,0,0,0,0,0,medium,,train
+Trinity-CrKh-Neg-01-----Gonzaga-Round-8.docx,Trinity CK,Gonzaga,8,neg,Minnesota HU,L,"Haber-Fawcett & Usenov delph, kenny Crowley",0,0,0,0,0,0,medium,,train
+Trinity-KiPa-Aff-3---Gonzaga-Round-1.docx,Trinity KP,Gonzaga,1,aff,Michigan SS,L,"Shih Foley, Jordan Patterson Ruth",0,0,0,0,0,0,medium,,train
+Trinity-KiPa-Neg-3---Gonzaga-Round-3.docx,Trinity KP,Gonzaga,3,neg,Wichita State GM - ONLINE,L,"Griffith Cavanaugh - ONLINE, Ryan Patterson Ruth",2,0,2,0,0,0,medium,,train
+Trinity-KiPa-Neg-3---Gonzaga-Round-6.docx,Trinity KP,Gonzaga,6,neg,Emory CG - ONLINE,W,"Ramsey - ONLINE, Jordan Patterson Ruth",2,0,2,0,0,0,medium,,validation
+UCBerkeley-BoUr-Aff-3---Gonzaga-University-Jesuit-Debates-Round-2.docx,UC Berkeley BU,Gonzaga,2,aff,Binghamton CK,L,"King Zaidi, Kumail Urfalian Molly",1,1,0,4,4,1676,high,,train
+UCBerkeley-BoUr-Aff-3---Gonzaga-University-Jesuit-Debates-Round-4.docx,UC Berkeley BU,Gonzaga,4,aff,Michigan AM,W,"Moon Vergho, Tyler Urfalian Molly",2,2,0,0,0,0,medium,,train
+UCBerkeley-BoUr-Neg-3---Gonzaga-University-Jesuit-Debates-Round-1.docx,UC Berkeley BU,Gonzaga,1,neg,Georgetown TP,W,"Perez-Rubio Hirn, Kevin Urfalian Molly",0,0,0,0,0,0,medium,,train
+UCBerkeley-BoUr-Neg-3---Gonzaga-University-Jesuit-Debates-Round-3.docx,UC Berkeley BU,Gonzaga,3,neg,Southern California DT - ONLINE,W,"Turner Loew - ONLINE, Nick Urfalian Molly",1,0,1,5,5,1342,high,,validation
+UCBerkeley-BoUr-Neg-3---Gonzaga-University-Jesuit-Debates-Round-5.docx,UC Berkeley BU,Gonzaga,5,neg,George Mason WW - ONLINE,L,"Wright Karthikeyan - ONLINE, Viveth Urfalian Molly",3,0,3,32,32,4993,high,,train
+UCBerkeley-BoUr-Neg-3---Gonzaga-University-Jesuit-Debates-Round-7.docx,UC Berkeley BU,Gonzaga,7,neg,Georgia CK,W,"Kaidar-Heafetz Aoki, Kenji Urfalian Molly",0,0,0,0,0,0,medium,,train
+UCBerkeley-GiSi-Aff-2----Gonzaga-University-Jesuit-Debates-Round-1.docx,UC Berkeley GS,Gonzaga,1,aff,Texas FL,L,"Low Morbeck - ONLINE, Gabriel Situ Aaron",4,4,0,6,6,754,high,,train
+UCBerkeley-GiSi-Aff-2----Gonzaga-University-Jesuit-Debates-Round-6.docx,UC Berkeley GS,Gonzaga,6,aff,Emory RY _ ONLINE,L,"Young Ferguson - ONLINE, Josiah Situ Aaron",3,3,0,5,5,1258,high,,validation
+UCBerkeley-GiSi-Aff-2----Gonzaga-University-Jesuit-Debates-Round-8.docx,UC Berkeley GS,Gonzaga,8,aff,Michigan CS,W,"Saudek Rebrovick, Tripp Situ Aaron",3,3,0,3,3,300,high,,train
+UCBerkeley-GiSi-Aff-2---Gonzaga-University-Jesuit-Debates-Round-4.docx,UC Berkeley GS,Gonzaga,4,aff,Southern California TM,L,"Mills Santora - ONLINE, Jeremy Situ Aaron",3,3,0,3,3,1219,high,,train
+UCBerkeley-GiSi-Neg-2----Gonzaga-University-Jesuit-Debates-Round-7.docx,UC Berkeley GS,Gonzaga,7,neg,Michigan HM - ONLINE,W,"McIlhenny Spiers, Jared Situ Aaron",2,0,2,9,9,2470,high,,test
+UCBerkeley-GiSi-Neg-2---Gonzaga-University-Jesuit-Debates-Round-2.docx,UC Berkeley GS,Gonzaga,2,neg,Northwestern LW,W,"Weisz McCaffrey - ONLINE, Kevin Situ Aaron",1,0,1,4,4,754,high,,train
+UCBerkeley-GiSi-Neg-2---Gonzaga-University-Jesuit-Debates-Round-5.docx,UC Berkeley GS,Gonzaga,5,neg,Trinity KP,W,"King Davidson, Ari Situ Aaron",2,0,2,0,0,0,medium,,train
+UCBerkeley-MeRe-Aff-3---Gonzaga-Round-1.docx,UC Berkeley RM,Gonzaga,1,aff,Arizona State SS,W,"Saxena Spiers, Jared Menotti Emilio",0,0,0,0,0,0,medium,,train
+UCBerkeley-MeRe-Aff-3---Gonzaga-Round-3.docx,UC Berkeley RM,Gonzaga,3,aff,Harvard AB,W,"Bodet Kuffour, Julian Menotti Emilio",0,0,0,0,0,0,medium,,train
+UCBerkeley-MeRe-Aff-3---Gonzaga-Round-5.docx,UC Berkeley RM,Gonzaga,5,aff,CSU Long Beach OM,L,"Medina McGraw, Bennett Menotti Emilio",2,2,0,4,4,3253,high,,train
+UCBerkeley-MeRe-Aff-3---Gonzaga-Round-8.docx,UC Berkeley RM,Gonzaga,8,aff,UTD DD,W,"D'Antuono Williams, DJ Menotti Emilio",0,0,0,0,0,0,medium,,validation
+UCBerkeley-MeRe-Neg-3---Gonzaga-Round-2.docx,UC Berkeley RM,Gonzaga,2,neg,Kansas SL,L,"Larson Greer, Ethan Menotti Emilio",3,0,3,3,3,2217,high,,test
+UCBerkeley-MeRe-Neg-3---Gonzaga-Round-4.docx,UC Berkeley RM,Gonzaga,4,neg,Baylor DL,W,"Lassen Weideman, Joe Menotti Emilio",9,0,9,10,10,2004,high,,validation
+UCBerkeley-MeRe-Neg-3---Gonzaga-Round-6.docx,UC Berkeley RM,Gonzaga,6,neg,Wake Forest DE,W,"Elliott Trufanov, Anthony Menotti Emilio",9,0,9,24,24,4054,high,,train
+UCBerkeley-MeRe-Neg-3---Gonzaga-Round-7.docx,UC Berkeley RM,Gonzaga,7,neg,Kansas OW,L,"Owings Malsin - ONLINE, Mikaela Menotti Emilio",7,0,7,15,15,2624,high,,train
+UTD-DADi-Neg-Gonzaga-Round-2.docx,UTD DD,Gonzaga,2,neg,Arizona State SS,L,"Saxena Cooper, Deven D'Antuono Joseph-Charles",0,0,0,0,0,0,medium,,test
+UTD-DADi-Neg-Gonzaga-Round-3.docx,UTD DD,Gonzaga,3,neg,Southern California HV - ONLINE,W,"Huerto Fisher, Corey D'Antuono Joseph-Charles",0,0,0,0,0,0,medium,,test
+UTD-DADi-Neg-Gonzaga-Round-6.docx,UTD DD,Gonzaga,6,neg,Harvard AB,L,"Bodet Stannard, Matt D'Antuono Joseph-Charles",0,0,0,0,0,0,medium,,train
+UTD-HoHu-Aff-02---Gonzaga-Round-1.docx,UTD HH,Gonzaga,1,aff,Dartmouth CG,L,"Goldberg Brovero, Adrienne Humphrey Adam",7,7,0,2,2,193,high,,train
+UTD-HoHu-Aff-02---Gonzaga-Round-4.docx,UTD HH,Gonzaga,4,aff,Southern California HV - ONLINE,W,"Huerto Loew - ONLINE, Nick Humphrey Adam",4,4,0,0,0,0,medium,,train
+UTD-HoHu-Aff-02---Gonzaga-Round-5.docx,UTD HH,Gonzaga,5,aff,Georgetown TP,L,"Perez-Rubio Moore - ONLINE, Jack Humphrey Adam",4,4,0,1,1,545,high,,validation
+UTD-HoHu-Aff-02---Gonzaga-Round-7.docx,UTD HH,Gonzaga,7,aff,Wyoming WW,W,"Willson McGraw, Bennett Humphrey Adam",4,4,0,2,2,601,high,,test
+UTD-HoHu-Neg-02---Gonzaga-Round-2.docx,UTD HH,Gonzaga,2,neg,Michigan AM,L,"Moon Buntin, Jeff Humphrey Adam",8,0,8,9,9,1591,high,,train
+UTD-HoHu-Neg-02---Gonzaga-Round-3.docx,UTD HH,Gonzaga,3,neg,Dartmouth BC,L,"Carpenter Stupek, Johnnie Humphrey Adam",5,0,5,18,18,2098,high,,train
+UTD-HoHu-Neg-02---Gonzaga-Round-6.docx,UTD HH,Gonzaga,6,neg,Purdue HH - ONLINE,W,"Hansen Huffman - ONLINE, Maile Humphrey Adam",6,0,6,3,3,708,high,,train
+UTD-HoHu-Neg-02---Gonzaga-Round-8.docx,UTD HH,Gonzaga,8,neg,Wake Forest LW,W,"Wolfe Anderson - ONLINE, Ralph Humphrey Adam",2,0,2,5,5,1630,high,,train
+UTD-PeRa-Aff-04---Gonzaga-Round-1.docx,UTD PR,Gonzaga,1,aff,Wake Forest DE,W,"Elliott Buntin, Jeff Penumetcha Rahul",4,4,0,0,0,0,medium,,train
+UTD-PeRa-Aff-04---Gonzaga-Round-4.docx,UTD PR,Gonzaga,4,aff,Texas GS - ONLINE,W,"Gade Moore - ONLINE, Jack Penumetcha Rahul",1,1,0,6,6,2412,high,,validation
+UTD-PeRa-Aff-04---Gonzaga-Round-5.docx,UTD PR,Gonzaga,5,aff,Dartmouth CG,W,"Goldberg Perkins, Dallas Penumetcha Rahul",4,4,0,0,0,0,medium,,train
+UTD-PeRa-Aff-04---Gonzaga-Round-8.docx,UTD PR,Gonzaga,8,aff,Kentucky GS,W,"Slish Turner - ONLINE, John Penumetcha Rahul",4,4,0,0,0,0,medium,,validation
+UTD-PeRa-Neg-04---Gonzaga-Round-2.docx,UTD PR,Gonzaga,2,neg,Harvard AB,L,"Bodet Revare, Graham Penumetcha Rahul",4,0,4,6,6,2255,high,,train
+UTD-PeRa-Neg-04---Gonzaga-Round-3.docx,UTD PR,Gonzaga,3,neg,George Mason WW - ONLINE,L,"Wright Morbeck - ONLINE, Gabriel Penumetcha Rahul",5,0,5,13,13,2682,high,,train
+UTD-PeRa-Neg-04---Gonzaga-Round-6.docx,UTD PR,Gonzaga,6,neg,Kansas HP - ONLINE,W,"Persinger Navarrete - ONLINE, Manny Penumetcha Rahul",3,0,3,6,6,1049,high,,validation
+UTD-PeRa-Neg-04---Gonzaga-Round-7.docx,UTD PR,Gonzaga,7,neg,Emory LY - ONLINE,L,"Lobo Trufanov, Anthony Penumetcha Rahul",4,0,4,5,5,1534,high,,test
+WakeForest-DiEl-Aff-2---Gonzaga-University-Jesuit-Debates-Round-2.docx,Wake Forest DE,Gonzaga,2,aff,Michigan HM - ONLINE,W,"McIlhenny Morbeck - ONLINE, Gabriel Elliott Elizabeth",6,6,0,11,11,1651,high,,train
+WakeForest-DiEl-Aff-2---Gonzaga-University-Jesuit-Debates-Round-3.docx,Wake Forest DE,Gonzaga,3,aff,Stanford LY - ONLINE,L,"Yan Repko - ONLINE, William Elliott Elizabeth",6,6,0,9,9,2351,high,,train
+WakeForest-DiEl-Aff-2---Gonzaga-University-Jesuit-Debates-Round-6.docx,Wake Forest DE,Gonzaga,6,aff,UC Berkeley RM,L,"Reichel Trufanov, Anthony Elliott Elizabeth",9,9,0,13,13,1949,high,,train
+WakeForest-DiEl-Aff-2---Gonzaga-University-Jesuit-Debates-Round-8.docx,Wake Forest DE,Gonzaga,8,aff,Michigan BP,L,"Park Vazquez Torres, Jenny Elliott Elizabeth",5,5,0,13,13,1782,high,,test
+WakeForest-DiEl-Neg-2---Gonzaga-University-Jesuit-Debates-Round-1.docx,Wake Forest DE,Gonzaga,1,neg,UTD PR,L,"Ravi Buntin, Jeff Elliott Elizabeth",2,0,2,18,18,1976,high,,train
+WakeForest-DiEl-Neg-2---Gonzaga-University-Jesuit-Debates-Round-4.docx,Wake Forest DE,Gonzaga,4,neg,Trinity KP,W,"King Rooney, David Elliott Elizabeth",4,0,4,4,4,1041,high,,train
+WakeForest-DiEl-Neg-2---Gonzaga-University-Jesuit-Debates-Round-5.docx,Wake Forest DE,Gonzaga,5,neg,Emory RY _ ONLINE,W,"Young Martin - ONLINE, Nate Elliott Elizabeth",6,0,6,10,10,1869,high,,train
+WakeForest-DiEl-Neg-2---Gonzaga-University-Jesuit-Debates-Round-7.docx,Wake Forest DE,Gonzaga,7,neg,Emory CS - ONLINE,W,"Stumpff O'Gorman - ONLINE, Danielle Elliott Elizabeth",6,0,6,10,10,2301,high,,train
+WakeForest-HaNa-Aff-Gonzaga-University-Jesuit-Debates-Round-5.docx,Wake Forest HN,Gonzaga,5,aff,Kansas BM,W,"McConnell Namakula, Subbi Hale Destiny",0,0,0,0,0,0,medium,,train
+WakeForest-HaNa-Neg-Gonzaga-University-Jesuit-Debates-Round-1.docx,Wake Forest HN,Gonzaga,1,neg,Dartmouth JR - ONLINE,W,"Rao Jordan - ONLINE, Tommy Hale Destiny",0,0,0,0,0,0,medium,,validation
+WakeForest-HaNa-Neg-Gonzaga-University-Jesuit-Debates-Round-3.docx,Wake Forest HN,Gonzaga,3,neg,Michigan HM - ONLINE,W,"McIlhenny Anderson - ONLINE, Ralph Hale Destiny",0,0,0,0,0,0,medium,,train
+WakeForest-HaNa-Neg-Gonzaga-University-Jesuit-Debates-Round-6.docx,Wake Forest HN,Gonzaga,6,neg,Kansas SS,W,"Shaw Flores, Jay-Z Hale Destiny",1,0,1,0,0,0,medium,,test
+WakeForest-HaNa-Neg-Gonzaga-University-Jesuit-Debates-Round-7.docx,Wake Forest HN,Gonzaga,7,neg,Kansas HP - ONLINE,W,"Persinger Green, Jaysyn Hale Destiny",1,0,1,0,0,0,medium,,train
+WichitaState-GrMo-Aff-5---Gonzaga-University-Jesuit-Debates-Round-1.docx,Wichita State GM,Gonzaga,1,aff,Emory LY - ONLINE,L,"Lobo Ella - ONLINE, Maeve Molina Chavez Miguel",0,0,0,0,0,0,medium,,train
+WichitaState-GrMo-Neg-5---Gonzaga-University-Jesuit-Debates-Round-2.docx,Wichita State GM,Gonzaga,2,neg,Trinity CK - ONLINE,W,"Khalikov Schultz - ONLINE, Jim Molina Chavez Miguel",0,0,0,0,0,0,medium,,train
+WichitaState-GrMo-Neg-5---Gonzaga-University-Jesuit-Debates-Round-4.docx,Wichita State GM,Gonzaga,4,neg,Michigan State GL - ONLINE,L,"Lewis Spiers, Jared Molina Chavez Miguel",0,0,0,0,0,0,medium,,test
+WichitaState-GrMo-Neg-5---Gonzaga-University-Jesuit-Debates-Round-5.docx,Wichita State GM,Gonzaga,5,neg,Wyoming CH,W,"Campbell & Hawley delph, kenny Molina",0,0,0,0,0,0,medium,,validation
+WichitaState-GrMo-Neg-5---Gonzaga-University-Jesuit-Debates-Round-7.docx,Wichita State GM,Gonzaga,7,neg,Michigan State GS - ONLINE,L,"Shehzad Fisher, Corey Molina Chavez Miguel",1,0,1,0,0,0,medium,,validation
+Wyoming-CaHa-Aff-Gonzaga-Round-1.docx,Wyoming CH,Gonzaga,1,aff,Northwestern AT,L,"Tahirkheli Bricker, Brett Campbell Jaden",4,4,0,2,2,513,high,,train
+Wyoming-CaHa-Aff-Gonzaga-Round-4.docx,Wyoming CH,Gonzaga,4,aff,George Mason WW - ONLINE,L,"Wright Revare, Graham Campbell Jaden",3,3,0,11,11,2057,high,,train
+Wyoming-CaHa-Aff-Gonzaga-Round-5.docx,Wyoming CH,Gonzaga,5,aff,Wichita State GM - ONLINE,L,"Molina Chavez & Griffith delph, kenny",3,3,0,0,0,0,medium,,train
+Wyoming-CaHa-Aff-Gonzaga-Round-8.docx,Wyoming CH,Gonzaga,8,aff,Southern California BM,L,"Martin Joseph - ONLINE, Kyle Campbell Jaden",4,4,0,5,5,525,high,,train
+Wyoming-CaHa-Neg-Gonzaga-Round-2.docx,Wyoming CH,Gonzaga,2,neg,Southern California HV - ONLINE,W,"Huerto Moore - ONLINE, Jack Campbell Jaden",12,0,12,0,0,0,medium,,train
+Wyoming-CaHa-Neg-Gonzaga-Round-3.docx,Wyoming CH,Gonzaga,3,neg,Emory CR - ONLINE,W,"Charabuddi Channa - ONLINE, Dhruv Campbell Jaden",0,0,0,0,0,0,medium,,train
+Wyoming-CaHa-Neg-Gonzaga-Round-6.docx,Wyoming CH,Gonzaga,6,neg,Trinity CK - ONLINE,W,"Khalikov Reza Husain - ONLINE, Irshad Campbell Jaden",1,0,1,0,0,0,medium,,train
+Wyoming-CaHa-Neg-Gonzaga-Round-7.docx,Wyoming CH,Gonzaga,7,neg,Michigan State FM - ONLINE,L,"Martin Meyers-Levy - ONLINE, Dustin Campbell Jaden",2,0,2,4,4,1145,high,,train
+Wyoming-WiWi-Aff-4.-Gonzaga-Round-1.docx,Wyoming WW,Gonzaga,1,aff,Dartmouth BC,W,"Carpenter Vernon, Kc Willson Jean-Luc",0,0,0,0,0,0,medium,,validation
+Wyoming-WiWi-Aff-4.-Gonzaga-Round-4.docx,Wyoming WW,Gonzaga,4,aff,Michigan SS,L,"Shih Bankey, Brendon Willson Jean-Luc",0,0,0,0,0,0,medium,,train
+Wyoming-WiWi-Aff-4.-Gonzaga-Round-5.docx,Wyoming WW,Gonzaga,5,aff,Dartmouth JR - ONLINE,L,"Rao Dal Pra - ONLINE, Sophia Willson Jean-Luc",0,0,0,0,0,0,medium,,train
+Wyoming-WiWi-Aff-4.-Gonzaga-Round-8.docx,Wyoming WW,Gonzaga,8,aff,Harvard/Amherst SL,W,"Lourenco Wiessner - ONLINE, Max Willson Jean-Luc",0,0,0,0,0,0,medium,,train
+Wyoming-WiWi-Neg-4.-Gonzaga-Round-2.docx,Wyoming WW,Gonzaga,2,neg,Northwestern AH,W,"Hines Osei - ONLINE, Kwudjwa Willson Jean-Luc",2,0,2,0,0,0,medium,,train
+Wyoming-WiWi-Neg-4.-Gonzaga-Round-3.docx,Wyoming WW,Gonzaga,3,neg,Emory GS - ONLINE,L,"Song Williams, DJ Willson Jean-Luc",3,0,3,3,3,871,high,,train
+Wyoming-WiWi-Neg-4.-Gonzaga-Round-6.docx,Wyoming WW,Gonzaga,6,neg,Northwestern LW,L,"Weisz Gustavson, Sam Willson Jean-Luc",2,0,2,1,1,111,high,,train
+Wyoming-WiWi-Neg-4.-Gonzaga-Round-7.docx,Wyoming WW,Gonzaga,7,neg,UTD HH,L,"Hoch McGraw, Bennett Willson Jean-Luc",2,0,2,0,0,0,medium,,train

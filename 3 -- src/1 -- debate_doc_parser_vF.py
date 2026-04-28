@@ -15,11 +15,12 @@ from __future__ import annotations
 
 import argparse
 import csv
+import difflib
 import re
 import sys
 from dataclasses import dataclass, asdict
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Set, Tuple
 
 import pandas as pd
 from docx import Document
@@ -160,6 +161,67 @@ def derive_team_code_variants(raw: str) -> List[str]:
     return [v for v in variants if v]
 
 
+def normalize_filename_team_code_variants(raw: str) -> Set[str]:
+    variants = {v.upper() for v in derive_team_code_variants(raw) if v}
+    letters = "".join(ch for ch in normalize_ws(raw) if ch.isalpha())
+    if letters:
+        # Mixed-case abbreviations in filenames (e.g., CaGo -> CG).
+        mixed_case_initials = "".join(ch for ch in normalize_ws(raw) if ch.isupper())
+        if len(mixed_case_initials) >= 2:
+            variants.add(mixed_case_initials.upper())
+            variants.add(mixed_case_initials[::-1].upper())
+            variants.add((mixed_case_initials[0] + mixed_case_initials[-1]).upper())
+            variants.add((mixed_case_initials[-1] + mixed_case_initials[0]).upper())
+        if len(letters) >= 2:
+            variants.add((letters[0] + letters[-1]).upper())
+            variants.add((letters[-1] + letters[0]).upper())
+    return {v for v in variants if len(v) >= 2}
+
+
+def normalize_school_token(name: str) -> str:
+    cleaned = re.sub(r"[^a-z0-9 ]", " ", normalize_ws(name).lower())
+    cleaned = cleaned.replace("university of", " ").replace("college of", " ")
+    return normalize_ws(cleaned)
+
+
+def filename_school_variants(source_file: Optional[str]) -> Set[str]:
+    if not source_file:
+        return set()
+    stem = Path(source_file).stem
+    parts = [p for p in re.split(r"[-_]+", stem) if p]
+    if not parts:
+        return set()
+    school_raw = re.sub(r"([a-z])([A-Z])", r"\1 \2", parts[0])
+    normalized = normalize_school_token(school_raw)
+    variants = {normalized}
+    if normalized.startswith("uc "):
+        variants.add("university of california " + normalized[3:])
+    if normalized.startswith("university of california "):
+        variants.add("uc " + normalized.replace("university of california ", "", 1))
+    return {v for v in variants if v}
+
+
+def school_matches_target(candidate_school: str, target_schools: Set[str]) -> bool:
+    if not target_schools:
+        return True
+    cand = normalize_school_token(candidate_school)
+    cand_compact = re.sub(r"[^a-z0-9]", "", cand)
+    for target in target_schools:
+        tgt = normalize_school_token(target)
+        tgt_compact = re.sub(r"[^a-z0-9]", "", tgt)
+        if not tgt_compact or not cand_compact:
+            continue
+        if cand == tgt:
+            return True
+        if cand_compact == tgt_compact:
+            return True
+        if len(tgt_compact) >= 4 and (tgt_compact in cand_compact or cand_compact in tgt_compact):
+            return True
+        if len(tgt_compact) >= 3 and cand_compact.startswith(tgt_compact):
+            return True
+    return False
+
+
 def paragraphs_from_docx(docx_path: Path) -> List[Dict[str, str]]:
     doc = Document(str(docx_path))
     rows: List[Dict[str, str]] = []
@@ -276,6 +338,16 @@ def parse_round_cell(cell_text: str) -> Dict[str, Optional[str]]:
 
     m = re.match(r"^(W|L)\s+(Aff|Neg)\s+[\d.]+\s+(.+)$", s, flags=re.I)
     if not m:
+        # Handle sparse forfeit-style entries such as "-- FFT Neg (...)"
+        # that still provide side but omit standard W/L + points formatting.
+        fft_match = re.search(r"\bfft\b\s+(aff|neg)\b", s, flags=re.I)
+        if fft_match:
+            return {
+                "win_loss": "L",
+                "side_csv": fft_match.group(1).lower(),
+                "opponent_csv": None,
+                "judge": None,
+            }
         return {"win_loss": None, "side_csv": None, "opponent_csv": None, "judge": None}
 
     win_loss = m.group(1).upper()
@@ -308,6 +380,7 @@ def load_and_match_tournament_row(
     csv_path: Path,
     filename_team_code: Optional[str],
     round_number: Optional[int],
+    source_file: Optional[str] = None,
 ) -> TournamentRoundInfo:
     tournament_name = extract_tournament_name(csv_path)
     if filename_team_code is None or round_number is None:
@@ -323,21 +396,71 @@ def load_and_match_tournament_row(
             join_warning="missing_filename_team_or_round_for_join",
         )
 
-    target_variants = set()
-    for variant in derive_team_code_variants(filename_team_code):
-        target_variants.add(normalize_team_code_for_matching(f"Michigan {variant}"))
-        target_variants.add(normalize_team_code_for_matching(f"University of Michigan {variant}"))
-        target_variants.add(normalize_team_code_for_matching(variant))
-
     df = pd.read_csv(csv_path, dtype=str).fillna("")
-    matched_row = None
-    matched_team_code = None
+    target_code_variants = normalize_filename_team_code_variants(filename_team_code)
+    school_targets = filename_school_variants(source_file)
+    candidates: List[Tuple[pd.Series, str, str]] = []
     for _, row in df.iterrows():
         entry_team = parse_entry_team_code(row.get("Entry", ""))
-        if normalize_team_code_for_matching(entry_team) in target_variants:
-            matched_row = row
-            matched_team_code = entry_team
-            break
+        if not entry_team:
+            continue
+        m = re.match(r"^(.+?)\s+([A-Z]{2})$", entry_team)
+        if not m:
+            continue
+        school_norm = normalize_school_token(m.group(1))
+        code_norm = m.group(2).upper()
+        candidates.append((row, entry_team, school_norm))
+
+    matched_row = None
+    matched_team_code = None
+
+    # 1) School-aware exact matching first.
+    school_candidates = [c for c in candidates if school_matches_target(c[2], school_targets)]
+    exact_matches = []
+    for row, entry_team, _school_norm in school_candidates:
+        code = entry_team.rsplit(" ", 1)[-1].upper()
+        if code in target_code_variants:
+            exact_matches.append((row, entry_team))
+
+    if len(exact_matches) == 1:
+        matched_row, matched_team_code = exact_matches[0]
+    elif len(exact_matches) > 1:
+        return TournamentRoundInfo(
+            tournament_name=tournament_name,
+            team_code_csv=None,
+            round_number=round_number,
+            win_loss=None,
+            side_csv=None,
+            opponent_csv=None,
+            judge=None,
+            join_ok=False,
+            join_warning="ambiguous_matching_team_rows_in_tournament_csv",
+        )
+    elif school_candidates:
+        # 2) Fuzzy fallback only within school-filtered rows; reject close ties.
+        scored: List[Tuple[float, str, pd.Series, str]] = []
+        for row, entry_team, _school_norm in school_candidates:
+            code = entry_team.rsplit(" ", 1)[-1].upper()
+            best = max((difflib.SequenceMatcher(None, variant, code).ratio() for variant in target_code_variants), default=0.0)
+            scored.append((best, code, row, entry_team))
+        scored.sort(key=lambda x: x[0], reverse=True)
+        if scored and scored[0][0] >= 0.85:
+            top_score = scored[0][0]
+            second_score = scored[1][0] if len(scored) > 1 else 0.0
+            if (top_score - second_score) >= 0.08:
+                _score, _code, matched_row, matched_team_code = scored[0]
+            else:
+                return TournamentRoundInfo(
+                    tournament_name=tournament_name,
+                    team_code_csv=None,
+                    round_number=round_number,
+                    win_loss=None,
+                    side_csv=None,
+                    opponent_csv=None,
+                    judge=None,
+                    join_ok=False,
+                    join_warning="ambiguous_matching_team_rows_in_tournament_csv",
+                )
 
     if matched_row is None:
         return TournamentRoundInfo(
@@ -835,7 +958,12 @@ def main() -> int:
         if not csv_path.exists():
             print(f"ERROR: tournament csv not found: {csv_path}", file=sys.stderr)
             return 1
-        round_info = load_and_match_tournament_row(csv_path, file_meta.team_code_filename, file_meta.round_number)
+        round_info = load_and_match_tournament_row(
+            csv_path,
+            file_meta.team_code_filename,
+            file_meta.round_number,
+            source_file=file_meta.source_file,
+        )
 
     team_code = None
     if round_info and round_info.team_code_csv:

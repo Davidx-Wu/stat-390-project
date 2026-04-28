@@ -1,0 +1,18 @@
+column,dtype,non_null_count,missing_count,unique_count,group,recommendation,reason
+source_file,str,484,0,484,outcome/split/meta,exclude,file path or document identifier
+team_code,str,484,0,73,outcome/split/meta,review,metadata; encode only if justified
+tournament_name,str,484,0,1,outcome/split/meta,review,metadata; encode only if justified
+round_number,int64,484,0,8,numeric feature candidates,review,numeric metadata candidate
+side,str,484,0,2,outcome/split/meta,review,metadata; encode only if justified
+opponent,str,484,0,86,outcome/split/meta,review,metadata; encode only if justified
+win_loss,str,484,0,2,outcome/split/meta,exclude,outcome target
+judge,str,483,1,483,outcome/split/meta,review,metadata; encode only if justified
+num_positions,int64,484,0,16,numeric feature candidates,usable,structured numeric feature
+num_adv_inh_solv,int64,484,0,16,numeric feature candidates,usable,structured numeric feature
+num_offs,int64,484,0,15,numeric feature candidates,usable,structured numeric feature
+num_cards_total,int64,484,0,49,numeric feature candidates,usable,structured numeric feature
+num_cards_with_highlight,int64,484,0,49,numeric feature candidates,usable,structured numeric feature
+total_highlighted_words,int64,484,0,197,numeric feature candidates,usable,structured numeric feature
+parse_confidence,str,484,0,2,outcome/split/meta,review,metadata; encode only if justified
+warnings,float64,0,484,0,numeric feature candidates,review,numeric metadata candidate
+dataset_split,str,484,0,3,outcome/split/meta,exclude,split label

@@ -1,0 +1,8 @@
+metric,value
+train_rows,339.0
+validation_rows,73.0
+validation_accuracy,0.5753424657534246
+confusion_matrix_true_L_pred_L,11.0
+confusion_matrix_true_L_pred_W,18.0
+confusion_matrix_true_W_pred_L,13.0
+confusion_matrix_true_W_pred_W,31.0
