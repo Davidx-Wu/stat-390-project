@@ -5,14 +5,15 @@ Define build_model(), returning an sklearn-compatible estimator or Pipeline.
 """
 from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import PolynomialFeatures, StandardScaler
 
 
 def build_model():
-    """Current best baseline: v3 safe structured numeric logistic regression."""
+    """Pairwise interaction features with tuned logistic regularization."""
     return Pipeline(
         [
+            ("interactions", PolynomialFeatures(degree=2, interaction_only=True, include_bias=False)),
             ("scaler", StandardScaler()),
-            ("logistic", LogisticRegression(max_iter=1000, random_state=42)),
+            ("logistic", LogisticRegression(C=0.5, max_iter=1000, random_state=42)),
         ]
     )
