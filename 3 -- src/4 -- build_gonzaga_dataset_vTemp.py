@@ -60,8 +60,8 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "--parser-file",
-        default="debate_doc_parser.py",
-        help="Filename of the single-doc parser script",
+        default="3 -- src/1 -- debate_doc_parser_vF.py",
+        help="Path to the single-doc parser script (relative to --base-dir)",
     )
     parser.add_argument(
         "--tabroom-csv",

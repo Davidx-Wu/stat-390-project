@@ -1,0 +1,225 @@
+===== first_1 =====
+row_id: 2
+dataset_split: train
+source_text_column: argument_text_combined
+text_truncated: False
+prompt_char_length: 970
+
+You are evaluating a policy debate speech excerpt for argument quality, not predicting the winner.
+
+Do not infer from team names, school names, judge names, tournament names, or speaker identity. Score only the argument content.
+
+Evaluate the excerpt on:
+1. claim clarity
+2. warrant strength
+3. evidence quality
+4. impact quality
+5. argument clash/comparison
+6. strategic coherence
+
+Return JSON only:
+{
+  "claim_clarity": 0.0,
+  "warrant_strength": 0.0,
+  "evidence_quality": 0.0,
+  "impact_quality": 0.0,
+  "argument_clash": 0.0,
+  "strategic_coherence": 0.0,
+  "overall_argument_quality": 0.0
+}
+
+Speech excerpt:
+<<<Contribution to democratic peace theory The findings of this study contribute in several ways to our understanding of normative and institutional democratic peace theory. These explanations for the democratic peace assume that specific political structures, the formal and informal structures of liberal democracy, influence decision-makers signif...>>>
+
+===== first_2 =====
+row_id: 5
+dataset_split: validation
+source_text_column: argument_text_combined
+text_truncated: False
+prompt_char_length: 1327
+
+You are evaluating a policy debate speech excerpt for argument quality, not predicting the winner.
+
+Do not infer from team names, school names, judge names, tournament names, or speaker identity. Score only the argument content.
+
+Evaluate the excerpt on:
+1. claim clarity
+2. warrant strength
+3. evidence quality
+4. impact quality
+5. argument clash/comparison
+6. strategic coherence
+
+Return JSON only:
+{
+  "claim_clarity": 0.0,
+  "warrant_strength": 0.0,
+  "evidence_quality": 0.0,
+  "impact_quality": 0.0,
+  "argument_clash": 0.0,
+  "strategic_coherence": 0.0,
+  "overall_argument_quality": 0.0
+}
+
+Speech excerpt:
+<<<OFG CP The United States should subject the decision to substantially strengthen federal workers’ collective bargaining rights to an Office for Future Generations bound by the outcome of a deliberative mini-public that uses sortition and facilitated deliberation to assess whether that decision is in the best interest of future generations. Futur...
+
+---
+
+Independently, 'Should’ means immediate- the counterplan isn’t because it has to wait for the DMP to make a decision Summers 94 (Justice - Oklahoma Supreme Court, “Kelsey v. Dollarsaver Food Warehouse of Durant”, 1994 OK 123, 11-8, http://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=20287#marker3fn13) The legal question to be resolv...>>>
+
+===== random_seed_42_1 =====
+row_id: 90
+dataset_split: validation
+source_text_column: argument_text_combined
+text_truncated: False
+prompt_char_length: 1684
+
+You are evaluating a policy debate speech excerpt for argument quality, not predicting the winner.
+
+Do not infer from team names, school names, judge names, tournament names, or speaker identity. Score only the argument content.
+
+Evaluate the excerpt on:
+1. claim clarity
+2. warrant strength
+3. evidence quality
+4. impact quality
+5. argument clash/comparison
+6. strategic coherence
+
+Return JSON only:
+{
+  "claim_clarity": 0.0,
+  "warrant_strength": 0.0,
+  "evidence_quality": 0.0,
+  "impact_quality": 0.0,
+  "argument_clash": 0.0,
+  "strategic_coherence": 0.0,
+  "overall_argument_quality": 0.0
+}
+
+Speech excerpt:
+<<<Unions Adv !---Democracy---2AC DPT is true---their examples are cherrypicked. Michael Doyle 24. American International Relations Scholar, Professor of International Affairs, Law, and Political Science in the School of International and Public Affairs at Columbia University, former Director of the Columbia Global Policy Initiative, Co-Director of...
+
+---
+
+Labor Competition Adv T CBR AT: T - CBR---2AC Counter Interp: strengthen to make something stronger or more effective, or to become stronger or more effective: That’s Cambridge Dictionary ND [British dictionary of the English language https://dictionary.cambridge.org/us/dictionary/english/strengthen] 'Collective bargaining rights’ refers to a wo...
+
+---
+
+Unions Adv AT: DPT False---1AR Autocracies are more likely to start high-risk wars---prefer historical patterns and empirics. Dan Reiter & Allan C. Stam 22. **Samuel Candler Dobbs Professor in the Department of Political Science at Emory University, holds a Ph.D. in Political Science from the University of Michigan. **Professor of Politics and P...>>>
+
+===== random_seed_42_2 =====
+row_id: 28
+dataset_split: train
+source_text_column: argument_text_combined
+text_truncated: False
+prompt_char_length: 970
+
+You are evaluating a policy debate speech excerpt for argument quality, not predicting the winner.
+
+Do not infer from team names, school names, judge names, tournament names, or speaker identity. Score only the argument content.
+
+Evaluate the excerpt on:
+1. claim clarity
+2. warrant strength
+3. evidence quality
+4. impact quality
+5. argument clash/comparison
+6. strategic coherence
+
+Return JSON only:
+{
+  "claim_clarity": 0.0,
+  "warrant_strength": 0.0,
+  "evidence_quality": 0.0,
+  "impact_quality": 0.0,
+  "argument_clash": 0.0,
+  "strategic_coherence": 0.0,
+  "overall_argument_quality": 0.0
+}
+
+Speech excerpt:
+<<<1NC - K The theory of productive conflict and unified class struggle presumes labor’s internal position to capitalism which can only be defined by its opposition to racial slavery, necessitating the anti-Black structure of slavery Sorentino 24, Sara-Maria. Associate Professor of Gender & Race Studies at the University of Alabama. "Impossible Lab...>>>
+
+===== longest =====
+row_id: 67
+dataset_split: train
+source_text_column: argument_text_combined
+text_truncated: False
+prompt_char_length: 5087
+
+You are evaluating a policy debate speech excerpt for argument quality, not predicting the winner.
+
+Do not infer from team names, school names, judge names, tournament names, or speaker identity. Score only the argument content.
+
+Evaluate the excerpt on:
+1. claim clarity
+2. warrant strength
+3. evidence quality
+4. impact quality
+5. argument clash/comparison
+6. strategic coherence
+
+Return JSON only:
+{
+  "claim_clarity": 0.0,
+  "warrant_strength": 0.0,
+  "evidence_quality": 0.0,
+  "impact_quality": 0.0,
+  "argument_clash": 0.0,
+  "strategic_coherence": 0.0,
+  "overall_argument_quality": 0.0
+}
+
+Speech excerpt:
+<<<Cap K---1NC Labor law is a tool of capitalist discipline that precluding class consciousness. Dr. Maja Breznik 24. Researcher, Peace Institutem; Ph.D. in Sociology, University of Ljubljana; Research fellow, University of Padua; National Correspondent, European Foundation for the Improvement of Living and Working Conditions. “Less or More Labour ...
+
+---
+
+States CP---1NC The fifty states and all relevant subnational entities should strengthen collective bargaining rights for workers by refusing to recognize the federal Primary Rehabilitative Standard as a factor in determining collective bargaining rights, and state that, if preempted, the states will withhold cooperation with federal initiatives...
+
+---
+
+Enrichment CP---1NC The United States federal government should find lack of collective bargaining for workers impacted under the Primary Rehabilitative Standard is unjust enrichment.
+
+---
+
+It solves the AFF and competes. Instead of ensuring rights, the counterplan focuses on the problems of gain made by the employer. Dr. Andrew Strom 25. Adjunct professor, Brooklyn Law School. “A Roadmap for More Effective NLRB Remedies.” https://onlabor.org/trump-judge-offers-roadmap-for-more-effective-nlrb-remedies/ The Ninth Circuit recently is...
+
+---
+
+Employment Law CP---1NC The United States federal government should: --- create industry standards boards for creating a stringent set of minimum workplace conditions for workers regardless of ability, punishing corporations for unfair labor standards in violation of the Fair Labor Standards Act; --- set a $35/dollar per hour minimum wage for wo...
+
+---
+
+First Amendment DA---1NC Collective bargaining rights require forced association, violating the First Amendment. Alexander T. MacDonald 24. Shareholder & Co-Chair of the Workplace Policy Institute, Littler Mendelson P.C. "Union membership is now political. So can the government still require people to associate with a union?." Federalist Society...
+
+---
+
+Midterms DA---1NC Dems win now. Howard 10-27. Andrew Howard: Politics reporter and author of Morning Score, POLITICO’s campaign-focused newsletter; former Senior Digital Producer at POLITICO; holds degrees in journalism and political science from Arizona State University. “Why both parties think they’ll win the House.” https://www.politico.com/n...
+
+---
+
+Our impact outweighs under any moral framework. Plummer 15 - Junior Research Fellow in Philosophy at St. Anne's College, University of Oxford. They specialize in ethical theory, and are particularly interested in problems about the nature, aggregation, and distribution of well-being, the relevance of numbers in ethics, and the normative signific...
+
+---
+
+Employment Law CP Boards solve better than unions by increasing scope, efficiency, and protection. Janet Bauer 23. Master’s degree in urban studies from Portland State University, researcher at the Oregon Center for Public Policy. "Wage Boards Benefit Workers, Businesses, and the Economy." Oregon Center for Public Policy. 3/13/2023. https://www....
+
+---
+
+First Amendment DA TURNS CASE. Free speech is the fundamental distinction from totalitarianism. Jennifer Cook Purcell 24. An attorney practicing in Texas, 5-6-2024, "How Does the First Amendment Right of Free Speech Intersect with Democracy?", American Bar Association, https://www.americanbar.org/groups/public_interest/election_law/american-demo...
+
+---
+
+Enrichment CP Capitalism transgresses PLANETARY BOUNDARIES. Michael Albert 24. Lecturer in Global Environmental Politics, University of Edinburgh. “The Planetary Polycrisis.” Navigating the Polycrisis: Mapping the Futures of Capitalism and the Earth, Chapter 1. We begin with the earth system crisis, which refers to the rapid (in geological time)...
+
+---
+
+Midterms DA 'Collective bargaining rights.’ Thomas Waterman 19, Justice, Supreme Court of Iowa, "AFSCME Iowa Council 61 v. State," No. 17-1841, 05/17/2019 "We reiterate that the scope of collective bargaining rights of public employees "is a matter for the legislature, not the courts." State Bd. of Regents v. United Packing House Food & Allied W...
+
+---
+
+K Turns the case: growth ensures monopolies and welfare effects that maximize economic inequality and purchasing power. Giammario Impullitti & Pontus Rendahl 25. *Professor in the School of Economics at the University of Nottingham. **Professor of Economics at Copenhagen Business School. "Why Rising Markups Hurt Innovation and Widen Inequality."...>>>
+

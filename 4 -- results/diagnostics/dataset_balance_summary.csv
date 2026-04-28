@@ -1,0 +1,5 @@
+group_type,group,W,L,total_speeches,win_rate
+overall,overall,249,235,484,0.5144628099173554
+dataset_split,test,23,49,72,0.3194444444444444
+dataset_split,train,182,157,339,0.5368731563421829
+dataset_split,validation,44,29,73,0.6027397260273972

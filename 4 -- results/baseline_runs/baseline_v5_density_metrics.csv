@@ -1,0 +1,12 @@
+metric,value
+train_rows,339
+validation_rows,73
+validation_accuracy,0.4520547945205479
+majority_class_validation_baseline,0.6027397260273972
+majority_class_label,W
+v3_validation_accuracy,0.6164383561643836
+v5_minus_v3_validation_accuracy,-0.16438356164383566
+confusion_matrix_true_L_pred_L,10
+confusion_matrix_true_L_pred_W,19
+confusion_matrix_true_W_pred_L,21
+confusion_matrix_true_W_pred_W,23
