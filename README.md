@@ -44,6 +44,34 @@ Secondary metrics may include F1, precision, and recall. Comparisons between bas
 
 Baseline-related files that are **currently checked in** live under **`4 -- results/1 -- Baseline Model/`** (for example speech summaries, rankings inputs, predictions, coefficients, run logs, and parser failure logs). Treat them as **committed artifacts**, not as a guarantee of what you last ran locally—**re-run** the baseline script from the correct working directory if you need fresh outputs.
 
+### Latest Gonzaga rebuild snapshot (2026-04-27)
+
+- Documents processed: **515**
+- Successful parser runs: **514**
+- `speech_summary_all.csv` rows: **484**
+- Failed files: **1**
+- End-to-end runtime: **~1.5 hours**
+
+See `5 -- logs/build_runs/gonzaga_build_2026_04_27.md` for the run note and `5 -- logs/failure_log.md` for the remaining failed file context.
+
+### Dataset diagnostics snapshot
+
+Dataset diagnostics were implemented and verified for `4 -- results/processed_datasets/gonzaga_speech_dataset_v1.csv`.
+
+Fields used:
+
+- `win_loss`
+- `team_code`
+- `round_number`
+- `num_cards_total`
+
+Generated outputs live under `4 -- results/diagnostics/`:
+
+- `win_loss_distribution.png`
+- `speeches_per_round.png`
+- `speeches_per_team.png`
+- `card_count_distribution.png`
+
 ### Repository structure
 
 Numbered folders are intentional; paths often contain spaces, so quote them in shells.
