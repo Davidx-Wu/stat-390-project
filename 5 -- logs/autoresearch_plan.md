@@ -126,5 +126,27 @@ Build baseline v3 using all safe structured numeric features from the processed 
   - `argument_text_truncated`
 - Note: v1 was not overwritten. No model was trained from v2 yet.
 
+## Shirley Ranking Strength Analysis
+- Status: completed.
+- Ranking file: `1 -- data/raw/9 -- Build Gonzaga Dataset/gonzaga_dataset_output/Shirley_Rankings.csv`.
+- Ranking columns used: `Place` as rank/seed, with lower `Place` meaning stronger; team codes derived from `School` plus debater initials from `Entry`.
+- In-memory joined columns: `team_rank`, `opponent_rank`, `rank_diff`.
+- Interpretation: `rank_diff = opponent_rank - team_rank`; positive means the current team is stronger.
+- Train/validation rows: **412**.
+- `team_rank` matched: **287**.
+- `opponent_rank` matched: **276**.
+- non-null `rank_diff`: **193**.
+- Full validation results:
+  - arguments only, all validation rows: accuracy **0.6438**, majority baseline **0.6027**, validation rows **73**.
+  - rank only, non-null rank rows: accuracy **0.6471**, majority baseline **0.6765**, validation rows **34**, `rank_diff` coefficient **1.7353**.
+  - arguments + `rank_diff`, non-null rank rows: accuracy **0.6471**, majority baseline **0.6765**, validation rows **34**, main `rank_diff` coefficient **1.2857**.
+- Close-match results:
+  - `abs(rank_diff) <= 5`: only **2** validation rows; all models accuracy **0.5000**, majority baseline **1.0000**.
+  - `abs(rank_diff) <= 10`: **7** validation rows; all models accuracy **0.5714**, majority baseline **0.5714**.
+- Interpretation: this validation slice is too small to show that argument features matter more among similarly ranked teams. Adding argument features did not improve over rank-only in the close-match subsets.
+- Outputs:
+  - `debate-autoresearch/ranking_strength_results.tsv`
+  - `debate-autoresearch/ranking_strength_close_match_results.tsv`
+
 ## Citation-Year Feature Note
 Citation-year feature experiment was attempted, but no citation/year columns exist in the processed dataset, so the experiment was removed as non-informative. Future work requires parser support for citation-year extraction.
