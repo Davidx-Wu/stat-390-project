@@ -15,6 +15,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 BASE_DIR = Path(__file__).resolve().parent
 REPO = BASE_DIR.parent
 DATA_PATH = REPO / "4 -- results" / "processed_datasets" / "gonzaga_speech_dataset_v2_with_text.csv"
+RANKINGS_PATH = REPO / "1 -- data" / "raw" / "9 -- Build Gonzaga Dataset" / "gonzaga_dataset_output" / "Shirley_Rankings.csv"
 RESULTS_FILE = BASE_DIR / "results.tsv"
 PERFORMANCE_PNG = BASE_DIR / "performance.png"
 
@@ -31,15 +32,59 @@ ALLOWED_FEATURE_COLUMNS = [
     "num_cards_with_highlight",
     "total_highlighted_words",
 ]
+RANK_FEATURE_COLUMNS = ALLOWED_FEATURE_COLUMNS + ["rank_diff"]
 
 
 def encode_target(series):
     return series.map({"L": 0, "W": 1})
 
 
+def entry_initials(entry):
+    parts = [part.strip() for part in str(entry).split("&")]
+    initials = [part[0].upper() for part in parts if part]
+    return "".join(initials)
+
+
+def normalize_team_code(value):
+    text = str(value).replace(" - ONLINE", "").strip()
+    return " ".join(text.split())
+
+
+def load_rankings():
+    rankings = pd.read_csv(RANKINGS_PATH)
+    rankings["team_code"] = rankings["School"].astype(str).str.strip() + " " + rankings["Entry"].map(entry_initials)
+    rankings["team_code"] = rankings["team_code"].map(normalize_team_code)
+    return rankings[["team_code", "Place"]].rename(columns={"Place": "team_rank"})
+
+
+def add_rank_features(df):
+    rankings = load_rankings()
+    output = df.copy()
+    output["team_code_normalized"] = output["team_code"].map(normalize_team_code)
+    output["opponent_code_normalized"] = output["opponent"].map(normalize_team_code)
+
+    output = output.merge(
+        rankings,
+        left_on="team_code_normalized",
+        right_on="team_code",
+        how="left",
+        suffixes=("", "_ranking"),
+    ).drop(columns=["team_code_ranking"])
+
+    opponent_rankings = rankings.rename(columns={"team_code": "opponent_code_normalized", "team_rank": "opponent_rank"})
+    output = output.merge(opponent_rankings, on="opponent_code_normalized", how="left")
+    output["rank_diff"] = output["opponent_rank"] - output["team_rank"]
+    return output
+
+
+def load_ranked_dataframe():
+    """Load v2 with Shirley ranking controls joined in-memory."""
+    return add_rank_features(pd.read_csv(DATA_PATH))
+
+
 def load_data():
     """Load v2 and return train/validation matrices using frozen safe features."""
-    df = pd.read_csv(DATA_PATH)
+    df = load_ranked_dataframe()
     train_df = df[df[SPLIT_COL] == TRAIN_SPLIT].copy()
     val_df = df[df[SPLIT_COL] == VALIDATION_SPLIT].copy()
 

@@ -1,0 +1,4 @@
+model	eval_scope	validation_rows	validation_accuracy	majority_baseline	true_L_pred_L	true_L_pred_W	true_W_pred_L	true_W_pred_W	rank_diff_coefficient
+arguments_only	all validation rows	73	0.6438356164383562	0.6027397260273972	9	20	6	38	
+rank_only	non-null rank_diff validation rows	34	0.6470588235294118	0.6764705882352942	8	3	9	14	1.7352632371247403
+arguments_plus_rank_diff	non-null rank_diff validation rows	34	0.6470588235294118	0.6764705882352942	7	4	8	15	1.2857139006099538

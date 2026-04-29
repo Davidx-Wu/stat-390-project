@@ -62,3 +62,18 @@ Performance plot:
 ```text
 debate-autoresearch/performance.png
 ```
+
+Ranking-strength analysis outputs:
+
+```text
+debate-autoresearch/ranking_strength_results.tsv
+debate-autoresearch/ranking_strength_close_match_results.tsv
+```
+
+The Shirley ranking helper joins `team_rank`, `opponent_rank`, and `rank_diff` in memory from:
+
+```text
+1 -- data/raw/9 -- Build Gonzaga Dataset/gonzaga_dataset_output/Shirley_Rankings.csv
+```
+
+`rank_diff = opponent_rank - team_rank`, so positive values mean the current team is stronger.

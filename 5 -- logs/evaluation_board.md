@@ -33,7 +33,7 @@
 - Citation-year feature experiment was attempted, but no citation/year columns exist in the processed dataset, so the experiment was removed as non-informative. Future work requires parser support for citation-year extraction.
 
 ## Current Best
-- Current best validation result is baseline v3 structured numeric logistic regression, with validation accuracy **0.6164**.
+- Current best validation result from the debate AutoResearch loop is interaction-only degree-2 logistic regression with `C=0.5`, with validation accuracy **0.6438**.
 
 ## Dataset Diagnostics
 - Implemented and verified for `4 -- results/processed_datasets/gonzaga_speech_dataset_v1.csv`.
@@ -52,6 +52,16 @@
   - rows missing both text sources: **108**
   - new text columns: `card_text_combined`, `argument_text_combined`
   - new audit count columns: `card_count_from_audit`, `argument_count_from_audit`
+- Shirley ranking strength analysis completed:
+  - ranking file: `1 -- data/raw/9 -- Build Gonzaga Dataset/gonzaga_dataset_output/Shirley_Rankings.csv`
+  - rank feature: `rank_diff = opponent_rank - team_rank`
+  - train/validation rows: **412**
+  - `team_rank` matched: **287**
+  - `opponent_rank` matched: **276**
+  - non-null `rank_diff`: **193**
+  - full validation: arguments only accuracy **0.6438** on 73 rows; rank only accuracy **0.6471** on 34 rank-matched rows; arguments + rank accuracy **0.6471** on 34 rank-matched rows
+  - close validation subsets were very small: **2** rows for `abs(rank_diff) <= 5`, **7** rows for `abs(rank_diff) <= 10`
+  - outputs: `debate-autoresearch/ranking_strength_results.tsv`, `debate-autoresearch/ranking_strength_close_match_results.tsv`
 
 ## Metric
 - Round outcome prediction accuracy
@@ -63,3 +73,4 @@
 - Baseline v5 did not use the test split and did not improve over v3.
 - Baseline v6 LLM features could not be trained because the processed dataset does not include speech/card text.
 - Text-enriched v2 was built from audit files without overwriting v1; no model has been trained on v2 yet.
+- Shirley rank close-match subsets are too small to support a strong claim that argument features matter more among similarly ranked teams.

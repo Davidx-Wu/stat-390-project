@@ -1,0 +1,7 @@
+threshold	model	validation_rows	validation_accuracy	majority_baseline	true_L_pred_L	true_L_pred_W	true_W_pred_L	true_W_pred_W	rank_diff_coefficient	arguments_improve_over_rank_only	arguments_plus_rank_improves_over_rank_only
+5	arguments_only	2	0.5	1.0	1	1	0	0		False	False
+5	rank_only	2	0.5	1.0	1	1	0	0	1.7352632371247403	False	False
+5	arguments_plus_rank_diff	2	0.5	1.0	1	1	0	0	1.2857139006099538	False	False
+10	arguments_only	7	0.5714285714285714	0.5714285714285714	1	2	1	3		False	False
+10	rank_only	7	0.5714285714285714	0.5714285714285714	2	1	2	2	1.7352632371247403	False	False
+10	arguments_plus_rank_diff	7	0.5714285714285714	0.5714285714285714	2	1	2	2	1.2857139006099538	False	False

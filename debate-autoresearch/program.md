@@ -51,4 +51,5 @@ Each experiment must run under 60 seconds.
 - Interaction features.
 - sklearn tree ensembles.
 - Calibrated linear models.
+- Shirley ranking controls through `rank_diff`, when explicitly requested.
 - Later: LLM feature columns if available.
