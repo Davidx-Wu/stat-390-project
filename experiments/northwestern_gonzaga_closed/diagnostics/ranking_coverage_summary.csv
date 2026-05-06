@@ -1,0 +1,4 @@
+unit,rows,lookup_rows,leakage_risk,leakage_indicators,team_rank_non_null,opponent_rank_non_null,rank_diff_non_null,validation_rank_diff_non_null,aff_rank_non_null,neg_rank_non_null
+ranking_file,138,138.0,high_post_tournament_result_file,"WinPm, PtsPm -1HL, PtsPm, Pts -2HL, OSd, Ballots",,,,,,
+speech_all,1082,,,,711.0,650.0,444.0,71.0,,
+paired_all,373,,,,,,160.0,25.0,239.0,242.0

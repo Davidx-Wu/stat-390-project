@@ -1,0 +1,2 @@
+source_file,team_code,tournament_name,round_number,side,opponent,win_loss,judge,num_positions,num_adv_inh_solv,num_offs,num_cards_total,num_cards_with_highlight,total_highlighted_words,parse_confidence,warnings,tournament_source
+MichiganState-JaSc-Neg-1---Northwestern-Round-4.docx,Michigan State JS,Northwestern,4,neg,Kansas SC,W,"Chidambaranathan Fleming, Nick Jarman Zaria",5,0,5,5,5,549,high,,Northwestern

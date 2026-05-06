@@ -1,0 +1,74 @@
+row_id,source_file,team_code,opponent,round_number,side,actual_outcome,predicted_outcome,predicted_win_probability,error_type,num_positions,num_adv_inh_solv,num_offs,num_cards_total,num_cards_with_highlight,total_highlighted_words
+1,ArizonaState-SaSm-Neg-3---Gonzaga-Round-4.docx,Arizona State SS,Georgia CK,4,neg,L,W,0.503664465306755,false_positive,0,0,0,0,0,0
+5,Baylor-DaLa-Neg-Gonzaga-Round-3.docx,Baylor DL,Northwestern LR,3,neg,L,L,0.4960928170609088,correct,2,0,2,7,7,2317
+10,CSULongBeach-OrMe-Aff-04---Operation_-Gonzigga-(Gonzaga-University-Jesuit-Debates)-Round-8.docx,CSU Long Beach OM,Michigan State JS - ONLINE,8,aff,W,W,0.5114942071062196,correct,1,1,0,0,0,0
+13,CSULongBeach-OrMe-Neg-04---Operation_-Gonzigga-(Gonzaga-University-Jesuit-Debates)-Round-5.docx,CSU Long Beach OM,UC Berkeley RM,5,neg,W,W,0.503664465306755,correct,0,0,0,0,0,0
+21,DartmouthCollege-CaGo-Neg-4---Gonzaga-Round-5.docx,Dartmouth CG,UTD PR,5,neg,L,W,0.6547023112767398,false_positive,6,0,6,1,1,1801
+39,Emory-CrSt-Aff-Gonzaga-Round-1.docx,Emory CS,Stanford LY - ONLINE,1,aff,W,W,0.5193183127792861,correct,2,2,0,0,0,0
+63,Emory-LoYa-Aff-03---Gonzaga-Round-7.docx,Emory LY,UTD PR,7,aff,W,L,0.48257939702586705,false_negative,4,4,0,2,2,1313
+65,Emory-LoYa-Neg-03---Gonzaga-Round-3.docx,Emory LY,Michigan BP,3,neg,L,W,0.6776853571303043,false_positive,13,0,13,0,0,0
+69,Emory-RuYo-Aff-3.-Gonzaga-Round-3.docx,Emory RY,Minnesota HU,3,aff,W,W,0.5095790893944181,correct,10,10,0,5,5,1349
+71,Emory-RuYo-Aff-3.-Gonzaga-Round-8.docx,Emory RY,Iowa PA - ONLINE,8,aff,L,W,0.5114942071062196,false_positive,1,1,0,0,0,0
+74,Emory-RuYo-Neg-3.-Gonzaga-Round-7.docx,Emory RY,Harvard AB,7,neg,W,W,0.5731828772375434,correct,5,0,5,0,0,0
+78,Emory-StTa-Neg-Gonzaga-Round-1.docx,Emory TS,Iowa PA - ONLINE,1,neg,L,W,0.503664465306755,false_positive,0,0,0,0,0,0
+85,Emory-WaKi-Aff-Gonzaga-University-Jesuit-Debates-Round-8.docx,Emory KW,Michigan HM - ONLINE,8,aff,L,W,0.534934324775436,false_positive,4,4,0,0,0,0
+87,Emory-WaKi-Neg-Gonzaga-University-Jesuit-Debates-Round-3.docx,Emory KW,Trinity CK - ONLINE,3,neg,W,W,0.503664465306755,correct,0,0,0,0,0,0
+90,GeorgeMason-WrWi-Aff-4---Gonzaga-Round-3.docx,George Mason WW,UTD PR,3,aff,W,W,0.5167555370975012,correct,3,3,0,1,1,248
+99,Georgetown-AgCo-Aff-04---Gonzaga-Round-6.docx,Georgetown AC,Wake Forest AB,6,aff,W,W,0.5114942071062196,correct,1,1,0,0,0,0
+103,Georgetown-AgCo-Neg-04---Gonzaga-Round-5.docx,Georgetown AC,Michigan CS,5,neg,W,W,0.5793729730070059,correct,6,0,6,1,1,34
+106,Georgetown-LaNa-Aff-03---Gonzaga-Round-4.docx,Georgetown LN,Gonzaga WR,4,aff,W,W,0.5114942071062196,correct,1,1,0,0,0,0
+111,Georgetown-LaNa-Neg-03---Gonzaga-Round-6.docx,Georgetown LN,Emory KW - ONLINE,6,neg,W,W,0.6137170413815622,correct,8,0,8,0,0,0
+114,Georgetown-PeTa-Aff-01---Jesuit-Debates-@-Gonzaga-University-Round-4.docx,Georgetown TP,Southern California BM,4,aff,L,W,0.503664465306755,false_positive,0,0,0,0,0,0
+116,Georgetown-PeTa-Aff-01---Jesuit-Debates-@-Gonzaga-University-Round-8.docx,Georgetown TP,Harvard AB,8,aff,L,W,0.503664465306755,false_positive,0,0,0,0,0,0
+117,Georgia-KaCh-Aff-3---Gonzaga-Round-2.docx,Georgia CK,Northwestern HP,2,aff,W,W,0.503664465306755,correct,0,0,0,0,0,0
+123,Gonzaga-WeRo-Neg-Gonzaga!-Round-2.docx,Gonzaga WR,Michigan BP,2,neg,L,W,0.5229707280713348,false_positive,2,0,2,1,1,599
+125,Gonzaga-WeRo-Neg-Gonzaga!-Round-6.docx,Gonzaga WR,Iowa BS - ONLINE,6,neg,W,W,0.503664465306755,correct,0,0,0,0,0,0
+142,Iowa-KlSe-Neg-3.-Gonzaga-University-Jesuit-Debates-Round-4.docx,Iowa SK,Navy CR - ONLINE,4,neg,W,W,0.5262787353058429,correct,2,0,2,1,1,270
+157,Kansas-AiUl-Neg-3.-Gonzaga-Round-3.docx,Kansas UA,Michigan CS,3,neg,W,W,0.6345099191971938,correct,7,0,7,2,2,975
+170,Kansas-BrWa-Neg-3---Gonzaga-Round-5.docx,Kansas BW,Georgetown LN,5,neg,W,W,0.6137170413815622,correct,8,0,8,0,0,0
+177,Kansas-OwWi-Aff-3---Gonzaga-Round-4.docx,Kansas OW,Southern California RB,4,aff,L,W,0.558221144067711,false_positive,7,7,0,0,0,0
+187,Kentucky-GaSl-Aff-Gonzaga-Round-7.docx,Kentucky GS,Michigan CC,7,aff,L,L,0.4548726564934178,correct,5,5,0,3,3,2188
+188,Kentucky-GaSl-Neg-Gonzaga-Round-2.docx,Kentucky GS,Wake Forest LW,2,neg,L,L,0.4980072489247943,correct,1,0,1,2,2,750
+189,Kentucky-GaSl-Neg-Gonzaga-Round-4.docx,Kentucky GS,Wake Forest HN - ONLINE,4,neg,W,W,0.5169731714720929,correct,2,0,2,1,1,1195
+199,Michigan-BaPa-Aff-Gonzaga-Round-5.docx,Michigan BP,Kansas SL,5,aff,L,W,0.6491936443463104,false_positive,9,9,0,63,63,6333
+206,Michigan-ChCh-Aff-3---Gonzaga-Round-4.docx,Michigan CC,Binghamton CK,4,aff,L,L,0.43137986926571775,correct,2,2,0,22,22,3917
+209,Michigan-ChCh-Neg-3---Gonzaga-Round-2.docx,Michigan CC,Kansas OW,2,neg,W,W,0.5285605312487904,correct,4,0,4,11,11,994
+218,Michigan-ChSa-Neg-3---Gonzaga-Round-6.docx,Michigan CS,Iowa SK - ONLINE,6,neg,L,L,0.4841817722445456,correct,1,0,1,12,12,1727
+220,Michigan-EsSh-Aff-Gonzaga-Round-1.docx,Michigan ES,Northwestern LW,1,aff,W,W,0.7089478416114224,correct,5,5,0,55,55,4060
+221,Michigan-EsSh-Aff-Gonzaga-Round-4.docx,Michigan ES,Kansas SL,4,aff,L,L,0.4769367743930108,correct,12,12,0,44,44,3801
+223,Michigan-EsSh-Aff-Gonzaga-Round-8.docx,Michigan ES,Emory GS - ONLINE,8,aff,L,W,0.6931844336676287,false_positive,8,8,0,60,60,4555
+224,Michigan-EsSh-Neg-Gonzaga-Round-2.docx,Michigan ES,Texas FL,2,neg,W,W,0.5283156835776863,correct,4,0,4,13,13,1258
+266,MichiganState-FoMa-Neg-04---Gonzaga-Round-5.docx,Michigan State FM,Texas FL,5,neg,L,W,0.7081235023253504,false_positive,12,0,12,3,3,827
+274,MichiganState-GuLe-Aff-Gonzaga-Round-1.docx,Michigan State GL,Southern California DT - ONLINE,1,aff,W,W,0.5310895705085055,correct,6,6,0,1,1,446
+277,MichiganState-GuLe-Aff-Gonzaga-Round-8.docx,Michigan State GL,Northwestern LR,8,aff,L,L,0.44501317447539374,correct,5,5,0,3,3,2452
+278,MichiganState-GuLe-Neg-Gonzaga-Round-2.docx,Michigan State GL,Iowa EW - ONLINE,2,neg,W,W,0.5902230539129553,correct,5,0,5,1,1,799
+301,Northwestern-ArHi-Neg-01---Gonzaga-Round-1.docx,Northwestern AH,Kentucky RW,1,neg,L,W,0.5316412975131326,false_positive,2,0,2,0,0,0
+329,Northwestern-LuLe-Aff-03---Gonzaga-Round-2.docx,Northwestern LL,Harvard/Amherst SL,2,aff,W,W,0.534934324775436,correct,4,4,0,0,0,0
+332,Northwestern-LuLe-Neg-03---Gonzaga-Round-1.docx,Northwestern LL,Kentucky GS,1,neg,L,W,0.600350469333731,false_positive,7,0,7,0,0,0
+339,Northwestern-NePa-Aff-2---Gonzaga-Round-7.docx,Northwestern NP,Michigan State GL - ONLINE,7,aff,L,W,0.503664465306755,false_positive,0,0,0,0,0,0
+347,Northwestern-RuLi-Aff-03---Gonzaga-Round-7.docx,Northwestern LR,Michigan ES,7,aff,W,W,0.5888595929687431,correct,11,11,0,0,0,0
+349,Northwestern-RuLi-Neg-03---Gonzaga-Round-4.docx,Northwestern LR,Georgetown AC,4,neg,W,W,0.6079241881143079,correct,9,0,9,6,6,693
+351,Northwestern-RuLi-Neg-03---Gonzaga-Round-8.docx,Northwestern LR,Michigan State GL - ONLINE,8,neg,W,W,0.600350469333731,correct,7,0,7,0,0,0
+359,Purdue-HaHa-Neg-1---Gonzaga-Round-8.docx,Purdue HH,Northwestern HP,8,neg,W,W,0.5488074980592417,correct,4,0,4,8,8,1607
+368,SouthernCalifornia-BrMa-Aff-Gonzaga-Round-7.docx,Southern California BM,Minnesota HU,7,aff,W,W,0.5193183127792861,correct,2,2,0,0,0,0
+372,SouthernCalifornia-BrMa-Neg-Gonzaga-Round-8.docx,Southern California BM,Wyoming CH,8,neg,W,W,0.503664465306755,correct,0,0,0,0,0,0
+381,Stanford-LaYa-Neg-Gonzaga-University-Jesuit-Debates-Round-1.docx,Stanford LY,Emory CS - ONLINE,1,neg,L,W,0.6885268395797423,false_positive,10,0,10,50,50,4681
+385,Texas-FeLo-Aff-2--Gonzaga-Round-5.docx,Texas FL,Michigan State FM - ONLINE,5,aff,W,W,0.507991127480569,correct,4,4,0,8,8,603
+388,Texas-FeLo-Neg-2--Gonzaga-Round-3.docx,Texas FL,Kansas BM,3,neg,W,W,0.503664465306755,correct,0,0,0,0,0,0
+390,Texas-FeLo-Neg-2--Gonzaga-Round-8.docx,Texas FL,Kansas UA,8,neg,W,W,0.503664465306755,correct,0,0,0,0,0,0
+395,Texas-GaSt-Neg-02---Gonzaga-Round-2.docx,Texas GS,Iowa BS - ONLINE,2,neg,L,W,0.5139954348040507,false_positive,1,0,1,1,1,111
+399,Trinity-CrKh-Aff-01-----Gonzaga-Round-2.docx,Trinity CK,Wichita State GM - ONLINE,2,aff,L,W,0.503664465306755,false_positive,0,0,0,0,0,0
+404,Trinity-CrKh-Neg-01-----Gonzaga-Round-4.docx,Trinity CK,Northwestern HP,4,neg,W,W,0.503664465306755,correct,0,0,0,0,0,0
+409,Trinity-KiPa-Neg-3---Gonzaga-Round-6.docx,Trinity KP,Emory CG - ONLINE,6,neg,W,W,0.5316412975131326,correct,2,0,2,0,0,0
+413,UCBerkeley-BoUr-Neg-3---Gonzaga-University-Jesuit-Debates-Round-3.docx,UC Berkeley BU,Southern California DT - ONLINE,3,neg,W,L,0.48353070598347303,false_negative,1,0,1,5,5,1342
+417,UCBerkeley-GiSi-Aff-2----Gonzaga-University-Jesuit-Debates-Round-6.docx,UC Berkeley GS,Emory RY _ ONLINE,6,aff,L,L,0.4775435196952303,correct,3,3,0,5,5,1258
+426,UCBerkeley-MeRe-Aff-3---Gonzaga-Round-8.docx,UC Berkeley RM,UTD DD,8,aff,W,W,0.503664465306755,correct,0,0,0,0,0,0
+428,UCBerkeley-MeRe-Neg-3---Gonzaga-Round-4.docx,UC Berkeley RM,Baylor DL,4,neg,W,W,0.6689999448679649,correct,9,0,9,10,10,2004
+436,UTD-HoHu-Aff-02---Gonzaga-Round-5.docx,UTD HH,Georgetown TP,5,aff,L,W,0.5128336131096842,false_positive,4,4,0,1,1,545
+443,UTD-PeRa-Aff-04---Gonzaga-Round-4.docx,UTD PR,Texas GS - ONLINE,4,aff,W,L,0.42598367305168117,false_negative,1,1,0,6,6,2412
+445,UTD-PeRa-Aff-04---Gonzaga-Round-8.docx,UTD PR,Kentucky GS,8,aff,W,W,0.534934324775436,correct,4,4,0,0,0,0
+448,UTD-PeRa-Neg-04---Gonzaga-Round-6.docx,UTD PR,Kansas HP - ONLINE,6,neg,W,W,0.5283652397179572,correct,3,0,3,6,6,1049
+459,WakeForest-HaNa-Neg-Gonzaga-University-Jesuit-Debates-Round-1.docx,Wake Forest HN,Dartmouth JR - ONLINE,1,neg,W,W,0.503664465306755,correct,0,0,0,0,0,0
+466,WichitaState-GrMo-Neg-5---Gonzaga-University-Jesuit-Debates-Round-5.docx,Wichita State GM,Wyoming CH,5,neg,W,W,0.503664465306755,correct,0,0,0,0,0,0
+467,WichitaState-GrMo-Neg-5---Gonzaga-University-Jesuit-Debates-Round-7.docx,Wichita State GM,Michigan State GS - ONLINE,7,neg,L,W,0.5176667264836179,false_positive,1,0,1,0,0,0
+476,Wyoming-WiWi-Aff-4.-Gonzaga-Round-1.docx,Wyoming WW,Dartmouth BC,1,aff,W,W,0.503664465306755,correct,0,0,0,0,0,0

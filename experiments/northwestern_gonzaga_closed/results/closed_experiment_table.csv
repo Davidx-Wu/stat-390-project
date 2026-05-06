@@ -1,0 +1,7 @@
+experiment_name,features_used,model,validation_accuracy,validation_rows
+majority_baseline,none,majority_class=W,0.5185185185185185,162
+structured_logistic,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words","Pipeline(steps=[('scaler', StandardScaler()),
+                ('model', LogisticRegression(max_iter=1000, random_state=42))])",0.5308641975308642,162
+manual_interaction_logistic,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words, num_offs_x_num_cards_total, num_offs_x_total_highlighted_words, num_cards_total_x_num_cards_with_highlight, num_positions_x_num_cards_total, num_adv_inh_solv_x_num_cards_total","Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5246913580246914,162

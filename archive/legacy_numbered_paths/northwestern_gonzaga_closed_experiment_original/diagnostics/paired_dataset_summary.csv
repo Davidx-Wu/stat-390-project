@@ -1,0 +1,11 @@
+metric,value
+speech_rows_input,1082
+candidate_match_groups,704
+paired_rounds_created,373
+dropped_missing_side_groups,331
+dropped_inconsistent_outcome_groups,0
+duplicate_side_groups,5
+split_source,new_pair_level_split_random_state_42
+split_counts,"{'train': 261, 'validation': 56, 'test': 56}"
+tournament_counts,"{'Northwestern': 203, 'Gonzaga': 170}"
+aff_win_label_counts,"{0: 203, 1: 170}"

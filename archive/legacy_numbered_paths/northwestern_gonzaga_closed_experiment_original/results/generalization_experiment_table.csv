@@ -1,0 +1,39 @@
+experiment_name,feature_set,features_used,tournament_setting,model,validation_accuracy,validation_rows,true_L_pred_L,true_L_pred_W,true_W_pred_L,true_W_pred_W,false_positive_count,false_negative_count,interpretation
+raw_only_logistic,raw_only,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words",closed train -> closed validation,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5308641975308642,162,26,52,24,60,52,24,matches raw baseline
+z_normalized_only_logistic,z_normalized_only,"num_positions_tournament_z, num_adv_inh_solv_tournament_z, num_offs_tournament_z, num_cards_total_tournament_z, num_cards_with_highlight_tournament_z, total_highlighted_words_tournament_z",closed train -> closed validation,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5308641975308642,162,28,50,26,58,50,26,matches raw baseline
+percentile_only_logistic,percentile_only,"num_positions_tournament_pct, num_adv_inh_solv_tournament_pct, num_offs_tournament_pct, num_cards_total_tournament_pct, num_cards_with_highlight_tournament_pct, total_highlighted_words_tournament_pct",closed train -> closed validation,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5123456790123457,162,34,44,35,49,44,35,does not improve over raw baseline
+centered_only_logistic,centered_only,"num_positions_tournament_centered, num_adv_inh_solv_tournament_centered, num_offs_tournament_centered, num_cards_total_tournament_centered, num_cards_with_highlight_tournament_centered, total_highlighted_words_tournament_centered",closed train -> closed validation,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5308641975308642,162,26,52,24,60,52,24,matches raw baseline
+raw_plus_z_logistic,raw_plus_z,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words, num_positions_tournament_z, num_adv_inh_solv_tournament_z, num_offs_tournament_z, num_cards_total_tournament_z, num_cards_with_highlight_tournament_z, total_highlighted_words_tournament_z",closed train -> closed validation,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5246913580246914,162,26,52,25,59,52,25,does not improve over raw baseline
+raw_plus_percentile_logistic,raw_plus_percentile,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words, num_positions_tournament_pct, num_adv_inh_solv_tournament_pct, num_offs_tournament_pct, num_cards_total_tournament_pct, num_cards_with_highlight_tournament_pct, total_highlighted_words_tournament_pct",closed train -> closed validation,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5123456790123457,162,36,42,37,47,42,37,does not improve over raw baseline
+relative_only_logistic,relative_only,"positions_diff, adv_inh_solv_diff, offs_diff, cards_diff, highlight_cards_diff, highlight_words_diff, cards_per_position_diff, opponent_match_found",closed train -> closed validation,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5185185185185185,162,33,45,33,51,45,33,does not improve over raw baseline
+raw_plus_relative_logistic,raw_plus_relative,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words, positions_diff, adv_inh_solv_diff, offs_diff, cards_diff, highlight_cards_diff, highlight_words_diff, cards_per_position_diff, opponent_match_found",closed train -> closed validation,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5,162,34,44,37,47,44,37,does not improve over raw baseline
+raw_plus_z_plus_relative_logistic,raw_plus_z_plus_relative,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words, num_positions_tournament_z, num_adv_inh_solv_tournament_z, num_offs_tournament_z, num_cards_total_tournament_z, num_cards_with_highlight_tournament_z, total_highlighted_words_tournament_z, positions_diff, adv_inh_solv_diff, offs_diff, cards_diff, highlight_cards_diff, highlight_words_diff, cards_per_position_diff, opponent_match_found",closed train -> closed validation,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5,162,34,44,37,47,44,37,does not improve over raw baseline
+raw_elastic_net_logistic,raw_only,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words",closed train -> closed validation,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, l1_ratio=0.5, max_iter=5000,
+                                    penalty='elasticnet', random_state=42,
+                                    solver='saga'))])",0.5246913580246914,162,28,50,27,57,50,27,does not improve over raw baseline
+raw_calibrated_linear_svm,raw_only,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words",closed train -> closed validation,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 CalibratedClassifierCV(cv=3,
+                                        estimator=LinearSVC(C=0.5,
+                                                            max_iter=5000,
+                                                            random_state=42)))])",0.5246913580246914,162,25,53,24,60,53,24,does not improve over raw baseline

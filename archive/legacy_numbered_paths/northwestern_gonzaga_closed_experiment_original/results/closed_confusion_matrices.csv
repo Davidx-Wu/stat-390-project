@@ -1,0 +1,4 @@
+experiment_name,true_L_pred_L,true_L_pred_W,true_W_pred_L,true_W_pred_W
+majority_baseline,0,78,0,84
+structured_logistic,26,52,24,60
+manual_interaction_logistic,46,32,45,39

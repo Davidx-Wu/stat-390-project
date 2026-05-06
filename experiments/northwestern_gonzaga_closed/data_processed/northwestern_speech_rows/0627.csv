@@ -1,0 +1,2 @@
+source_file,team_code,tournament_name,round_number,side,opponent,win_loss,judge,num_positions,num_adv_inh_solv,num_offs,num_cards_total,num_cards_with_highlight,total_highlighted_words,parse_confidence,warnings,tournament_source
+WesternKentucky-InPu-Neg-1-----NUSO-----Northwestern-Round-1.docx,Western Kentucky IP,Northwestern,1,neg,Iowa BS,L,"Sanderson Hudson, Lawson Ingram Kole",3,0,3,3,3,787,high,,Northwestern

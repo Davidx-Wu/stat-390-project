@@ -1,0 +1,8 @@
+experiment_name,true_L_pred_L,true_L_pred_W,true_W_pred_L,true_W_pred_W,false_positive_count,false_negative_count
+majority_baseline,0,78,0,84,78,0
+speech_structure_only_logistic,26,52,24,60,52,24
+shirley_strength_only_logistic,23,10,8,30,10,8
+shirley_strength_only_elastic_net,23,10,8,30,10,8
+combined_speech_shirley_logistic,22,11,10,28,11,10
+combined_speech_shirley_elastic_net,22,11,11,27,11,11
+shirley_strength_calibrated_svm,24,9,9,29,9,9

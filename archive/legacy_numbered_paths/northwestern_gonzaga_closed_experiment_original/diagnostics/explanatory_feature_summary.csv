@@ -1,0 +1,16 @@
+feature,definition,non_null_rows,missing_rows,coverage,mean,std
+team_place,Shirley final placement/rank for the row team; lower means stronger.,711,371,0.6571164510166358,49.51617440225035,34.29937715515418
+opponent_place,Shirley final placement/rank for opponent; lower means stronger.,650,432,0.600739371534196,50.221538461538465,35.88627170463759
+place_diff,opponent_place - team_place; positive means row team ranked stronger.,444,638,0.41035120147874304,1.4684684684684686,41.40344252812307
+team_winpm,Shirley wins per prelim metric for row team; higher means stronger.,711,371,0.6571164510166358,4.2025316455696204,1.2429153841537892
+opponent_winpm,Shirley wins per prelim metric for opponent; higher means stronger.,650,432,0.600739371534196,4.153846153846154,1.2939442839183726
+winpm_diff,team_winpm - opponent_winpm; positive means row team stronger.,444,638,0.41035120147874304,0.07432432432432433,1.5733010093856337
+team_pts_pm,Shirley speaker points metric for row team; higher usually means stronger.,711,371,0.6571164510166358,407.7370604781998,3.522742400899874
+opponent_pts_pm,Shirley speaker points metric for opponent; higher usually means stronger.,650,432,0.600739371534196,407.6080615384615,3.671350741538275
+pts_pm_diff,team_pts_pm - opponent_pts_pm; positive means row team stronger.,444,638,0.41035120147874304,0.22342342342342392,4.308001950383327
+team_osd,Shirley opponent-strength/difficulty metric for row team.,711,371,0.6571164510166358,59.265654008438815,17.770356613876565
+opponent_osd,Shirley opponent-strength/difficulty metric for opponent.,650,432,0.600739371534196,61.01747692307693,18.763793597586023
+osd_diff,team_osd - opponent_osd.,444,638,0.41035120147874304,-2.567792792792793,22.5229728138254
+team_ballot_win_count,Count of W ballots parsed from Shirley Ballots string; higher is stronger but fully downstream.,711,371,0.6571164510166358,4.170182841068917,1.2784276633684517
+opponent_ballot_win_count,Opponent count of W ballots parsed from Shirley Ballots string.,650,432,0.600739371534196,4.130769230769231,1.319455352561467
+ballot_win_count_diff,team_ballot_win_count - opponent_ballot_win_count; positive means row team stronger.,444,638,0.41035120147874304,0.06531531531531531,1.621738509131381

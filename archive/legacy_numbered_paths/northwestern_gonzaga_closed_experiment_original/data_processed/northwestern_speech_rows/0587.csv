@@ -1,0 +1,2 @@
+source_file,team_code,tournament_name,round_number,side,opponent,win_loss,judge,num_positions,num_adv_inh_solv,num_offs,num_cards_total,num_cards_with_highlight,total_highlighted_words,parse_confidence,warnings,tournament_source
+WakeForest-DiEl-Neg-1---Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-1.docx,Wake Forest DE,Northwestern,1,neg,Indiana TF,W,"Fish Karthikeyan, Viveth Elliott Elizabeth",4,0,4,13,13,1584,high,,Northwestern

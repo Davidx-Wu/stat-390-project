@@ -1,0 +1,2 @@
+source_file,team_code,tournament_name,round_number,side,opponent,win_loss,judge,num_positions,num_adv_inh_solv,num_offs,num_cards_total,num_cards_with_highlight,total_highlighted_words,parse_confidence,warnings,tournament_source
+Kansas-OwWi-Neg-1---Northwestern-Round-2.docx,Michigan OW,Northwestern,2,neg,1,,,3,0,3,0,0,0,low,no_matching_team_row_in_tournament_csv,Northwestern

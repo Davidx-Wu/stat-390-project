@@ -1,0 +1,2 @@
+source_file,team_code,tournament_name,round_number,side,opponent,win_loss,judge,num_positions,num_adv_inh_solv,num_offs,num_cards_total,num_cards_with_highlight,total_highlighted_words,parse_confidence,warnings,tournament_source
+WesternKentucky-NeKu-Neg-01---Northwestern-Round-4.docx,Western Kentucky KN,Northwestern,4,neg,1,,,4,0,4,1,1,275,low,could_not_parse_R4_cell,Northwestern

@@ -1,0 +1,2 @@
+file_index,selected_file_path,returncode,parse_success,join_success,summary_rows,stdout_excerpt,stderr_excerpt
+588,WakeForest\DiEl\WakeForest-DiEl-Neg-1---Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-3.docx,0,True,True,1,Parse complete. | Doc: WakeForest-DiEl-Neg-1---Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-3.docx | Positions detected: 1 | Cards detected: 24 | Cards with highlighted/underlined read proxy: 24 | ,

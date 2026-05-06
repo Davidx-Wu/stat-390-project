@@ -1,0 +1,2 @@
+source_file,team_code,tournament_name,round_number,side,opponent,win_loss,judge,num_positions,num_adv_inh_solv,num_offs,num_cards_total,num_cards_with_highlight,total_highlighted_words,parse_confidence,warnings,tournament_source
+UCDavis-MiSh-Neg-Northwestern-Round-2.docx,UC Davis MS,Northwestern,2,neg,Kansas PH,L,"Hato Monteith, Squid Shaikh Umar",2,0,2,7,7,1184,high,,Northwestern

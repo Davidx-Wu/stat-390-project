@@ -1,0 +1,2 @@
+source_file,team_code,tournament_name,round_number,side,opponent,win_loss,judge,num_positions,num_adv_inh_solv,num_offs,num_cards_total,num_cards_with_highlight,total_highlighted_words,parse_confidence,warnings,tournament_source
+Michigan-MoAl-Neg-1---Northwestern-Round-5.docx,Michigan AM,Northwestern,5,neg,Emory CG,W,"Byrne, AJ Moon Ava",7,0,7,30,30,2576,high,,Northwestern

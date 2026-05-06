@@ -1,0 +1,2 @@
+file_index,selected_file_path,returncode,parse_success,join_success,summary_rows,stdout_excerpt,stderr_excerpt
+621,WesternKentucky\CaFo\WesternKentucky-CaFo-Neg-1---NUSO-Round-6.docx,0,True,True,1,Parse complete. | Doc: WesternKentucky-CaFo-Neg-1---NUSO-Round-6.docx | Positions detected: 10 | Cards detected: 5 | Cards with highlighted/underlined read proxy: 5 | ,

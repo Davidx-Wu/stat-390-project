@@ -1,0 +1,2 @@
+source_file,team_code,tournament_name,round_number,side,opponent,win_loss,judge,num_positions,num_adv_inh_solv,num_offs,num_cards_total,num_cards_with_highlight,total_highlighted_words,parse_confidence,warnings,tournament_source
+UCBerkeley-MeRe-Neg-1---Northwestern-Round-1.docx,UC Berkeley RM,Northwestern,1,neg,Macalester HW,L,"Winters Garrett, Lincoln Menotti Emilio",11,0,11,29,29,4658,high,,Northwestern

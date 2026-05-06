@@ -1,0 +1,2 @@
+source_file,team_code,tournament_name,round_number,side,opponent,win_loss,judge,num_positions,num_adv_inh_solv,num_offs,num_cards_total,num_cards_with_highlight,total_highlighted_words,parse_confidence,warnings,tournament_source
+MichiganState-GuLe-Neg-Northwestern-Round-4.docx,Michigan State GL,Northwestern,4,neg,Kansas AU,W,"Ulven Shankar, Arvind Gusis Joanna",11,0,11,12,12,1186,high,,Northwestern
