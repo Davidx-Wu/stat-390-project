@@ -1,0 +1,17 @@
+experiment_name,unit,features_used,model,coverage_train_rows,coverage_validation_rows,validation_accuracy,true_L_pred_L,true_L_pred_W,true_W_pred_L,true_W_pred_W,false_positive_count,false_negative_count,true_negwin_pred_negwin,true_negwin_pred_affwin,true_affwin_pred_negwin,true_affwin_pred_affwin
+majority_baseline,speech,none,majority_class=W,757,162,0.5185185185185185,0.0,78.0,0.0,84.0,78,0,,,,
+shirley_rank_only,speech,"rank_diff_filled, rank_missing_flag","Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",310,71,0.7183098591549296,23.0,10.0,10.0,28.0,10,10,,,,
+speech_structure_only,speech,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words","Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",757,162,0.5308641975308642,26.0,52.0,24.0,60.0,52,24,,,,
+shirley_rank_plus_speech_structure,speech,"rank_diff_filled, rank_missing_flag, num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words","Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",310,71,0.6901408450704225,22.0,11.0,11.0,27.0,11,11,,,,
+paired_rank_diff_only,paired_round,"rank_diff_filled, rank_missing_flag","Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",108,25,0.68,,,,,2,6,10.0,2.0,6.0,7.0
+paired_rank_diff_plus_paired_speech_features,paired_round,"rank_diff_filled, rank_missing_flag, aff_num_positions, aff_num_adv_inh_solv, aff_num_offs, aff_num_cards_total, aff_num_cards_with_highlight, aff_total_highlighted_words, neg_num_positions, neg_num_adv_inh_solv, neg_num_offs, neg_num_cards_total, neg_num_cards_with_highlight, neg_total_highlighted_words, diff_num_positions, diff_num_adv_inh_solv, diff_num_offs, diff_num_cards_total, diff_num_cards_with_highlight, diff_total_highlighted_words, diff_cards_per_position, aff_parse_high, aff_parse_medium, neg_parse_high, neg_parse_medium, aff_zero_feature_flag, neg_zero_feature_flag, tournament_northwestern","Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",108,25,0.52,,,,,6,6,6.0,6.0,6.0,7.0

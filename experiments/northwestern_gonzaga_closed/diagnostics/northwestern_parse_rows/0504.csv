@@ -1,0 +1,2 @@
+file_index,selected_file_path,returncode,parse_success,join_success,summary_rows,stdout_excerpt,stderr_excerpt
+504,SouthernCalifornia\BhRa\SouthernCalifornia-BhRa-Neg-1-Northwestern-Round-4.docx,0,True,True,1,Parse complete. | Doc: SouthernCalifornia-BhRa-Neg-1-Northwestern-Round-4.docx | Positions detected: 6 | Cards detected: 0 | Cards with highlighted/underlined read proxy: 0 | ,

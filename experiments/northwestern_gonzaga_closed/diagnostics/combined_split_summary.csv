@@ -1,0 +1,15 @@
+summary_type,group,rows,W,L
+rows_by_split,test,163,,
+rows_by_split,train,757,,
+rows_by_split,validation,162,,
+rows_by_tournament_and_split,Gonzaga:test,71,,
+rows_by_tournament_and_split,Gonzaga:train,336,,
+rows_by_tournament_and_split,Gonzaga:validation,77,,
+rows_by_tournament_and_split,Northwestern:test,92,,
+rows_by_tournament_and_split,Northwestern:train,421,,
+rows_by_tournament_and_split,Northwestern:validation,85,,
+win_loss_by_split,test,163,84,79
+win_loss_by_split,train,757,390,367
+win_loss_by_split,validation,162,84,78
+win_loss_by_tournament,Gonzaga,484,249,235
+win_loss_by_tournament,Northwestern,598,309,289

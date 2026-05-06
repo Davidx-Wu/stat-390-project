@@ -1,0 +1,16 @@
+experiment_name,feature_set,features_used,tournament_setting,model,validation_accuracy,validation_rows,true_L_pred_L,true_L_pred_W,true_W_pred_L,true_W_pred_W,false_positive_count,false_negative_count
+z_normalized_only_logistic,z_normalized_only,"num_positions_tournament_z, num_adv_inh_solv_tournament_z, num_offs_tournament_z, num_cards_total_tournament_z, num_cards_with_highlight_tournament_z, total_highlighted_words_tournament_z",closed train -> closed validation,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5308641975308642,162,28,50,26,58,50,26
+percentile_only_logistic,percentile_only,"num_positions_tournament_pct, num_adv_inh_solv_tournament_pct, num_offs_tournament_pct, num_cards_total_tournament_pct, num_cards_with_highlight_tournament_pct, total_highlighted_words_tournament_pct",closed train -> closed validation,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5123456790123457,162,34,44,35,49,44,35
+centered_only_logistic,centered_only,"num_positions_tournament_centered, num_adv_inh_solv_tournament_centered, num_offs_tournament_centered, num_cards_total_tournament_centered, num_cards_with_highlight_tournament_centered, total_highlighted_words_tournament_centered",closed train -> closed validation,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5308641975308642,162,26,52,24,60,52,24
+raw_plus_z_logistic,raw_plus_z,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words, num_positions_tournament_z, num_adv_inh_solv_tournament_z, num_offs_tournament_z, num_cards_total_tournament_z, num_cards_with_highlight_tournament_z, total_highlighted_words_tournament_z",closed train -> closed validation,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5246913580246914,162,26,52,25,59,52,25
+raw_plus_percentile_logistic,raw_plus_percentile,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words, num_positions_tournament_pct, num_adv_inh_solv_tournament_pct, num_offs_tournament_pct, num_cards_total_tournament_pct, num_cards_with_highlight_tournament_pct, total_highlighted_words_tournament_pct",closed train -> closed validation,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5123456790123457,162,36,42,37,47,42,37

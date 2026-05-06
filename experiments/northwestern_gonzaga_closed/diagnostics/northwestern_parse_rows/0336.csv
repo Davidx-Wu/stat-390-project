@@ -1,0 +1,2 @@
+file_index,selected_file_path,returncode,parse_success,join_success,summary_rows,stdout_excerpt,stderr_excerpt
+336,KansasState\DaRa\KansasState-DaRa-Aff-1---Northwestern-Round-7.docx,0,True,True,1,Parse complete. | Doc: KansasState-DaRa-Aff-1---Northwestern-Round-7.docx | Positions detected: 3 | Cards detected: 1 | Cards with highlighted/underlined read proxy: 1 | ,

@@ -1,0 +1,2 @@
+source_file,team_code,tournament_name,round_number,side,opponent,win_loss,judge,num_positions,num_adv_inh_solv,num_offs,num_cards_total,num_cards_with_highlight,total_highlighted_words,parse_confidence,warnings,tournament_source
+Michigan-BaPa-Neg-Northwestern-Round-7.docx,Michigan BP,Northwestern,7,neg,Michigan State GL,W,"Lewis Edwards, Maverick Barrett Eleanor",5,0,5,21,21,1615,high,,Northwestern

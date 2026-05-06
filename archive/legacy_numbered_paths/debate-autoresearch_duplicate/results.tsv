@@ -1,0 +1,14 @@
+experiment	validation_accuracy	majority_baseline	true_L_pred_L	true_L_pred_W	true_W_pred_L	true_W_pred_W	status	description
+5a7b6b7	0.616438	0.602740	5	24	4	40	baseline	baseline logistic
+333a298	0.616438	0.602740	5	24	4	40	baseline	baseline logistic
+333a298	0.630137	0.602740	9	20	7	37	keep	interaction-only degree 2 logistic
+333a298	0.643836	0.602740	9	20	6	38	keep	interaction logistic C=0.5
+333a298	0.602740	0.602740	7	22	7	37	keep	full degree 2 logistic
+333a298	0.479452	0.602740	6	23	15	29	keep	random forest depth 4
+333a298	0.479452	0.602740	10	19	19	25	keep	gradient boosting classifier
+333a298	0.493151	0.602740	6	23	14	30	keep	hist gradient boosting classifier
+97eda08	0.643836	0.602740	7	22	4	40	keep	interaction logistic C=0.25 l2
+97eda08	0.630137	0.602740	9	20	7	37	keep	interaction logistic C=1.0 l2
+97eda08	0.602740	0.602740	3	26	3	41	keep	interaction logistic C=0.1 l2
+97eda08	0.438356	0.602740	21	8	33	11	keep	interaction logistic C=0.5 balanced
+97eda08	0.602740	0.602740	8	21	8	36	keep	interaction logistic + seed_diff

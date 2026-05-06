@@ -1,0 +1,2 @@
+source_file,team_code,tournament_name,round_number,side,opponent,win_loss,judge,num_positions,num_adv_inh_solv,num_offs,num_cards_total,num_cards_with_highlight,total_highlighted_words,parse_confidence,warnings,tournament_source
+MissouriState-HaNe-Aff-01-Northwestern-Round-1.docx,Missouri State HN,Northwestern,1,aff,Harvard DS,L,"Sridharan Shaikh, Zahir Hahn Shelby",2,2,0,7,7,1198,high,,Northwestern

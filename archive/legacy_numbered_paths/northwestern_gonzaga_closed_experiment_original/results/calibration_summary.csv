@@ -1,0 +1,13 @@
+experiment_name,summary_type,group,rows,avg_predicted_win_probability,actual_win_rate
+raw_only_logistic,avg_probability_by_actual,L,78,0.5134899196710954,0.0
+raw_only_logistic,avg_probability_by_actual,W,84,0.5153715729925882,1.0
+raw_only_logistic,probability_histogram_bin,"(-0.001, 0.1]",0,,
+raw_only_logistic,probability_histogram_bin,"(0.1, 0.2]",0,,
+raw_only_logistic,probability_histogram_bin,"(0.2, 0.3]",0,,
+raw_only_logistic,probability_histogram_bin,"(0.3, 0.4]",3,0.392008482167785,0.3333333333333333
+raw_only_logistic,probability_histogram_bin,"(0.4, 0.5]",47,0.4693618660767126,0.48936170212765956
+raw_only_logistic,probability_histogram_bin,"(0.5, 0.6]",105,0.5311173778760792,0.5333333333333333
+raw_only_logistic,probability_histogram_bin,"(0.6, 0.7]",7,0.6200097195179536,0.5714285714285714
+raw_only_logistic,probability_histogram_bin,"(0.7, 0.8]",0,,
+raw_only_logistic,probability_histogram_bin,"(0.8, 0.9]",0,,
+raw_only_logistic,probability_histogram_bin,"(0.9, 1.0]",0,,

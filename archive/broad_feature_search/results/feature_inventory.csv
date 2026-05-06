@@ -1,0 +1,65 @@
+feature_name,source_file,coverage_non_null_rows,nonzero_rows,leakage_risk,keep_discard_recommendation
+num_positions,processed v2,484,376,low,keep
+num_adv_inh_solv,processed v2,484,173,low,keep
+num_offs,processed v2,484,203,low,keep
+num_cards_total,processed v2,484,207,low,keep
+num_cards_with_highlight,processed v2,484,207,low,keep
+total_highlighted_words,processed v2,484,207,low,keep
+parse_confidence_high,processed v2,484,207,low/moderate,test
+parse_confidence_medium,processed v2,484,277,low/moderate,test
+all_zero_feature_flag,processed v2,484,108,low/moderate,test
+missing_card_audit_flag,processed v2,484,277,low/moderate,test
+missing_argument_audit_flag,processed v2,484,108,low/moderate,test
+card_text_truncated_flag,processed v2,484,153,low/moderate,test
+argument_text_truncated_flag,processed v2,484,0,low/moderate,test
+card_count_from_audit,processed v2,484,207,low/moderate,test
+argument_count_from_audit,processed v2,484,376,low/moderate,test
+num_offs_x_num_cards_total,derived from processed v2,484,116,low,test
+num_offs_x_total_highlighted_words,derived from processed v2,484,116,low,test
+num_cards_total_x_num_cards_with_highlight,derived from processed v2,484,207,low,test
+num_positions_x_num_cards_total,derived from processed v2,484,207,low,test
+num_adv_inh_solv_x_num_cards_total,derived from processed v2,484,91,low,test
+side_neg,derived from processed v2,484,267,low,test
+num_offs_neg,derived from processed v2,484,203,low,test
+num_adv_inh_solv_aff,derived from processed v2,484,173,low,test
+num_cards_total_neg,derived from processed v2,484,116,low,test
+num_cards_total_aff,derived from processed v2,484,91,low,test
+total_highlighted_words_neg,derived from processed v2,484,116,low,test
+total_highlighted_words_aff,derived from processed v2,484,91,low,test
+audit_highlighted_word_count,card_audit_all.csv highlighted_text,484,207,low,test
+avg_highlighted_words_per_card,card_audit_all.csv highlighted_text,484,207,low,test
+share_cards_with_highlights,card_audit_all.csv highlighted_text,484,207,low,test
+causal_word_count,card_audit_all.csv highlighted_text,484,184,low,test
+certainty_word_count,card_audit_all.csv highlighted_text,484,185,low,test
+impact_word_count,card_audit_all.csv highlighted_text,484,165,low,test
+numeric_reference_count,card_audit_all.csv highlighted_text,484,170,low,test
+legal_keyword_count,card_audit_all.csv highlighted_text,484,177,low,test
+policy_keyword_count,card_audit_all.csv highlighted_text,484,178,low,test
+economics_keyword_count,card_audit_all.csv highlighted_text,484,169,low,test
+security_keyword_count,card_audit_all.csv highlighted_text,484,161,low,test
+highlight_token_overlap_count,card_audit_all.csv highlighted text matched by opponent/round,484,78,low/moderate,test
+highlight_token_jaccard,card_audit_all.csv highlighted text matched by opponent/round,484,78,low/moderate,test
+tfidf_cosine_with_opponent,card_audit_all.csv highlighted text matched by opponent/round,484,76,low/moderate,test
+tag_token_overlap_count,card_audit_all.csv highlighted text matched by opponent/round,484,60,low/moderate,test
+rare_own_terms_in_opponent_count,card_audit_all.csv highlighted text matched by opponent/round,484,76,low/moderate,test
+direct_clash_score_proxy,card_audit_all.csv highlighted text matched by opponent/round,484,80,low/moderate,test
+card_text_char_count,processed v2 and card audit,484,207,low,test
+argument_text_char_count,processed v2 and card audit,484,376,low,test
+card_text_word_count,processed v2 and card audit,484,207,low,test
+argument_text_word_count,processed v2 and card audit,484,376,low,test
+avg_card_length_from_audit,processed v2 and card audit,484,207,low,test
+year_reference_count,processed v2 and card audit,484,308,low,test
+text_numeric_reference_count,processed v2 and card audit,484,368,low,test
+quoted_span_count,processed v2 and card audit,484,343,low,test
+capitalized_entity_proxy_count,processed v2 and card audit,484,368,low,test
+win_loss,processed datasets,,,high,exclude: target/outcome leakage
+dataset_split,processed datasets,,,high,"exclude: split label, not a model feature"
+judge,processed datasets,,,high,exclude: judge assignment may encode decision context and is disallowed
+tournament_name,processed datasets,,,high,"exclude: single tournament/meta, not argument feature"
+opponent,processed datasets,,,high,exclude: team identity/context disallowed by scope
+team_code,processed datasets,,,high,exclude: team identity/context disallowed by scope
+Ballots,ranking CSVs,,,high,exclude: post-round/tournament result leakage
+WinPm,ranking CSVs,,,high,exclude: post-tournament performance leakage
+PtsPm,ranking CSVs,,,high,exclude: speaker points/post-result leakage
+Place,Shirley/NDT rankings,,,high,exclude: not clearly pre-round; excluded by default
+rank_diff,Shirley rankings,,,high,exclude: context feature only; not used in primary search

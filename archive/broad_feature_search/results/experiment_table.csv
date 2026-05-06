@@ -1,0 +1,65 @@
+experiment_name,features_used,model,validation_accuracy,majority_baseline,difference_vs_locked_baseline,true_L_pred_L,true_L_pred_W,true_W_pred_L,true_W_pred_W,status,runtime_seconds,notes
+manual_interactions_logistic,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words, num_offs_x_num_cards_total, num_offs_x_total_highlighted_words, num_cards_total_x_num_cards_with_highlight, num_positions_x_num_cards_total, num_adv_inh_solv_x_num_cards_total","Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.6712328767123288,0.6027397260273972,0.0273972602739726,8,21,3,41,keep_candidate,0.009681940078735352,small selected interaction terms only
+locked_interaction_logistic,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words","Pipeline(steps=[('interactions',
+                 PolynomialFeatures(include_bias=False, interaction_only=True)),
+                ('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.6438356164383562,0.6027397260273972,0.0,9,20,6,38,baseline,0.018296241760253906,comparison baseline
+direct_clash_plus_locked,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words, highlight_token_overlap_count, highlight_token_jaccard, tfidf_cosine_with_opponent, tag_token_overlap_count, rare_own_terms_in_opponent_count, direct_clash_score_proxy","Pipeline(steps=[('interactions',
+                 PolynomialFeatures(include_bias=False, interaction_only=True)),
+                ('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.6301369863013698,0.6027397260273972,-0.013698630136986356,9,20,7,37,discard,0.016526222229003906,matched aff/neg highlighted evidence overlap
+linear_svm,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words","Pipeline(steps=[('interactions',
+                 PolynomialFeatures(include_bias=False, interaction_only=True)),
+                ('scaler', StandardScaler()),
+                ('model', LinearSVC(C=0.5, max_iter=5000, random_state=42))])",0.6301369863013698,0.6027397260273972,-0.013698630136986356,9,20,7,37,discard,0.010103225708007812,linear SVM diagnostic
+elastic_net_logistic,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words","Pipeline(steps=[('interactions',
+                 PolynomialFeatures(include_bias=False, interaction_only=True)),
+                ('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, l1_ratio=0.5, max_iter=5000,
+                                    penalty='elasticnet', random_state=42,
+                                    solver='saga'))])",0.6164383561643836,0.6027397260273972,-0.0273972602739726,4,25,3,41,discard,0.05657458305358887,elastic net diagnostic on locked feature space
+calibrated_linear_svm,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words","Pipeline(steps=[('interactions',
+                 PolynomialFeatures(include_bias=False, interaction_only=True)),
+                ('scaler', StandardScaler()),
+                ('model',
+                 CalibratedClassifierCV(cv=3,
+                                        estimator=LinearSVC(C=0.5,
+                                                            max_iter=5000,
+                                                            random_state=42)))])",0.6027397260273972,0.6027397260273972,-0.04109589041095896,0,29,0,44,discard,0.030335187911987305,calibrated linear SVM diagnostic
+parser_quality_plus_locked,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words, parse_confidence_high, parse_confidence_medium, all_zero_feature_flag, missing_card_audit_flag, missing_argument_audit_flag, card_text_truncated_flag, argument_text_truncated_flag, card_count_from_audit, argument_count_from_audit","Pipeline(steps=[('interactions',
+                 PolynomialFeatures(include_bias=False, interaction_only=True)),
+                ('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.589041095890411,0.6027397260273972,-0.0547945205479452,8,21,9,35,discard,0.02135443687438965,tests parse/data-quality flags
+side_specific_plus_locked,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words, side_neg, num_offs_neg, num_adv_inh_solv_aff, num_cards_total_neg, num_cards_total_aff, total_highlighted_words_neg, total_highlighted_words_aff","Pipeline(steps=[('interactions',
+                 PolynomialFeatures(include_bias=False, interaction_only=True)),
+                ('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.589041095890411,0.6027397260273972,-0.0547945205479452,13,16,14,30,discard,0.015847444534301758,aff/neg-specific structure
+highlight_semantic_plus_locked,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words, audit_highlighted_word_count, avg_highlighted_words_per_card, share_cards_with_highlights, causal_word_count, certainty_word_count, impact_word_count, numeric_reference_count, legal_keyword_count, policy_keyword_count, economics_keyword_count, security_keyword_count","Pipeline(steps=[('interactions',
+                 PolynomialFeatures(include_bias=False, interaction_only=True)),
+                ('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5753424657534246,0.6027397260273972,-0.06849315068493156,5,24,7,37,discard,0.022914409637451172,highlighted evidence semantic counts
+gradient_boosting_diagnostic,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words","Pipeline(steps=[('model',
+                 GradientBoostingClassifier(learning_rate=0.05, max_depth=2,
+                                            n_estimators=75,
+                                            random_state=42))])",0.5616438356164384,0.6027397260273972,-0.0821917808219178,8,21,11,33,discard,0.046678781509399414,gradient boosting diagnostic
+combined_safe_features,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words, parse_confidence_high, parse_confidence_medium, all_zero_feature_flag, missing_card_audit_flag, missing_argument_audit_flag, card_text_truncated_flag, argument_text_truncated_flag, card_count_from_audit, argument_count_from_audit, audit_highlighted_word_count, avg_highlighted_words_per_card, share_cards_with_highlights, causal_word_count, certainty_word_count, impact_word_count, numeric_reference_count, legal_keyword_count, policy_keyword_count, economics_keyword_count, security_keyword_count, highlight_token_overlap_count, highlight_token_jaccard, tfidf_cosine_with_opponent, tag_token_overlap_count, rare_own_terms_in_opponent_count, direct_clash_score_proxy, card_text_char_count, argument_text_char_count, card_text_word_count, argument_text_word_count, avg_card_length_from_audit, year_reference_count, text_numeric_reference_count, quoted_span_count, capitalized_entity_proxy_count","Pipeline(steps=[('interactions',
+                 PolynomialFeatures(include_bias=False, interaction_only=True)),
+                ('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5616438356164384,0.6027397260273972,-0.0821917808219178,7,22,10,34,discard,0.0555109977722168,broad but non-leaky combined diagnostic
+small_random_forest,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words","Pipeline(steps=[('model',
+                 RandomForestClassifier(max_depth=3, min_samples_leaf=8,
+                                        random_state=42))])",0.547945205479452,0.6027397260273972,-0.09589041095890416,5,24,9,35,discard,0.0888972282409668,small RF diagnostic
+text_light_plus_locked,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words, card_text_char_count, argument_text_char_count, card_text_word_count, argument_text_word_count, avg_card_length_from_audit, year_reference_count, text_numeric_reference_count, quoted_span_count, capitalized_entity_proxy_count","Pipeline(steps=[('interactions',
+                 PolynomialFeatures(include_bias=False, interaction_only=True)),
+                ('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5342465753424658,0.6027397260273972,-0.1095890410958904,7,22,12,32,discard,0.024320602416992188,lightweight text length/citation proxies

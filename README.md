@@ -1,134 +1,213 @@
-# STAT 390 Capstone Project — stat-390-project
+# STAT 390 Debate Outcome Prediction
 
-This project tests whether LLM-based scores of argument quality—claim, warrant, and impact—can predict policy debate round outcomes better than simple heuristics such as evidence quantity or source type, using evidence cards and tournament rounds from a focused topic area.
+This project studies whether structured features parsed from policy debate speech documents can predict debate round outcomes, and whether those features generalize beyond a single tournament.
 
-## Evaluating Debate Argument Quality with Large Language Models
+The final project story is not simply "find the highest accuracy model." The main finding is methodological:
 
-### Problem
+- Parser-derived speech-structure features contain modest predictive signal in the Gonzaga-only setting.
+- That signal weakens sharply under cross-tournament distribution shift after adding Northwestern.
+- Retrospective team-strength/result variables explain much more outcome variation, but those variables are not valid real-time prediction features.
 
-Can large language models evaluate the quality of policy debate arguments and predict round outcomes better than simple heuristics based on evidence quantity or source type?
+## Research Question
 
-### Data
+Can debate speech structure, extracted from `.docx` disclosure documents, predict round outcomes?
 
-The dataset consists of:
+The project eventually separates this into two questions:
 
-- Policy debate **evidence cards** (text and metadata such as source and citation).
-- Debate rounds with **known winners** (counts to be finalized when cleaning finishes).
+1. **Clean predictive question:** Can non-leaky parser-derived features predict outcomes?
+2. **Retrospective explanatory question:** Do downstream team-strength variables explain more variance than speech structure?
 
-These are used to build baseline features and, where applicable, LLM-derived argument quality scores.
+## Predictive vs Explanatory Experiments
 
-### Method
+The distinction matters.
 
-The project compares two approaches:
+**Clean predictive experiments** use features that could plausibly exist before or during a round:
 
-**Baseline heuristics**
+- number of positions
+- number of advantages/inherency/solvency sections
+- number of off-case positions
+- number of evidence cards
+- number of highlighted cards
+- highlighted word counts
 
-- Evidence quantity (for example, number of cards).
-- Source type or citation-related signals.
+**Retrospective explanatory experiments** use Shirley variables such as `Place`, `WinPm`, `PtsPm`, `OSd`, and `Ballots`. These are downstream/post-tournament result variables, so they are not valid leakage-free prediction features. They are used only to test whether latent team strength explains more than document structure.
 
-**LLM-based argument evaluation** (planned direction)
+## Final Findings
 
-- Extract structured argument components (claim, warrant, impact).
-- Score argument quality with a large language model.
-- Use those features to predict debate round outcomes.
+### Clean Gonzaga Predictive Setting
 
-There is **no** dedicated LLM evaluation script checked in under `3 -- src/` yet; when it exists, it will live alongside the other pipeline scripts.
+Best clean Gonzaga-only model:
 
-### Metric
+- interaction-only degree-2 logistic regression
+- `LogisticRegression(C=0.5)`
+- validation accuracy: `0.643836`
 
-Primary evaluation metric: **round outcome prediction accuracy**.
+Structured baseline v3:
 
-Secondary metrics may include F1, precision, and recall. Comparisons between baseline features and LLM-derived features will use the evaluation materials under `6 -- evaluation/` when defined.
+- six numeric parser-derived features
+- validation accuracy: `0.616438`
 
-### Baseline artifacts in this repository
+### Closed Northwestern+Gonzaga Robustness Setting
 
-Baseline-related files that are **currently checked in** live under **`4 -- results/1 -- Baseline Model/`** (for example speech summaries, rankings inputs, predictions, coefficients, run logs, and parser failure logs). Treat them as **committed artifacts**, not as a guarantee of what you last ran locally—**re-run** the baseline script from the correct working directory if you need fresh outputs.
+Adding Northwestern data exposed distribution shift.
 
-### Latest Gonzaga rebuild snapshot (2026-04-27)
+Closed combined validation results:
 
-- Documents processed: **515**
-- Successful parser runs: **514**
-- `speech_summary_all.csv` rows: **484**
-- Failed files: **1**
-- End-to-end runtime: **~1.5 hours**
+- majority baseline: `0.518519`
+- structured logistic: `0.530864`
+- manual interaction logistic: `0.524691`
 
-See `5 -- logs/build_runs/gonzaga_build_2026_04_27.md` for the run note and `5 -- logs/failure_log.md` for the remaining failed file context.
+Tournament normalization, relative features, and pair-level modeling did not meaningfully solve cross-tournament generalization.
 
-### Dataset diagnostics snapshot
+### Retrospective Explanatory Setting
 
-Dataset diagnostics were implemented and verified for `4 -- results/processed_datasets/gonzaga_speech_dataset_v1.csv`.
+Using Shirley downstream team-strength variables:
 
-Fields used:
+- speech structure only: `0.530864`
+- Shirley/team-strength-only logistic: `0.746479`
+- combined speech + Shirley logistic: `0.704225`
 
-- `win_loss`
-- `team_code`
-- `round_number`
-- `num_cards_total`
+This supports the explanatory claim that latent team strength dominates the current parser-derived structural speech features.
 
-Generated outputs live under `4 -- results/diagnostics/`:
+## Repository Structure
 
-- `win_loss_distribution.png`
-- `speeches_per_round.png`
-- `speeches_per_team.png`
-- `card_count_distribution.png`
+The repository now uses descriptive top-level folders. Experiment chronology is preserved in `experiments/stage_*` folders, logs, timeline docs, and Git history rather than numbered root folders.
 
-### Repository structure
-
-Numbered folders are intentional; paths often contain spaces, so quote them in shells.
-
-```
-1 -- data/                      local datasets (raw data should stay uncommitted per .gitignore)
-2 -- notebooks/                 exploratory notebooks
-3 -- src/                       preprocessing, parsing, filtering, dataset build, baseline model scripts
-4 -- results/                   generated outputs (including baseline artifacts)
-5 -- logs/                      research log, evaluation notes, failure logs
-6 -- evaluation/                metrics, splits, evaluation materials
-7 -- reports/                   written reports
-8 -- data cleaning test lab/    experimental parsing helpers
+```text
+archive/                        legacy root structure and deprecated work
+data/                           raw and processed data used by canonical scripts
+experiments/                    staged experiment chronology and canonical experiments
+logs/                           research/evaluation logs
+reports/                        written reports
+results/                        generated results and diagnostics
+src/                            parsing, modeling, diagnostics source scripts
+src/project_paths.py            lightweight repo-relative path helper
 ```
 
-Root files include **`README.md`**, **`AGENTS.md`**, **`program.md`**, and **`.gitignore`**.
+Some legacy numbered root folders may remain only when files are locked by another process. Canonical copies live under the descriptive paths above; see `FINAL_REPO_CLEANUP_VALIDATION.md`.
 
-### Source scripts (`3 -- src/`)
+## Setup
 
-| Path | Role |
-|------|------|
-| `3 -- src/1 -- debate_doc_parser_vF.py` | Parse a debate speech `.docx` into summary and audit CSVs |
-| `3 -- src/2 -- count_tournament_disclosures_vF.py` | Tournament / disclosure counting utilities |
-| `3 -- src/3 -- keep_only_tournament_docs_vF.py` | Filter or retain tournament-related disclosure documents |
-| `3 -- src/4 -- build_gonzaga_dataset_vTemp.py` | Temporary / in-progress Gonzaga dataset builder |
-| `3 -- src/5 -- baseline_round_model.py` | Baseline logistic-regression round-outcome model (expects local CSVs next to the working directory—see below) |
+Install dependencies:
 
-### Dependencies
-
-There is **no** `requirements.txt` in this repository yet. Install Python packages **manually** for now (see the `pip install` hints at the top of each script—for example **`python-docx`** and **`pandas`** for the parser; **`numpy`**, **`pandas`**, and **`scikit-learn`** for the baseline model).
-
-### How to run (examples)
-
-Use **quoted** paths whenever a folder name contains spaces or punctuation.
-
-**1. Clone and enter the repository**
-
-```
-git clone https://github.com/Davidx-Wu/stat-390-project
-cd "C:\Users\thatd\Desktop\1 -- Statistics\Stat390DataScienceProject\stat-390-project"
+```powershell
+pip install -r requirements.txt
 ```
 
-**2. Parse one speech `.docx`** (writes outputs under `--outdir`; see `--help` for options)
+If `pip` is unavailable:
 
-```
-python "3 -- src/1 -- debate_doc_parser_vF.py" --doc "path\to\speech.docx" --outdir "parser_output"
-```
-
-**3. Baseline round model** (`3 -- src/5 -- baseline_round_model.py` and the copy under `4 -- results/1 -- Baseline Model/` load **`speech_summary_all.csv`** and **`NDT_Rankings.csv`** using paths **relative to the current working directory**)
-
-From the baseline results folder:
-
-```
-cd "4 -- results/1 -- Baseline Model"
-python baseline_round_model.py
+```powershell
+python -m pip install -r requirements.txt
 ```
 
-Other scripts in `3 -- src/` accept CLI arguments; run `python "3 -- src/<script>.py" --help` as needed.
+Required packages:
 
-New predictions and logs from the baseline step are written alongside the inputs when you run from **`4 -- results/1 -- Baseline Model/`** (same behavior as when this folder was populated).
+- `numpy`
+- `pandas`
+- `python-docx`
+- `scikit-learn`
+- `pillow`
+
+## Canonical Workflows
+
+Detailed canonical workflow definitions are in:
+
+- `CANONICAL_WORKFLOWS.md`
+
+Experiment chronology is explicitly represented as:
+
+- `experiments/stage_1_gonzaga_predictive/`
+- `experiments/stage_2_feature_ablation/`
+- `experiments/stage_3_cross_tournament/`
+- `experiments/stage_4_paired_rounds/`
+- `experiments/stage_5_explanatory_strength/`
+
+### A. Clean Gonzaga Predictive Workflow
+
+Canonical dataset:
+
+- `data/processed/gonzaga_speech_dataset_v1.csv`
+
+Canonical AutoResearch workflow:
+
+```powershell
+python "experiments/gonzaga_autoresearch/run.py" "baseline logistic" --baseline
+```
+
+Key files:
+
+- `experiments/gonzaga_autoresearch/prepare.py`
+- `experiments/gonzaga_autoresearch/model.py`
+- `experiments/gonzaga_autoresearch/run.py`
+- `experiments/gonzaga_autoresearch/results.tsv`
+- `experiments/gonzaga_autoresearch/experiment_summary.md`
+
+### B. Closed Northwestern+Gonzaga Robustness Workflow
+
+Canonical folder:
+
+- `experiments/northwestern_gonzaga_closed/`
+
+Key scripts:
+
+```powershell
+python "experiments/northwestern_gonzaga_closed/scripts/run_closed_experiment.py" --batch-size 100
+python "experiments/northwestern_gonzaga_closed/scripts/run_generalization_experiments.py"
+python "experiments/northwestern_gonzaga_closed/scripts/run_paired_round_experiment.py"
+```
+
+Key outputs:
+
+- `results/closed_experiment_table.csv`
+- `results/generalization_experiment_table.csv`
+- `results/paired_round_experiment_table.csv`
+
+### C. Retrospective Explanatory Workflow
+
+Canonical scripts:
+
+```powershell
+python "experiments/northwestern_gonzaga_closed/scripts/run_ranking_prior_experiment.py"
+python "experiments/northwestern_gonzaga_closed/scripts/run_explanatory_strength_model.py"
+```
+
+Key warning:
+
+These use Shirley post-tournament variables and should not be described as leakage-free prediction models.
+
+Key outputs:
+
+- `results/ranking_prior_experiment_table.csv`
+- `results/explanatory_experiment_table.csv`
+- `results/explanatory_model_coefficients.csv`
+- `logs/explanatory_model_summary.md`
+
+## Important Audit Documents
+
+- `PROJECT_AUDIT_SUMMARY.md`
+- `PROJECT_TIMELINE.md`
+- `REPRODUCIBILITY_AUDIT.md`
+- `PROPOSED_REPO_STRUCTURE.md`
+- `REPO_MIGRATION_PLAN.md`
+- `CANONICAL_WORKFLOWS.md`
+- `POST_RESTRUCTURE_VALIDATION.md`
+
+## Limitations
+
+- The parser is sensitive to filename conventions and document formatting.
+- Many matchup pairs are incomplete because only one side is available.
+- Cross-tournament generalization is weak.
+- Shirley variables are downstream and should be used only for retrospective explanation.
+- The test set remains reserved unless a final explicit evaluation is requested.
+
+## Archived Work
+
+Deprecated or abandoned work has been copied into `archive/` rather than deleted:
+
+- semantic feature ablation
+- LLM dry-run artifacts
+- broad feature search
+- demo AutoResearch template
+- data-cleaning test lab
+
+These artifacts preserve the research trail but are not part of the main final reproduction path.

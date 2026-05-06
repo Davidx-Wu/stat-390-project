@@ -1,0 +1,2 @@
+file_index,selected_file_path,returncode,parse_success,join_success,summary_rows,stdout_excerpt,stderr_excerpt
+250,Harvard\AoBo\Harvard-AoBo-Neg-1.-Northwestern-Round-2.docx,0,True,True,1,Parse complete. | Doc: Harvard-AoBo-Neg-1.-Northwestern-Round-2.docx | Positions detected: 2 | Cards detected: 6 | Cards with highlighted/underlined read proxy: 6 | ,

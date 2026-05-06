@@ -1,0 +1,2 @@
+file_index,selected_file_path,returncode,parse_success,join_success,summary_rows,stdout_excerpt,stderr_excerpt
+575,UTD\PeRa\UTD-PeRa-Neg-01---Northwestern-Round-4.docx,0,True,True,1,Parse complete. | Doc: UTD-PeRa-Neg-01---Northwestern-Round-4.docx | Positions detected: 5 | Cards detected: 8 | Cards with highlighted/underlined read proxy: 8 | ,

@@ -1,0 +1,2 @@
+source_file,team_code,tournament_name,round_number,side,opponent,win_loss,judge,num_positions,num_adv_inh_solv,num_offs,num_cards_total,num_cards_with_highlight,total_highlighted_words,parse_confidence,warnings,tournament_source
+Michigan-EsSh-Neg-Northwestern-Round-6.docx,Michigan ES,Northwestern,6,neg,Michigan State GL,L,"Lewis DeLong, Brian Esmailzadeh Cyrus",4,0,4,14,14,1199,high,,Northwestern

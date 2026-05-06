@@ -1,0 +1,232 @@
+source_file,team_code,opponent,round_number,side,tournament_source,num_positions,num_adv_inh_solv,num_offs,num_cards_total,num_cards_with_highlight,total_highlighted_words,experiment_name,actual_outcome,predicted_outcome,predicted_win_probability,error_type
+Wyoming-WiWi-Aff-4.-Gonzaga-Round-4.docx,Wyoming WW,Michigan SS,4,aff,Gonzaga,0,0,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Northwestern-LuLe-Aff-01---Northwestern-Round-3.docx,Northwestern LL,Wake Forest DE,3,aff,Northwestern,5,5,0,1,1,85,majority_baseline,L,W,1.0,false_positive
+Indiana-FiTr-Neg-1.-Northwestern-Round-3.docx,Indiana TF,Kansas HM,3,neg,Northwestern,2,0,2,10,10,1934,majority_baseline,L,W,1.0,false_positive
+Kansas-AiUl-Neg-3.-Gonzaga-Round-2.docx,Kansas UA,Michigan SS,2,neg,Gonzaga,9,0,9,0,0,0,majority_baseline,L,W,1.0,false_positive
+Emory-WaKi-Neg-Gonzaga-University-Jesuit-Debates-Round-1.docx,Emory KW,Kansas SS,1,neg,Gonzaga,0,0,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Baylor-KeBe-Neg-Northwestern-Round-1.docx,Baylor BK,CSU Long Beach OM,1,neg,Northwestern,0,0,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Baylor-DaLa-Neg-Northwestern-Round-5.docx,Baylor DL,Michigan SS,5,neg,Northwestern,3,0,3,8,8,2943,majority_baseline,L,W,1.0,false_positive
+Georgia-CaPa-Aff-01]-Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-4.docx,Georgia CP,Emory GM,4,aff,Northwestern,6,6,0,3,3,2058,majority_baseline,L,W,1.0,false_positive
+Purdue-HaHa-Neg-1---Gonzaga-Round-5.docx,Purdue HH,Northwestern LL,5,neg,Gonzaga,4,0,4,6,6,1059,majority_baseline,L,W,1.0,false_positive
+UCBerkeley-MeRe-Aff-1---Northwestern-Round-3.docx,UC Berkeley RM,Wake Forest SL,3,aff,Northwestern,0,0,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Emory-GrCh-Neg-1---Owen-L-Coon-Memorial-Debates-Round-1.docx,Emory CG,UC Davis MS,1,neg,Northwestern,0,0,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Emory-GeMa-Aff-Northwestern-Round-6.docx,Emory GM,Kansas PH,6,aff,Northwestern,2,2,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+UCBerkeley-GiSi-Aff-2---Gonzaga-University-Jesuit-Debates-Round-4.docx,UC Berkeley GS,Southern California TM,4,aff,Gonzaga,3,3,0,3,3,1219,majority_baseline,L,W,1.0,false_positive
+UTD-HaKa-Neg-01---Northwestern-Round-6.docx,UTD HK,Michigan BP,6,neg,Northwestern,2,0,2,11,11,1253,majority_baseline,L,W,1.0,false_positive
+WakeForest-AdBr-Neg-01---The-coon-(Northwestern)-Round-1.docx,Wake Forest BA,Emory AS,1,neg,Northwestern,0,0,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Emory-CrSt-Neg-Gonzaga-Round-4.docx,Emory CS,Kansas UA,4,neg,Gonzaga,4,0,4,0,0,0,majority_baseline,L,W,1.0,false_positive
+Purdue-HaHa-Aff-1---Gonzaga-Round-2.docx,Purdue HH,Emory CR - ONLINE,2,aff,Gonzaga,3,3,0,8,8,542,majority_baseline,L,W,1.0,false_positive
+SouthernCalifornia-BhRa-Neg-2-Gonzaga-Round-6.docx,Southern California RB,Wichita State GM - ONLINE,6,neg,Gonzaga,1,0,1,0,0,0,majority_baseline,L,W,1.0,false_positive
+Trinity-KiPa-Neg-3---Gonzaga-Round-3.docx,Trinity KP,Wichita State GM - ONLINE,3,neg,Gonzaga,2,0,2,0,0,0,majority_baseline,L,W,1.0,false_positive
+Cornell-LiDi-Neg-Northwestern-Round-5.docx,Cornell LD,Baylor LL,5,neg,Northwestern,6,0,6,1,1,206,majority_baseline,L,W,1.0,false_positive
+Cornell-DyVo-Aff-Northwestern-Round-3.docx,Cornell DV,Iowa KS,3,aff,Northwestern,2,2,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+KansasState-ArSa-Aff-1-----Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-1.docx,Kansas State SA,Michigan CC,1,aff,Northwestern,0,0,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Binghamton-TrPa-Aff-Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-2.docx,Binghamton TP,Dartmouth CG,2,aff,Northwestern,0,0,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+MissouriState-HaNe-Neg-01-Northwestern-Round-4.docx,Missouri State HN,Emory OP,4,neg,Northwestern,9,0,9,17,17,720,majority_baseline,L,W,1.0,false_positive
+Emory-RuYo-Aff-1.-Northwestern-Round-3.docx,Emory RY,Liberty CL,3,aff,Northwestern,3,3,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+MichiganState-FoMa-Aff-01---Northwestern-Round-2.docx,Michigan State FM,UTD HK,2,aff,Northwestern,5,5,0,1,1,66,majority_baseline,L,W,1.0,false_positive
+Emory-ChRa-Aff-Gonzaga-Round-3.docx,Emory CR,Wyoming CH,3,aff,Gonzaga,5,5,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Northwestern-LuLe-Neg-03---Gonzaga-Round-1.docx,Northwestern LL,Kentucky GS,1,neg,Gonzaga,7,0,7,0,0,0,majority_baseline,L,W,1.0,false_positive
+UCBerkeley-MeRe-Aff-1---Northwestern-Round-6.docx,UC Berkeley RM,Emory LY,6,aff,Northwestern,9,9,0,4,4,1943,majority_baseline,L,W,1.0,false_positive
+SouthernCalifornia-BrMa-Aff-Northwestern-Round-6.docx,Southern California BM,Wake Forest SL,6,aff,Northwestern,2,2,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+UCBerkeley-MeRe-Neg-3---Gonzaga-Round-2.docx,UC Berkeley RM,Kansas SL,2,neg,Gonzaga,3,0,3,3,3,2217,majority_baseline,L,W,1.0,false_positive
+ArizonaState-SaSm-Aff-1---Owen-L.-Coon-Round-1.docx,Arizona State SS,Kansas LS,1,aff,Northwestern,0,0,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Harvard-AoBo-Neg-2.-Gonzaga-Round-5.docx,Harvard AB,Michigan State JS - ONLINE,5,neg,Gonzaga,1,0,1,9,9,1608,majority_baseline,L,W,1.0,false_positive
+Georgetown-LaNa-Aff-01---Northwestern-Round-4.docx,Georgetown LN,West Georgia KK,4,aff,Northwestern,4,4,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+WakeForest-LeSa-Aff-Northwestern-Round-2.docx,Wake Forest SL,Kansas WW,2,aff,Northwestern,0,0,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Northwestern-LuLe-Neg-03---Gonzaga-Round-3.docx,Northwestern LL,Iowa EW - ONLINE,3,neg,Gonzaga,2,0,2,0,0,0,majority_baseline,L,W,1.0,false_positive
+UTD-HoHu-Aff-02---Gonzaga-Round-5.docx,UTD HH,Georgetown TP,5,aff,Gonzaga,4,4,0,1,1,545,majority_baseline,L,W,1.0,false_positive
+Michigan-MoAl-Neg-1---Northwestern-Round-8.docx,Michigan AM,Baylor BK,8,neg,Northwestern,2,0,2,7,7,2043,majority_baseline,L,W,1.0,false_positive
+Michigan-ChCh-Aff-3---Gonzaga-Round-4.docx,Michigan CC,Binghamton CK,4,aff,Gonzaga,2,2,0,22,22,3917,majority_baseline,L,W,1.0,false_positive
+Georgetown-LaNa-Aff-03---Gonzaga-Round-2.docx,Georgetown LN,Minnesota HU,2,aff,Gonzaga,2,2,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Cornell-DyVo-Aff-Northwestern-Round-2.docx,Cornell DV,Southern California TM - ONLINE,2,aff,Northwestern,2,2,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Michigan-BaPa-Aff-Gonzaga-Round-7.docx,Michigan BP,Georgetown AC,7,aff,Gonzaga,9,9,0,65,65,4811,majority_baseline,L,W,1.0,false_positive
+Kansas-BaMc-Neg-1---Northwestern-Round-4.docx,Kansas MB,Northwestern LR,4,neg,Northwestern,5,0,5,0,0,0,majority_baseline,L,W,1.0,false_positive
+WesternKentucky-StSc-Neg-01---NUSO-Round-6.docx,Western Kentucky SS,Wake Forest BA,6,neg,Northwestern,2,0,2,1,1,60,majority_baseline,L,W,1.0,false_positive
+DartmouthCollege-GuMo-Aff-1---NUSO-Round-3.docx,Dartmouth GM,Missouri State CG,3,aff,Northwestern,4,4,0,1,1,65,majority_baseline,L,W,1.0,false_positive
+Emory-JiRa-Neg-NUSO-Round-4.docx,Emory JR,George Mason WW - ONLINE,4,neg,Northwestern,5,0,5,1,1,315,majority_baseline,L,W,1.0,false_positive
+MacalesterCollege-CoDu-Neg-Owen-L-Coon-Memorial-Tournament-Round-4.docx,Macalester DC,Georgetown VP,4,neg,Northwestern,0,0,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+MichiganState-GeSh-Neg-Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-8.docx,Michigan State GS,Kansas State SA,8,neg,Northwestern,0,0,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Harvard-DeSr-Aff-1.-Northwestern-Round-2.docx,Harvard DS,Northwestern LR,2,aff,Northwestern,4,4,0,39,39,3034,majority_baseline,L,W,1.0,false_positive
+Wyoming-WiWi-Aff-1.-Northwestern-Round-1.docx,Wyoming WW,Liberty CL,1,aff,Northwestern,0,0,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+UTD-HoHu-Neg-02---Gonzaga-Round-3.docx,UTD HH,Dartmouth BC,3,neg,Gonzaga,5,0,5,18,18,2098,majority_baseline,L,W,1.0,false_positive
+Northwestern-RuLi-Aff-01---Northwestern-Round-6.docx,Northwestern LR,Kansas LS,6,aff,Northwestern,1,1,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Emory-GaSo-Neg-1.-Northwestern-Round-3.docx,Emory GS,Michigan State GL,3,neg,Northwestern,10,0,10,0,0,0,majority_baseline,L,W,1.0,false_positive
+Emory-ChFe-Aff-Northwestern-Round-4.docx,Emory CF,Baylor DL,4,aff,Northwestern,6,6,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Trinity-KiPa-Neg-1---NUSO-Round-3.docx,Trinity PK,Michigan BP,3,neg,Northwestern,2,0,2,0,0,0,majority_baseline,L,W,1.0,false_positive
+Kansas-BrWa-Neg-3---Gonzaga-Round-4.docx,Kansas BW,Harvard AB,4,neg,Gonzaga,4,0,4,0,0,0,majority_baseline,L,W,1.0,false_positive
+Texas-GaSt-Neg-02---Gonzaga-Round-6.docx,Texas GS,Michigan AM,6,neg,Gonzaga,0,0,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Emory-LoYa-Neg-01---Northwestern-Round-7.docx,Emory LY,Kansas WW,7,neg,Northwestern,8,0,8,0,0,0,majority_baseline,L,W,1.0,false_positive
+UTD-PeRa-Neg-04---Gonzaga-Round-3.docx,UTD PR,George Mason WW - ONLINE,3,neg,Gonzaga,5,0,5,13,13,2682,majority_baseline,L,W,1.0,false_positive
+DartmouthCollege-JoBe-Aff-Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-1.docx,Dartmouth BJ,Michigan GJ,1,aff,Northwestern,1,1,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Gonzaga-WeRo-Neg-Northwestern-Round-2.docx,Gonzaga WR,Stanford LL - ONLINE,2,neg,Northwestern,0,0,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+MissouriState-HaNe-Aff-01-Northwestern-Round-1.docx,Missouri State HN,Harvard DS,1,aff,Northwestern,2,2,0,7,7,1198,majority_baseline,L,W,1.0,false_positive
+Emory-KiSh-Aff-01---Northwestern-Round-5.docx,Emory KS,Northwestern LR,5,aff,Northwestern,4,4,0,1,1,1312,majority_baseline,L,W,1.0,false_positive
+Emory-LoYa-Neg-03---Gonzaga-Round-3.docx,Emory LY,Michigan BP,3,neg,Gonzaga,13,0,13,0,0,0,majority_baseline,L,W,1.0,false_positive
+Michigan-ChSa-Neg-3---Gonzaga-Round-6.docx,Michigan CS,Iowa SK - ONLINE,6,neg,Gonzaga,1,0,1,12,12,1727,majority_baseline,L,W,1.0,false_positive
+Michigan-EsSh-Neg-Northwestern-Round-6.docx,Michigan ES,Michigan State GL,6,neg,Northwestern,4,0,4,14,14,1199,majority_baseline,L,W,1.0,false_positive
+MichiganState-JaSc-Neg-4---Gonzaga-Round-8.docx,Michigan State JS,CSU Long Beach OM,8,neg,Gonzaga,2,0,2,0,0,0,majority_baseline,L,W,1.0,false_positive
+WakeForest-AdBr-Neg-01---The-coon-(Northwestern)-Round-7.docx,Wake Forest BA,Northwestern LR,7,neg,Northwestern,0,0,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Northwestern-HePe-Aff-02---Gonzaga-University-Jesuit-Debates-Round-5.docx,Northwestern HP,Emory CG - ONLINE,5,aff,Gonzaga,2,2,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Harvard-AoBo-Neg-1.-Northwestern-Round-7.docx,Harvard AB,UTD HK,7,neg,Northwestern,0,0,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Northwestern-LeWe-Aff-3---Gonzaga-Round-2.docx,Northwestern LW,UC Berkeley GS,2,aff,Gonzaga,1,1,0,3,3,1460,majority_baseline,L,W,1.0,false_positive
+MichiganState-GeSh-Neg-Gonzaga-University-Jesuit-Debates-Round-8.docx,Michigan State GS,Dartmouth CG,8,neg,Gonzaga,0,0,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+GeorgeMason-WrWi-Neg-4---Gonzaga-Round-2.docx,George Mason WW,Stanford LY - ONLINE,2,neg,Gonzaga,9,0,9,2,2,164,majority_baseline,L,W,1.0,false_positive
+WesternKentucky-StSc-Aff-01---NUSO-Round-2.docx,Western Kentucky SS,Georgia CP,2,aff,Northwestern,4,4,0,18,18,1867,majority_baseline,L,W,1.0,false_positive
+Emory-PeSt-Neg-Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-2.docx,Emory PS,Baylor LL,2,neg,Northwestern,2,0,2,0,0,0,majority_baseline,L,W,1.0,false_positive
+Purdue-HaHa-Aff-1---Gonzaga-Round-7.docx,Purdue HH,Emory KW - ONLINE,7,aff,Gonzaga,3,3,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Emory-WaKi-Neg-Gonzaga-University-Jesuit-Debates-Round-5.docx,Emory KW,Gonzaga WR,5,neg,Gonzaga,4,0,4,0,0,0,majority_baseline,L,W,1.0,false_positive
+Minnesota-HaUs-Neg-3-Gonzaga-University-Jesuit-Debates-Round-3.docx,Minnesota HU,Emory RY _ ONLINE,3,neg,Gonzaga,0,0,0,0,0,0,majority_baseline,L,W,1.0,false_positive
+Wyoming-WiWi-Aff-4.-Gonzaga-Round-4.docx,Wyoming WW,Michigan SS,4,aff,Gonzaga,0,0,0,0,0,0,structured_logistic,L,W,0.5111655893608898,false_positive
+Indiana-FiTr-Neg-1.-Northwestern-Round-3.docx,Indiana TF,Kansas HM,3,neg,Northwestern,2,0,2,10,10,1934,structured_logistic,L,W,0.5134658756225503,false_positive
+WakeForest-DiEl-Aff-2---Gonzaga-University-Jesuit-Debates-Round-2.docx,Wake Forest DE,Michigan HM - ONLINE,2,aff,Gonzaga,6,6,0,11,11,1651,structured_logistic,W,L,0.4482598255425479,false_negative
+Kansas-AiUl-Neg-3.-Gonzaga-Round-2.docx,Kansas UA,Michigan SS,2,neg,Gonzaga,9,0,9,0,0,0,structured_logistic,L,W,0.5923758217208421,false_positive
+Emory-WaKi-Neg-Gonzaga-University-Jesuit-Debates-Round-1.docx,Emory KW,Kansas SS,1,neg,Gonzaga,0,0,0,0,0,0,structured_logistic,L,W,0.5111655893608898,false_positive
+Baylor-KeBe-Neg-Northwestern-Round-1.docx,Baylor BK,CSU Long Beach OM,1,neg,Northwestern,0,0,0,0,0,0,structured_logistic,L,W,0.5111655893608898,false_positive
+Northwestern-RuLi-Aff-03---Gonzaga-Round-3.docx,Northwestern LR,Baylor DL,3,aff,Gonzaga,7,7,0,0,0,0,structured_logistic,W,L,0.44001158455861467,false_negative
+Purdue-HaHa-Neg-1---Gonzaga-Round-5.docx,Purdue HH,Northwestern LL,5,neg,Gonzaga,4,0,4,6,6,1059,structured_logistic,L,W,0.541399677931518,false_positive
+UCBerkeley-MeRe-Aff-1---Northwestern-Round-3.docx,UC Berkeley RM,Wake Forest SL,3,aff,Northwestern,0,0,0,0,0,0,structured_logistic,L,W,0.5111655893608898,false_positive
+Emory-GeMa-Aff-Northwestern-Round-2.docx,Emory GM,Michigan SS,2,aff,Northwestern,7,7,0,2,2,519,structured_logistic,W,L,0.43257351713541486,false_negative
+MichiganState-GuLe-Aff-Northwestern-Round-2.docx,Michigan State GL,Michigan CS,2,aff,Northwestern,2,2,0,2,2,101,structured_logistic,W,L,0.49699284323085186,false_negative
+Emory-GrCh-Neg-1---Owen-L-Coon-Memorial-Debates-Round-1.docx,Emory CG,UC Davis MS,1,neg,Northwestern,0,0,0,0,0,0,structured_logistic,L,W,0.5111655893608898,false_positive
+UTD-HaKa-Neg-01---Northwestern-Round-6.docx,UTD HK,Michigan BP,6,neg,Northwestern,2,0,2,11,11,1253,structured_logistic,L,W,0.5406476850825953,false_positive
+Northwestern-LeWe-Aff-3---Gonzaga-Round-6.docx,Northwestern LW,Wyoming WW,6,aff,Gonzaga,1,1,0,1,1,1366,structured_logistic,W,L,0.46073226188307637,false_negative
+WakeForest-AdBr-Neg-01---The-coon-(Northwestern)-Round-1.docx,Wake Forest BA,Emory AS,1,neg,Northwestern,0,0,0,0,0,0,structured_logistic,L,W,0.5111655893608898,false_positive
+Emory-CrSt-Neg-Gonzaga-Round-4.docx,Emory CS,Kansas UA,4,neg,Gonzaga,4,0,4,0,0,0,structured_logistic,L,W,0.5475924681287149,false_positive
+Purdue-HaHa-Aff-1---Gonzaga-Round-2.docx,Purdue HH,Emory CR - ONLINE,2,aff,Gonzaga,3,3,0,8,8,542,structured_logistic,L,W,0.5009460685052274,false_positive
+SouthernCalifornia-BhRa-Neg-2-Gonzaga-Round-6.docx,Southern California RB,Wichita State GM - ONLINE,6,neg,Gonzaga,1,0,1,0,0,0,structured_logistic,L,W,0.520298668343829,false_positive
+Trinity-KiPa-Neg-3---Gonzaga-Round-3.docx,Trinity KP,Wichita State GM - ONLINE,3,neg,Gonzaga,2,0,2,0,0,0,structured_logistic,L,W,0.529418199687046,false_positive
+Cornell-LiDi-Neg-Northwestern-Round-5.docx,Cornell LD,Baylor LL,5,neg,Northwestern,6,0,6,1,1,206,structured_logistic,L,W,0.5636601108247548,false_positive
+KansasState-ArSa-Aff-1-----Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-1.docx,Kansas State SA,Michigan CC,1,aff,Northwestern,0,0,0,0,0,0,structured_logistic,L,W,0.5111655893608898,false_positive
+Binghamton-TrPa-Aff-Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-2.docx,Binghamton TP,Dartmouth CG,2,aff,Northwestern,0,0,0,0,0,0,structured_logistic,L,W,0.5111655893608898,false_positive
+UTD-PeRa-Aff-01---Northwestern-Round-8.docx,UTD PR,Kansas MB - ONLINE,8,aff,Northwestern,4,4,0,0,0,0,structured_logistic,W,L,0.4703757795658863,false_negative
+Kansas-BrWa-Aff-3---Gonzaga-Round-1.docx,Kansas BW,Southern California HV - ONLINE,1,aff,Gonzaga,9,9,0,1,1,402,structured_logistic,W,L,0.41175686470973905,false_negative
+MissouriState-HaNe-Neg-01-Northwestern-Round-4.docx,Missouri State HN,Emory OP,4,neg,Northwestern,9,0,9,17,17,720,structured_logistic,L,W,0.6466157228323881,false_positive
+Northwestern-ArTa-Aff-3.-Gonzaga-Round-4.docx,Northwestern AT,Dartmouth GH - ONLINE,4,aff,Gonzaga,4,4,0,0,0,0,structured_logistic,W,L,0.4703757795658863,false_negative
+SouthernCalifornia-BrMa-Aff-Gonzaga-Round-3.docx,Southern California BM,Georgetown LN,3,aff,Gonzaga,2,2,0,0,0,0,structured_logistic,W,L,0.4907552977972134,false_negative
+Northwestern-RuLi-Aff-03---Gonzaga-Round-6.docx,Northwestern LR,Southern California DT - ONLINE,6,aff,Gonzaga,7,7,0,1,1,249,structured_logistic,W,L,0.43663000864101736,false_negative
+Northwestern-LuLe-Neg-03---Gonzaga-Round-1.docx,Northwestern LL,Kentucky GS,1,neg,Gonzaga,7,0,7,0,0,0,structured_logistic,L,W,0.5746030124674746,false_positive
+Kansas-AiUl-Aff-3.-Gonzaga-Round-1.docx,Kansas UA,Northwestern LO,1,aff,Gonzaga,4,4,0,0,0,0,structured_logistic,W,L,0.4703757795658863,false_negative
+ArizonaState-SaSm-Aff-1---Owen-L.-Coon-Round-1.docx,Arizona State SS,Kansas LS,1,aff,Northwestern,0,0,0,0,0,0,structured_logistic,L,W,0.5111655893608898,false_positive
+Harvard-AoBo-Neg-2.-Gonzaga-Round-5.docx,Harvard AB,Michigan State JS - ONLINE,5,neg,Gonzaga,1,0,1,9,9,1608,structured_logistic,L,W,0.5103011516616102,false_positive
+Baylor-MePh-Neg-Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-5.docx,Baylor PM,Wake Forest SK,5,neg,Northwestern,1,0,1,1,1,1010,structured_logistic,W,L,0.49175367145052434,false_negative
+WakeForest-LeSa-Aff-Northwestern-Round-2.docx,Wake Forest SL,Kansas WW,2,aff,Northwestern,0,0,0,0,0,0,structured_logistic,L,W,0.5111655893608898,false_positive
+Northwestern-LuLe-Neg-03---Gonzaga-Round-3.docx,Northwestern LL,Iowa EW - ONLINE,3,neg,Gonzaga,2,0,2,0,0,0,structured_logistic,L,W,0.529418199687046,false_positive
+MichiganState-JaSc-Aff-4---Gonzaga-Round-3.docx,Michigan State JS,Dartmouth CG,3,aff,Gonzaga,6,6,0,0,0,0,structured_logistic,W,L,0.4500945610126635,false_negative
+Michigan-BaPa-Aff-Gonzaga-Round-7.docx,Michigan BP,Georgetown AC,7,aff,Gonzaga,9,9,0,65,65,4811,structured_logistic,L,W,0.5711151700770832,false_positive
+Kansas-BaMc-Neg-1---Northwestern-Round-4.docx,Kansas MB,Northwestern LR,4,neg,Northwestern,5,0,5,0,0,0,structured_logistic,L,W,0.5566352755350046,false_positive
+WesternKentucky-StSc-Neg-01---NUSO-Round-6.docx,Western Kentucky SS,Wake Forest BA,6,neg,Northwestern,2,0,2,1,1,60,structured_logistic,L,W,0.5322131909795597,false_positive
+GeorgeMason-WrWi-Aff-4---Gonzaga-Round-8.docx,George Mason WW,Baylor DL,8,aff,Gonzaga,4,4,0,9,9,2592,structured_logistic,W,L,0.4283454770521384,false_negative
+Emory-JiRa-Neg-NUSO-Round-4.docx,Emory JR,George Mason WW - ONLINE,4,neg,Northwestern,5,0,5,1,1,315,structured_logistic,L,W,0.551087750736648,false_positive
+MacalesterCollege-CoDu-Neg-Owen-L-Coon-Memorial-Tournament-Round-4.docx,Macalester DC,Georgetown VP,4,neg,Northwestern,0,0,0,0,0,0,structured_logistic,L,W,0.5111655893608898,false_positive
+UTD-PeRa-Aff-04---Gonzaga-Round-5.docx,UTD PR,Dartmouth CG,5,aff,Gonzaga,4,4,0,0,0,0,structured_logistic,W,L,0.4703757795658863,false_negative
+DartmouthCollege-GuMo-Neg-1---NUSO-Round-8.docx,Dartmouth GM,Emory CrTa,8,neg,Northwestern,1,0,1,2,2,1108,structured_logistic,W,L,0.4933044771595847,false_negative
+MichiganState-GeSh-Neg-Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-8.docx,Michigan State GS,Kansas State SA,8,neg,Northwestern,0,0,0,0,0,0,structured_logistic,L,W,0.5111655893608898,false_positive
+Harvard-DeSr-Aff-1.-Northwestern-Round-2.docx,Harvard DS,Northwestern LR,2,aff,Northwestern,4,4,0,39,39,3034,structured_logistic,L,W,0.5566067152656807,false_positive
+MichiganState-GuLe-Aff-Gonzaga-Round-4.docx,Michigan State GL,Wichita State GM - ONLINE,4,aff,Gonzaga,3,3,0,0,0,0,structured_logistic,W,L,0.4805574514865267,false_negative
+Emory-ChRa-Aff-Gonzaga-Round-5.docx,Emory CR,Harvard/Amherst SL,5,aff,Gonzaga,6,6,0,0,0,0,structured_logistic,W,L,0.4500945610126635,false_negative
+Wyoming-WiWi-Aff-1.-Northwestern-Round-1.docx,Wyoming WW,Liberty CL,1,aff,Northwestern,0,0,0,0,0,0,structured_logistic,L,W,0.5111655893608898,false_positive
+DartmouthCollege-CaGo-Aff-4---Gonzaga-Round-8.docx,Dartmouth CG,Michigan State GS - ONLINE,8,aff,Gonzaga,2,2,0,1,1,317,structured_logistic,W,L,0.48507993203766653,false_negative
+UTD-HoHu-Neg-02---Gonzaga-Round-3.docx,UTD HH,Dartmouth BC,3,neg,Gonzaga,5,0,5,18,18,2098,structured_logistic,L,W,0.5732429774453702,false_positive
+Northwestern-RuLi-Aff-01---Northwestern-Round-6.docx,Northwestern LR,Kansas LS,6,aff,Northwestern,1,1,0,0,0,0,structured_logistic,L,W,0.5009608438488614,false_positive
+Emory-GaSo-Neg-1.-Northwestern-Round-3.docx,Emory GS,Michigan State GL,3,neg,Northwestern,10,0,10,0,0,0,structured_logistic,L,W,0.6011754412838025,false_positive
+Trinity-KiPa-Neg-1---NUSO-Round-3.docx,Trinity PK,Michigan BP,3,neg,Northwestern,2,0,2,0,0,0,structured_logistic,L,W,0.529418199687046,false_positive
+Kansas-BrWa-Neg-3---Gonzaga-Round-4.docx,Kansas BW,Harvard AB,4,neg,Gonzaga,4,0,4,0,0,0,structured_logistic,L,W,0.5475924681287149,false_positive
+Texas-GaSt-Neg-02---Gonzaga-Round-6.docx,Texas GS,Michigan AM,6,neg,Gonzaga,0,0,0,0,0,0,structured_logistic,L,W,0.5111655893608898,false_positive
+Emory-LoYa-Neg-01---Northwestern-Round-7.docx,Emory LY,Kansas WW,7,neg,Northwestern,8,0,8,0,0,0,structured_logistic,L,W,0.5835165545895399,false_positive
+UTD-PeRa-Neg-04---Gonzaga-Round-3.docx,UTD PR,George Mason WW - ONLINE,3,neg,Gonzaga,5,0,5,13,13,2682,structured_logistic,L,W,0.5305237404708192,false_positive
+DartmouthCollege-JoBe-Aff-Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-1.docx,Dartmouth BJ,Michigan GJ,1,aff,Northwestern,1,1,0,0,0,0,structured_logistic,L,W,0.5009608438488614,false_positive
+Gonzaga-WeRo-Neg-Northwestern-Round-2.docx,Gonzaga WR,Stanford LL - ONLINE,2,neg,Northwestern,0,0,0,0,0,0,structured_logistic,L,W,0.5111655893608898,false_positive
+Emory-LoYa-Neg-03---Gonzaga-Round-3.docx,Emory LY,Michigan BP,3,neg,Gonzaga,13,0,13,0,0,0,structured_logistic,L,W,0.6271650257815286,false_positive
+GeorgeMason-WrWi-Aff-4---Gonzaga-Round-3.docx,George Mason WW,UTD PR,3,aff,Gonzaga,3,3,0,1,1,248,structured_logistic,W,L,0.47716271350799105,false_negative
+Michigan-ChSa-Neg-3---Gonzaga-Round-6.docx,Michigan CS,Iowa SK - ONLINE,6,neg,Gonzaga,1,0,1,12,12,1727,structured_logistic,L,W,0.5207215080937826,false_positive
+Michigan-EsSh-Neg-Northwestern-Round-6.docx,Michigan ES,Michigan State GL,6,neg,Northwestern,4,0,4,14,14,1199,structured_logistic,L,W,0.5746032843305932,false_positive
+MichiganState-JaSc-Neg-4---Gonzaga-Round-8.docx,Michigan State JS,CSU Long Beach OM,8,neg,Gonzaga,2,0,2,0,0,0,structured_logistic,L,W,0.529418199687046,false_positive
+Northwestern-LuLe-Aff-03---Gonzaga-Round-2.docx,Northwestern LL,Harvard/Amherst SL,2,aff,Gonzaga,4,4,0,0,0,0,structured_logistic,W,L,0.4703757795658863,false_negative
+WakeForest-AdBr-Neg-01---The-coon-(Northwestern)-Round-7.docx,Wake Forest BA,Northwestern LR,7,neg,Northwestern,0,0,0,0,0,0,structured_logistic,L,W,0.5111655893608898,false_positive
+MichiganState-FoMa-Aff-04---Gonzaga-Round-6.docx,Michigan State FM,Emory CR - ONLINE,6,aff,Gonzaga,4,4,0,1,1,248,structured_logistic,W,L,0.4669883047062216,false_negative
+Michigan-ChCh-Aff-1---Northwestern-Round-8.docx,Michigan CC,George Mason DG - ONLINE,8,aff,Northwestern,10,10,0,19,19,3221,structured_logistic,W,L,0.3952811171440707,false_negative
+Harvard-AoBo-Neg-1.-Northwestern-Round-7.docx,Harvard AB,UTD HK,7,neg,Northwestern,0,0,0,0,0,0,structured_logistic,L,W,0.5111655893608898,false_positive
+MichiganState-GeSh-Neg-Gonzaga-University-Jesuit-Debates-Round-8.docx,Michigan State GS,Dartmouth CG,8,neg,Gonzaga,0,0,0,0,0,0,structured_logistic,L,W,0.5111655893608898,false_positive
+GeorgeMason-WrWi-Neg-4---Gonzaga-Round-2.docx,George Mason WW,Stanford LY - ONLINE,2,neg,Gonzaga,9,0,9,2,2,164,structured_logistic,L,W,0.5963863454905903,false_positive
+Emory-PeSt-Neg-Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-2.docx,Emory PS,Baylor LL,2,neg,Northwestern,2,0,2,0,0,0,structured_logistic,L,W,0.529418199687046,false_positive
+Kansas-AiUl-Aff-3.-Gonzaga-Round-6.docx,Kansas UA,Baylor DL,6,aff,Gonzaga,6,6,0,0,0,0,structured_logistic,W,L,0.4500945610126635,false_negative
+Emory-WaKi-Neg-Gonzaga-University-Jesuit-Debates-Round-5.docx,Emory KW,Gonzaga WR,5,neg,Gonzaga,4,0,4,0,0,0,structured_logistic,L,W,0.5475924681287149,false_positive
+Minnesota-HaUs-Neg-3-Gonzaga-University-Jesuit-Debates-Round-3.docx,Minnesota HU,Emory RY _ ONLINE,3,neg,Gonzaga,0,0,0,0,0,0,structured_logistic,L,W,0.5111655893608898,false_positive
+Iowa-KlSe-Neg-1.-Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-3.docx,Iowa KS,Cornell DV - ONLINE,3,neg,Northwestern,0,0,0,0,0,0,manual_interaction_logistic,W,L,0.4961031693493925,false_negative
+Indiana-FiTr-Neg-1.-Northwestern-Round-3.docx,Indiana TF,Kansas HM,3,neg,Northwestern,2,0,2,10,10,1934,manual_interaction_logistic,L,W,0.5169305605638288,false_positive
+WakeForest-DiEl-Aff-2---Gonzaga-University-Jesuit-Debates-Round-2.docx,Wake Forest DE,Michigan HM - ONLINE,2,aff,Gonzaga,6,6,0,11,11,1651,manual_interaction_logistic,W,L,0.42772795219502907,false_negative
+Kansas-AiUl-Neg-3.-Gonzaga-Round-2.docx,Kansas UA,Michigan SS,2,neg,Gonzaga,9,0,9,0,0,0,manual_interaction_logistic,L,W,0.6144994335711389,false_positive
+Northwestern-RuLi-Aff-03---Gonzaga-Round-3.docx,Northwestern LR,Baylor DL,3,aff,Gonzaga,7,7,0,0,0,0,manual_interaction_logistic,W,L,0.48202328712695375,false_negative
+Stanford-LaLa-Aff-Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-2.docx,Stanford LL,Gonzaga WR - ONLINE,2,aff,Northwestern,0,0,0,0,0,0,manual_interaction_logistic,W,L,0.4961031693493925,false_negative
+Purdue-HaHa-Neg-1---Gonzaga-Round-5.docx,Purdue HH,Northwestern LL,5,neg,Gonzaga,4,0,4,6,6,1059,manual_interaction_logistic,L,W,0.5338887767908763,false_positive
+Emory-GeMa-Aff-Northwestern-Round-2.docx,Emory GM,Michigan SS,2,aff,Northwestern,7,7,0,2,2,519,manual_interaction_logistic,W,L,0.4606289012183599,false_negative
+MichiganState-GuLe-Aff-Northwestern-Round-2.docx,Michigan State GL,Michigan CS,2,aff,Northwestern,2,2,0,2,2,101,manual_interaction_logistic,W,L,0.49401993719643067,false_negative
+UTD-HaKa-Neg-01---Northwestern-Round-6.docx,UTD HK,Michigan BP,6,neg,Northwestern,2,0,2,11,11,1253,manual_interaction_logistic,L,W,0.537305534711631,false_positive
+Northwestern-LeWe-Aff-3---Gonzaga-Round-6.docx,Northwestern LW,Wyoming WW,6,aff,Gonzaga,1,1,0,1,1,1366,manual_interaction_logistic,W,L,0.4620624591321065,false_negative
+Emory-CrSt-Neg-Gonzaga-Round-4.docx,Emory CS,Kansas UA,4,neg,Gonzaga,4,0,4,0,0,0,manual_interaction_logistic,L,W,0.5494798360940546,false_positive
+SouthernCalifornia-BhRa-Neg-2-Gonzaga-Round-6.docx,Southern California RB,Wichita State GM - ONLINE,6,neg,Gonzaga,1,0,1,0,0,0,manual_interaction_logistic,L,W,0.509486756894973,false_positive
+Trinity-KiPa-Neg-3---Gonzaga-Round-3.docx,Trinity KP,Wichita State GM - ONLINE,3,neg,Gonzaga,2,0,2,0,0,0,manual_interaction_logistic,L,W,0.5228567591742618,false_positive
+Cornell-LiDi-Neg-Northwestern-Round-5.docx,Cornell LD,Baylor LL,5,neg,Northwestern,6,0,6,1,1,206,manual_interaction_logistic,L,W,0.5703522318983293,false_positive
+Michigan-EsSh-Aff-Gonzaga-Round-5.docx,Michigan ES,Kentucky GS,5,aff,Gonzaga,11,11,0,62,62,4266,manual_interaction_logistic,W,L,0.41377980671477527,false_negative
+Kentucky-RiWa-Neg-Gonzaga-Round-7.docx,Kentucky RW,Northwestern LW,7,neg,Gonzaga,0,0,0,0,0,0,manual_interaction_logistic,W,L,0.4961031693493925,false_negative
+DartmouthCollege-JoBe-Aff-Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-7.docx,Dartmouth BJ,Wyoming CH,7,aff,Northwestern,0,0,0,0,0,0,manual_interaction_logistic,W,L,0.4961031693493925,false_negative
+UTD-PeRa-Aff-01---Northwestern-Round-8.docx,UTD PR,Kansas MB - ONLINE,8,aff,Northwestern,4,4,0,0,0,0,manual_interaction_logistic,W,L,0.488055331962639,false_negative
+CSULongBeach-OrMe-Aff-04---Operation_-Gonzigga-(Gonzaga-University-Jesuit-Debates)-Round-6.docx,CSU Long Beach OM,Northwestern AT,6,aff,Gonzaga,1,1,0,0,0,0,manual_interaction_logistic,W,L,0.4940908576992412,false_negative
+Kansas-BrWa-Aff-3---Gonzaga-Round-1.docx,Kansas BW,Southern California HV - ONLINE,1,aff,Gonzaga,9,9,0,1,1,402,manual_interaction_logistic,W,L,0.46096072081073847,false_negative
+MissouriState-HaNe-Neg-01-Northwestern-Round-4.docx,Missouri State HN,Emory OP,4,neg,Northwestern,9,0,9,17,17,720,manual_interaction_logistic,L,W,0.54699085336372,false_positive
+Northwestern-ArTa-Aff-3.-Gonzaga-Round-4.docx,Northwestern AT,Dartmouth GH - ONLINE,4,aff,Gonzaga,4,4,0,0,0,0,manual_interaction_logistic,W,L,0.488055331962639,false_negative
+SouthernCalifornia-BrMa-Aff-Gonzaga-Round-3.docx,Southern California BM,Georgetown LN,3,aff,Gonzaga,2,2,0,0,0,0,manual_interaction_logistic,W,L,0.4920787374853776,false_negative
+Northwestern-RuLi-Aff-03---Gonzaga-Round-6.docx,Northwestern LR,Southern California DT - ONLINE,6,aff,Gonzaga,7,7,0,1,1,249,manual_interaction_logistic,W,L,0.4714216030127803,false_negative
+CSULongBeach-OrMe-Neg-01---Operation_-Find-The-Coon-(Northwestern)-Round-5.docx,CSU Long Beach OM,UC Berkeley UB,5,neg,Northwestern,0,0,0,0,0,0,manual_interaction_logistic,W,L,0.4961031693493925,false_negative
+Northwestern-LuLe-Neg-03---Gonzaga-Round-1.docx,Northwestern LL,Kentucky GS,1,neg,Gonzaga,7,0,7,0,0,0,manual_interaction_logistic,L,W,0.5888435922550043,false_positive
+Kansas-AiUl-Aff-3.-Gonzaga-Round-1.docx,Kansas UA,Northwestern LO,1,aff,Gonzaga,4,4,0,0,0,0,manual_interaction_logistic,W,L,0.488055331962639,false_negative
+Harvard-AoBo-Neg-2.-Gonzaga-Round-5.docx,Harvard AB,Michigan State JS - ONLINE,5,neg,Gonzaga,1,0,1,9,9,1608,manual_interaction_logistic,L,W,0.5133794699240228,false_positive
+WichitaState-GrMo-Neg-5---Gonzaga-University-Jesuit-Debates-Round-2.docx,Wichita State GM,Trinity CK - ONLINE,2,neg,Gonzaga,0,0,0,0,0,0,manual_interaction_logistic,W,L,0.4961031693493925,false_negative
+SouthernCalifornia-TrMi-Neg-Northwestern-Round-5.docx,Southern California TM,Dartmouth HP,5,neg,Northwestern,0,0,0,0,0,0,manual_interaction_logistic,W,L,0.4961031693493925,false_negative
+Baylor-MePh-Neg-Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-5.docx,Baylor PM,Wake Forest SK,5,neg,Northwestern,1,0,1,1,1,1010,manual_interaction_logistic,W,L,0.48867637472919406,false_negative
+MichiganState-GeSh-Aff-Gonzaga-University-Jesuit-Debates-Round-3.docx,Michigan State GS,Kentucky RW,3,aff,Gonzaga,0,0,0,0,0,0,manual_interaction_logistic,W,L,0.4961031693493925,false_negative
+Northwestern-LuLe-Neg-03---Gonzaga-Round-3.docx,Northwestern LL,Iowa EW - ONLINE,3,neg,Gonzaga,2,0,2,0,0,0,manual_interaction_logistic,L,W,0.5228567591742618,false_positive
+Michigan-MoAl-Neg-1---Northwestern-Round-8.docx,Michigan AM,Baylor BK,8,neg,Northwestern,2,0,2,7,7,2043,manual_interaction_logistic,L,W,0.5001230085350087,false_positive
+Michigan-ChCh-Aff-3---Gonzaga-Round-4.docx,Michigan CC,Binghamton CK,4,aff,Gonzaga,2,2,0,22,22,3917,manual_interaction_logistic,L,W,0.5125648846997287,false_positive
+WakeForest-AdBr-Aff-01---The-coon-(Northwestern)-Round-6.docx,Wake Forest BA,Western Kentucky SS,6,aff,Northwestern,0,0,0,0,0,0,manual_interaction_logistic,W,L,0.4961031693493925,false_negative
+Harvard-DeSr-Aff-1.-Northwestern-Round-4.docx,Harvard DS,Southern California TM - ONLINE,4,aff,Northwestern,0,0,0,0,0,0,manual_interaction_logistic,W,L,0.4961031693493925,false_negative
+MichiganState-JaSc-Aff-4---Gonzaga-Round-3.docx,Michigan State JS,Dartmouth CG,3,aff,Gonzaga,6,6,0,0,0,0,manual_interaction_logistic,W,L,0.48403347359044674,false_negative
+Michigan-BaPa-Aff-Gonzaga-Round-7.docx,Michigan BP,Georgetown AC,7,aff,Gonzaga,9,9,0,65,65,4811,manual_interaction_logistic,L,W,0.5989807410280583,false_positive
+Kansas-BaMc-Neg-1---Northwestern-Round-4.docx,Kansas MB,Northwestern LR,4,neg,Northwestern,5,0,5,0,0,0,manual_interaction_logistic,L,W,0.5626953974010748,false_positive
+WesternKentucky-StSc-Neg-01---NUSO-Round-6.docx,Western Kentucky SS,Wake Forest BA,6,neg,Northwestern,2,0,2,1,1,60,manual_interaction_logistic,L,W,0.5237224708873502,false_positive
+GeorgeMason-WrWi-Aff-4---Gonzaga-Round-8.docx,George Mason WW,Baylor DL,8,aff,Gonzaga,4,4,0,9,9,2592,manual_interaction_logistic,W,L,0.4294643810687371,false_negative
+Emory-JiRa-Neg-NUSO-Round-4.docx,Emory JR,George Mason WW - ONLINE,4,neg,Northwestern,5,0,5,1,1,315,manual_interaction_logistic,L,W,0.5562623916752378,false_positive
+UTD-PeRa-Aff-04---Gonzaga-Round-5.docx,UTD PR,Dartmouth CG,5,aff,Gonzaga,4,4,0,0,0,0,manual_interaction_logistic,W,L,0.488055331962639,false_negative
+DartmouthCollege-GuMo-Neg-1---NUSO-Round-8.docx,Dartmouth GM,Emory CrTa,8,neg,Northwestern,1,0,1,2,2,1108,manual_interaction_logistic,W,L,0.4900611697444198,false_negative
+Iowa-BiSa-Neg-1--Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-4.docx,Iowa BS,Stanford LL - ONLINE,4,neg,Northwestern,0,0,0,0,0,0,manual_interaction_logistic,W,L,0.4961031693493925,false_negative
+Harvard-DeSr-Aff-1.-Northwestern-Round-2.docx,Harvard DS,Northwestern LR,2,aff,Northwestern,4,4,0,39,39,3034,manual_interaction_logistic,L,W,0.6331943236600084,false_positive
+MichiganState-GuLe-Aff-Gonzaga-Round-4.docx,Michigan State GL,Wichita State GM - ONLINE,4,aff,Gonzaga,3,3,0,0,0,0,manual_interaction_logistic,W,L,0.4900668738651438,false_negative
+Emory-ChRa-Aff-Gonzaga-Round-5.docx,Emory CR,Harvard/Amherst SL,5,aff,Gonzaga,6,6,0,0,0,0,manual_interaction_logistic,W,L,0.48403347359044674,false_negative
+UTD-DADi-Neg-Gonzaga-Round-3.docx,UTD DD,Southern California HV - ONLINE,3,neg,Gonzaga,0,0,0,0,0,0,manual_interaction_logistic,W,L,0.4961031693493925,false_negative
+DartmouthCollege-CaGo-Aff-4---Gonzaga-Round-8.docx,Dartmouth CG,Michigan State GS - ONLINE,8,aff,Gonzaga,2,2,0,1,1,317,manual_interaction_logistic,W,L,0.4859678528152419,false_negative
+UTD-HoHu-Neg-02---Gonzaga-Round-3.docx,UTD HH,Dartmouth BC,3,neg,Gonzaga,5,0,5,18,18,2098,manual_interaction_logistic,L,W,0.5527052333290554,false_positive
+Michigan-MoAl-Aff-2---Gonzaga-Round-2.docx,Michigan AM,UTD HH,2,aff,Gonzaga,4,4,0,16,16,1394,manual_interaction_logistic,W,L,0.48485463730608364,false_negative
+Emory-GaSo-Neg-1.-Northwestern-Round-3.docx,Emory GS,Michigan State GL,3,neg,Northwestern,10,0,10,0,0,0,manual_interaction_logistic,L,W,0.6271020659946768,false_positive
+Trinity-KiPa-Neg-1---NUSO-Round-3.docx,Trinity PK,Michigan BP,3,neg,Northwestern,2,0,2,0,0,0,manual_interaction_logistic,L,W,0.5228567591742618,false_positive
+Kansas-BrWa-Neg-3---Gonzaga-Round-4.docx,Kansas BW,Harvard AB,4,neg,Gonzaga,4,0,4,0,0,0,manual_interaction_logistic,L,W,0.5494798360940546,false_positive
+Emory-LoYa-Neg-01---Northwestern-Round-7.docx,Emory LY,Kansas WW,7,neg,Northwestern,8,0,8,0,0,0,manual_interaction_logistic,L,W,0.6017413718824374,false_positive
+UTD-PeRa-Neg-04---Gonzaga-Round-3.docx,UTD PR,George Mason WW - ONLINE,3,neg,Gonzaga,5,0,5,13,13,2682,manual_interaction_logistic,L,W,0.52635022550862,false_positive
+CSULongBeach-OrMe-Neg-04---Operation_-Gonzigga-(Gonzaga-University-Jesuit-Debates)-Round-5.docx,CSU Long Beach OM,UC Berkeley RM,5,neg,Gonzaga,0,0,0,0,0,0,manual_interaction_logistic,W,L,0.4961031693493925,false_negative
+Emory-LoYa-Neg-03---Gonzaga-Round-3.docx,Emory LY,Michigan BP,3,neg,Gonzaga,13,0,13,0,0,0,manual_interaction_logistic,L,W,0.6638329274186616,false_positive
+GeorgeMason-WrWi-Aff-4---Gonzaga-Round-3.docx,George Mason WW,UTD PR,3,aff,Gonzaga,3,3,0,1,1,248,manual_interaction_logistic,W,L,0.48449313986483783,false_negative
+Michigan-ChSa-Neg-3---Gonzaga-Round-6.docx,Michigan CS,Iowa SK - ONLINE,6,neg,Gonzaga,1,0,1,12,12,1727,manual_interaction_logistic,L,W,0.5305346409136344,false_positive
+Michigan-EsSh-Neg-Northwestern-Round-6.docx,Michigan ES,Michigan State GL,6,neg,Northwestern,4,0,4,14,14,1199,manual_interaction_logistic,L,W,0.5540402356158594,false_positive
+MichiganState-JaSc-Neg-4---Gonzaga-Round-8.docx,Michigan State JS,CSU Long Beach OM,8,neg,Gonzaga,2,0,2,0,0,0,manual_interaction_logistic,L,W,0.5228567591742618,false_positive
+Northwestern-LuLe-Aff-03---Gonzaga-Round-2.docx,Northwestern LL,Harvard/Amherst SL,2,aff,Gonzaga,4,4,0,0,0,0,manual_interaction_logistic,W,L,0.488055331962639,false_negative
+MichiganState-FoMa-Aff-04---Gonzaga-Round-6.docx,Michigan State FM,Emory CR - ONLINE,6,aff,Gonzaga,4,4,0,1,1,248,manual_interaction_logistic,W,L,0.48122904772894165,false_negative
+SouthernCalifornia-BrMa-Neg-Gonzaga-Round-8.docx,Southern California BM,Wyoming CH,8,neg,Gonzaga,0,0,0,0,0,0,manual_interaction_logistic,W,L,0.4961031693493925,false_negative
+Michigan-ChCh-Aff-1---Northwestern-Round-8.docx,Michigan CC,George Mason DG - ONLINE,8,aff,Northwestern,10,10,0,19,19,3221,manual_interaction_logistic,W,L,0.3080806223061895,false_negative
+MichiganState-GeSh-Aff-Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-1.docx,Michigan State GS,Michigan AM,1,aff,Northwestern,0,0,0,0,0,0,manual_interaction_logistic,W,L,0.4961031693493925,false_negative
+GeorgeMason-WrWi-Neg-4---Gonzaga-Round-2.docx,George Mason WW,Stanford LY - ONLINE,2,neg,Gonzaga,9,0,9,2,2,164,manual_interaction_logistic,L,W,0.6014211513483768,false_positive
+DartmouthCollege-GuMo-Aff-1---NUSO-Round-7.docx,Dartmouth GM,Wake Forest MP,7,aff,Northwestern,1,1,0,0,0,0,manual_interaction_logistic,W,L,0.4940908576992412,false_negative
+Kansas-HaPe-Aff-Northwestern-Round-2.docx,Kansas PH,UC Davis MS,2,aff,Northwestern,0,0,0,0,0,0,manual_interaction_logistic,W,L,0.4961031693493925,false_negative
+Emory-PeSt-Neg-Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-2.docx,Emory PS,Baylor LL,2,neg,Northwestern,2,0,2,0,0,0,manual_interaction_logistic,L,W,0.5228567591742618,false_positive
+Northwestern-NePa-Aff-2---Gonzaga-Round-1.docx,Northwestern NP,Michigan AM,1,aff,Gonzaga,0,0,0,0,0,0,manual_interaction_logistic,W,L,0.4961031693493925,false_negative
+Kansas-AiUl-Aff-3.-Gonzaga-Round-6.docx,Kansas UA,Baylor DL,6,aff,Gonzaga,6,6,0,0,0,0,manual_interaction_logistic,W,L,0.48403347359044674,false_negative
+Emory-WaKi-Neg-Gonzaga-University-Jesuit-Debates-Round-5.docx,Emory KW,Gonzaga WR,5,neg,Gonzaga,4,0,4,0,0,0,manual_interaction_logistic,L,W,0.5494798360940546,false_positive

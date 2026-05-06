@@ -1,0 +1,2 @@
+source_file,team_code,tournament_name,round_number,side,opponent,win_loss,judge,num_positions,num_adv_inh_solv,num_offs,num_cards_total,num_cards_with_highlight,total_highlighted_words,parse_confidence,warnings,tournament_source
+WakeForest-LiSf-Neg-Owen-L-Coon-Memorial-Debates-at-Northwestern-Round-3.docx,Wake Forest SL,Northwestern,3,neg,UC Berkeley RM,W,"Reichel Reeves, Peyton Sampat Jayden",6,0,6,4,4,1766,high,,Northwestern

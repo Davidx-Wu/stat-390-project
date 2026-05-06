@@ -1,0 +1,2 @@
+source_file,team_code,tournament_name,round_number,side,opponent,win_loss,judge,num_positions,num_adv_inh_solv,num_offs,num_cards_total,num_cards_with_highlight,total_highlighted_words,parse_confidence,warnings,tournament_source
+Harvard-DeSr-Neg-1.-Northwestern-Round-8.docx,Harvard DS,Northwestern,8,neg,Georgia CP,W,"Pack Loew - ONLINE, Nick Deshpande Niranjan",4,0,4,6,6,466,high,,Northwestern

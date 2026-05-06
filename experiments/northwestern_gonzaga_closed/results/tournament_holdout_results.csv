@@ -1,0 +1,31 @@
+experiment_name,feature_set,features_used,tournament_setting,model,validation_accuracy,validation_rows,true_L_pred_L,true_L_pred_W,true_W_pred_L,true_W_pred_W,false_positive_count,false_negative_count,interpretation
+holdout_train_gonzaga_validate_northwestern_raw_only,raw_only,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words",holdout train gonzaga validate northwestern,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5217391304347826,506,74,170,72,190,170,72,tournament-holdout robustness check using train+validation rows only
+holdout_train_gonzaga_validate_northwestern_z_normalized_only,z_normalized_only,"num_positions_tournament_z, num_adv_inh_solv_tournament_z, num_offs_tournament_z, num_cards_total_tournament_z, num_cards_with_highlight_tournament_z, total_highlighted_words_tournament_z",holdout train gonzaga validate northwestern,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5316205533596838,506,84,160,77,185,160,77,tournament-holdout robustness check using train+validation rows only
+holdout_train_gonzaga_validate_northwestern_raw_plus_z,raw_plus_z,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words, num_positions_tournament_z, num_adv_inh_solv_tournament_z, num_offs_tournament_z, num_cards_total_tournament_z, num_cards_with_highlight_tournament_z, total_highlighted_words_tournament_z",holdout train gonzaga validate northwestern,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5177865612648221,506,74,170,74,188,170,74,tournament-holdout robustness check using train+validation rows only
+holdout_train_gonzaga_validate_northwestern_relative_only,relative_only,"positions_diff, adv_inh_solv_diff, offs_diff, cards_diff, highlight_cards_diff, highlight_words_diff, cards_per_position_diff, opponent_match_found",holdout train gonzaga validate northwestern,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5395256916996047,506,99,145,88,174,145,88,tournament-holdout robustness check using train+validation rows only
+holdout_train_gonzaga_validate_northwestern_raw_plus_relative,raw_plus_relative,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words, positions_diff, adv_inh_solv_diff, offs_diff, cards_diff, highlight_cards_diff, highlight_words_diff, cards_per_position_diff, opponent_match_found",holdout train gonzaga validate northwestern,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5375494071146245,506,107,137,97,165,137,97,tournament-holdout robustness check using train+validation rows only
+holdout_train_northwestern_validate_gonzaga_raw_only,raw_only,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words",holdout train northwestern validate gonzaga,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.513317191283293,413,67,134,67,145,134,67,tournament-holdout robustness check using train+validation rows only
+holdout_train_northwestern_validate_gonzaga_z_normalized_only,z_normalized_only,"num_positions_tournament_z, num_adv_inh_solv_tournament_z, num_offs_tournament_z, num_cards_total_tournament_z, num_cards_with_highlight_tournament_z, total_highlighted_words_tournament_z",holdout train northwestern validate gonzaga,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5181598062953995,413,62,139,60,152,139,60,tournament-holdout robustness check using train+validation rows only
+holdout_train_northwestern_validate_gonzaga_raw_plus_z,raw_plus_z,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words, num_positions_tournament_z, num_adv_inh_solv_tournament_z, num_offs_tournament_z, num_cards_total_tournament_z, num_cards_with_highlight_tournament_z, total_highlighted_words_tournament_z",holdout train northwestern validate gonzaga,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5157384987893463,413,68,133,67,145,133,67,tournament-holdout robustness check using train+validation rows only
+holdout_train_northwestern_validate_gonzaga_relative_only,relative_only,"positions_diff, adv_inh_solv_diff, offs_diff, cards_diff, highlight_cards_diff, highlight_words_diff, cards_per_position_diff, opponent_match_found",holdout train northwestern validate gonzaga,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5278450363196125,413,69,132,63,149,132,63,tournament-holdout robustness check using train+validation rows only
+holdout_train_northwestern_validate_gonzaga_raw_plus_relative,raw_plus_relative,"num_positions, num_adv_inh_solv, num_offs, num_cards_total, num_cards_with_highlight, total_highlighted_words, positions_diff, adv_inh_solv_diff, offs_diff, cards_diff, highlight_cards_diff, highlight_words_diff, cards_per_position_diff, opponent_match_found",holdout train northwestern validate gonzaga,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('model',
+                 LogisticRegression(C=0.5, max_iter=1000, random_state=42))])",0.5326876513317191,413,87,114,79,133,114,79,tournament-holdout robustness check using train+validation rows only
