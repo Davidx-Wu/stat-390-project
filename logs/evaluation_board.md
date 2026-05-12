@@ -74,3 +74,31 @@
 - Baseline v6 LLM features could not be trained because the processed dataset does not include speech/card text.
 - Text-enriched v2 was built from audit files without overwriting v1; no model has been trained on v2 yet.
 - Shirley rank close-match subsets are too small to support a strong claim that argument features matter more among similarly ranked teams.
+
+## 2026-05-12 -- Week 5 evaluation update
+- Canonical reader-facing pipeline guide: `docs/CANONICAL_PIPELINE.md`.
+- Current canonical path structure uses descriptive folders. Earlier references to `1 -- data`, `3 -- src`, `4 -- results`, and `5 -- logs` remain historical references from before cleanup.
+- Clean predictive final model:
+  - workflow: `experiments/gonzaga_autoresearch/`
+  - model file: `experiments/gonzaga_autoresearch/model.py`
+  - model: interaction-only degree-2 features + `LogisticRegression(C=0.5)`
+  - features: `num_positions`, `num_adv_inh_solv`, `num_offs`, `num_cards_total`, `num_cards_with_highlight`, `total_highlighted_words`
+  - Gonzaga validation accuracy: **0.643836**
+- Clean predictive baseline:
+  - baseline v3 structured logistic validation accuracy: **0.616438**
+  - majority validation baseline: **0.602740**
+- Closed Northwestern+Gonzaga robustness check:
+  - output table: `experiments/northwestern_gonzaga_closed/results/closed_experiment_table.csv`
+  - combined validation results: majority **0.518519**, structured logistic **0.530864**, manual interaction logistic **0.524691**
+  - interpretation: adding Northwestern exposed cross-tournament distribution shift.
+- Paired round check:
+  - output table: `experiments/northwestern_gonzaga_closed/results/paired_round_experiment_table.csv`
+  - paired majority baseline: **0.535714**
+  - learned paired logistic variants did not improve over majority.
+- Retrospective explanatory models:
+  - output table: `experiments/northwestern_gonzaga_closed/results/explanatory_experiment_table.csv`
+  - Shirley/team-strength-only logistic validation accuracy: **0.746479**
+  - speech-structure-only validation accuracy: **0.530864**
+  - interpretation: Shirley variables are explanatory/post-tournament proxies, not leakage-free real-time prediction features.
+- Metric trajectory figure and source data are stored in `reports/figures/`.
+- No experiments were rerun and no result values were changed for this update.

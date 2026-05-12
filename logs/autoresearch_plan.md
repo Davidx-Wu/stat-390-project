@@ -150,3 +150,35 @@ Build baseline v3 using all safe structured numeric features from the processed 
 
 ## Citation-Year Feature Note
 Citation-year feature experiment was attempted, but no citation/year columns exist in the processed dataset, so the experiment was removed as non-informative. Future work requires parser support for citation-year extraction.
+
+## 2026-05-12 -- Week 5 locked pipeline update
+- Canonical reader-facing guide: `docs/CANONICAL_PIPELINE.md`.
+- Current canonical paths use descriptive folders:
+  - `data/`
+  - `src/`
+  - `results/`
+  - `experiments/`
+  - `logs/`
+  - `reports/`
+  - `archive/`
+  - `docs/`
+- Older numbered-folder references in this plan are preserved as historical records from earlier project stages.
+- Locked clean predictive model:
+  - workflow folder: `experiments/gonzaga_autoresearch/`
+  - model file: `experiments/gonzaga_autoresearch/model.py`
+  - model: interaction-only degree-2 logistic regression
+  - estimator: `LogisticRegression(C=0.5)`
+  - feature base: six parser-derived structured numeric features
+  - Gonzaga validation accuracy: **0.643836**
+- Clean predictive claim:
+  - parser-derived speech structure contains modest measurable signal in the Gonzaga-only setting.
+  - interaction terms improve the structured logistic baseline.
+  - more flexible model families did not provide a stable final direction.
+- Robustness finding:
+  - closed Northwestern+Gonzaga results are stored under `experiments/northwestern_gonzaga_closed/`.
+  - adding Northwestern reduced validation performance, supporting the distribution-shift limitation.
+- Retrospective explanatory distinction:
+  - Shirley/team-strength variables are not valid clean prediction features because they are downstream/post-tournament proxies.
+  - they are used only to explain how much latent team strength dominates parser-derived speech structure.
+- Metric trajectory plot and source files are stored in `reports/figures/`.
+- No experiments were rerun and no result values were changed for this update.

@@ -84,7 +84,7 @@ src/                            parsing, modeling, diagnostics source scripts
 src/project_paths.py            lightweight repo-relative path helper
 ```
 
-Some legacy numbered root folders may remain only when files are locked by another process. Canonical copies live under the descriptive paths above; see `FINAL_REPO_CLEANUP_VALIDATION.md`.
+Some legacy numbered root folders may remain only when files are locked by another process. Canonical copies live under the descriptive paths above; see `docs/validation/FINAL_REPO_CLEANUP_VALIDATION.md`.
 
 ## Setup
 
@@ -112,7 +112,7 @@ Required packages:
 
 Detailed canonical workflow definitions are in:
 
-- `CANONICAL_WORKFLOWS.md`
+- `docs/chronology/CANONICAL_WORKFLOWS.md`
 
 Experiment chronology is explicitly represented as:
 
@@ -184,13 +184,17 @@ Key outputs:
 
 ## Important Audit Documents
 
-- `PROJECT_AUDIT_SUMMARY.md`
-- `PROJECT_TIMELINE.md`
-- `REPRODUCIBILITY_AUDIT.md`
-- `PROPOSED_REPO_STRUCTURE.md`
-- `REPO_MIGRATION_PLAN.md`
-- `CANONICAL_WORKFLOWS.md`
-- `POST_RESTRUCTURE_VALIDATION.md`
+- `docs/CANONICAL_PIPELINE.md`
+- `docs/chronology/PROJECT_TIMELINE.md`
+- `docs/chronology/CANONICAL_WORKFLOWS.md`
+- `docs/audits/PROJECT_AUDIT_SUMMARY.md`
+- `docs/audits/REPRODUCIBILITY_AUDIT.md`
+- `docs/migration/PROPOSED_REPO_STRUCTURE.md`
+- `docs/migration/REPO_MIGRATION_PLAN.md`
+- `docs/migration/PATH_CLEANUP_PLAN.md`
+- `docs/validation/PATH_CLEANUP_VALIDATION.md`
+- `docs/validation/POST_RESTRUCTURE_VALIDATION.md`
+- `docs/validation/FINAL_REPO_CLEANUP_VALIDATION.md`
 
 ## Limitations
 

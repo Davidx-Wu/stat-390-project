@@ -1,0 +1,8 @@
+order,stage,model,validation_accuracy,source_file,notes
+1,Stage 1,Majority baseline,0.6027397260273972,results/gonzaga/baseline_runs/baseline_v3_structured_numeric_metrics.csv,Gonzaga validation majority-class baseline from v3 metrics.
+2,Stage 1,Structured logistic baseline,0.6164383561643836,results/gonzaga/baseline_runs/baseline_v3_structured_numeric_metrics.csv,Safe structured numeric features only.
+3,Stage 1,Manual interaction logistic,0.6438356164383562,experiments/gonzaga_autoresearch/results.tsv; archive/semantic_feature_ablation/results/semantic_feature_ablation.csv,Locked interaction-only degree-2 logistic model with C=0.5.
+4,Stage 2,Semantic highlighted-text ablation,0.5616438356164384,archive/semantic_feature_ablation/results/semantic_feature_ablation.csv,Locked model plus highlighted evidence keyword/ratio features.
+5,Stage 3,Cross-tournament structured logistic,0.5308641975308642,experiments/northwestern_gonzaga_closed/results/closed_experiment_table.csv,Closed Gonzaga+Northwestern speech-level structured logistic.
+6,Stage 4,Paired-round logistic,0.4107142857142857,experiments/northwestern_gonzaga_closed/results/paired_round_experiment_table.csv,Raw paired Aff/Neg logistic model.
+7,Stage 5,Explanatory Shirley strength logistic,0.7464788732394366,experiments/northwestern_gonzaga_closed/results/explanatory_experiment_table.csv,"Retrospective team-strength proxy model; explanatory, not leakage-free prediction."
